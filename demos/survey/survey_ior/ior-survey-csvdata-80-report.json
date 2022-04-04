@@ -1,0 +1,450 @@
+{
+  "SUMMARY": {
+    "total_time_seconds": {
+      "min": 0.012974,
+      "max": 0.031799,
+      "avg": 0.0223865,
+      "std": 0.01,
+      "var": 0.0,
+      "min_host_rank_thread": [
+        "skull",
+        0,
+        0
+      ],
+      "max_host_rank_thread": [
+        "skull",
+        1,
+        0
+      ]
+    }
+  },
+  "DMEM": {
+    "dmem_size_kB": {
+      "min": 160588,
+      "max": 160720,
+      "avg": 160654,
+      "std": 93.34,
+      "var": 8712.0,
+      "min_host_rank_thread": [
+        "skull",
+        1,
+        0
+      ],
+      "max_host_rank_thread": [
+        "skull",
+        0,
+        0
+      ]
+    },
+    "dmem_resident_kB": {
+      "min": 10312,
+      "max": 10472,
+      "avg": 10392,
+      "std": 113.14,
+      "var": 12800.0,
+      "min_host_rank_thread": [
+        "skull",
+        0,
+        0
+      ],
+      "max_host_rank_thread": [
+        "skull",
+        1,
+        0
+      ]
+    },
+    "dmem_high_water_mark_kB": {
+      "min": 13944,
+      "max": 14048,
+      "avg": 13996,
+      "std": 73.54,
+      "var": 5408.0,
+      "min_host_rank_thread": [
+        "skull",
+        0,
+        0
+      ],
+      "max_host_rank_thread": [
+        "skull",
+        1,
+        0
+      ]
+    },
+    "dmem_shared_kB": {
+      "min": 6928,
+      "max": 7144,
+      "avg": 7036,
+      "std": 152.74,
+      "var": 23328.0,
+      "min_host_rank_thread": [
+        "skull",
+        0,
+        0
+      ],
+      "max_host_rank_thread": [
+        "skull",
+        1,
+        0
+      ]
+    },
+    "dmem_heap_kB": {
+      "min": 19592,
+      "max": 19724,
+      "avg": 19658,
+      "std": 93.34,
+      "var": 8712.0,
+      "min_host_rank_thread": [
+        "skull",
+        1,
+        0
+      ],
+      "max_host_rank_thread": [
+        "skull",
+        0,
+        0
+      ]
+    }
+  },
+  "MEMALLOC": {
+    "allocation_time_seconds": {
+      "min": 2e-05,
+      "max": 6.4e-05,
+      "avg": 4.2e-05,
+      "std": 0.0,
+      "var": 0.0,
+      "min_host_rank_thread": [
+        "skull",
+        1,
+        0
+      ],
+      "max_host_rank_thread": [
+        "skull",
+        0,
+        0
+      ]
+    },
+    "allocation_calls": {
+      "min": 284,
+      "max": 320,
+      "avg": 302,
+      "std": 25.46,
+      "var": 648.0,
+      "min_host_rank_thread": [
+        "skull",
+        1,
+        0
+      ],
+      "max_host_rank_thread": [
+        "skull",
+        0,
+        0
+      ]
+    },
+    "allocation_bytes": {
+      "min": 307705,
+      "max": 374355,
+      "avg": 341030,
+      "std": 47128.67,
+      "var": 2221111250.0,
+      "min_host_rank_thread": [
+        "skull",
+        1,
+        0
+      ],
+      "max_host_rank_thread": [
+        "skull",
+        0,
+        0
+      ]
+    }
+  },
+  "MEMFREE": {
+    "free_time_seconds": {
+      "min": 1.7e-05,
+      "max": 2.3e-05,
+      "avg": 1.9999999999999998e-05,
+      "std": 0.0,
+      "var": 0.0,
+      "min_host_rank_thread": [
+        "skull",
+        1,
+        0
+      ],
+      "max_host_rank_thread": [
+        "skull",
+        0,
+        0
+      ]
+    },
+    "free_calls": {
+      "min": 197,
+      "max": 232,
+      "avg": 214,
+      "std": 24.75,
+      "var": 612.5,
+      "min_host_rank_thread": [
+        "skull",
+        1,
+        0
+      ],
+      "max_host_rank_thread": [
+        "skull",
+        0,
+        0
+      ]
+    }
+  },
+  "RUSAGE": {
+    "maxrss_kB": {
+      "min": 13944,
+      "max": 14048,
+      "avg": 13996,
+      "std": 73.54,
+      "var": 5408.0,
+      "min_host_rank_thread": [
+        "skull",
+        0,
+        0
+      ],
+      "max_host_rank_thread": [
+        "skull",
+        1,
+        0
+      ]
+    },
+    "utime_seconds": {
+      "min": 0.007698,
+      "max": 0.0168,
+      "avg": 0.012249,
+      "std": 0.01,
+      "var": 0.0,
+      "min_host_rank_thread": [
+        "skull",
+        1,
+        0
+      ],
+      "max_host_rank_thread": [
+        "skull",
+        0,
+        0
+      ]
+    },
+    "stime_seconds": {
+      "min": 0.00336,
+      "max": 0.011548,
+      "avg": 0.007454,
+      "std": 0.01,
+      "var": 0.0,
+      "min_host_rank_thread": [
+        "skull",
+        0,
+        0
+      ],
+      "max_host_rank_thread": [
+        "skull",
+        1,
+        0
+      ]
+    }
+  },
+  "IO": {
+    "io_total_time_seconds": {
+      "min": 0.001101,
+      "max": 0.001445,
+      "avg": 0.001273,
+      "std": 0.0,
+      "var": 0.0,
+      "min_host_rank_thread": [
+        "skull",
+        0,
+        0
+      ],
+      "max_host_rank_thread": [
+        "skull",
+        1,
+        0
+      ]
+    },
+    "read_time_seconds": {
+      "min": 0.000125,
+      "max": 0.00013,
+      "avg": 0.0001275,
+      "std": 0.0,
+      "var": 0.0,
+      "min_host_rank_thread": [
+        "skull",
+        1,
+        0
+      ],
+      "max_host_rank_thread": [
+        "skull",
+        0,
+        0
+      ]
+    },
+    "write_time_seconds": {
+      "min": 0.000892,
+      "max": 0.001237,
+      "avg": 0.0010645,
+      "std": 0.0,
+      "var": 0.0,
+      "min_host_rank_thread": [
+        "skull",
+        0,
+        0
+      ],
+      "max_host_rank_thread": [
+        "skull",
+        1,
+        0
+      ]
+    },
+    "read_bytes": {
+      "value": 1048577
+    },
+    "write_bytes": {
+      "value": 1048768
+    },
+    "io_percent": {
+      "min": 4.544168055599233,
+      "max": 8.486203175581934,
+      "avg": 6.515185615590584,
+      "std": 2.79,
+      "var": 7.77,
+      "min_host_rank_thread": [
+        "skull",
+        1,
+        0
+      ],
+      "max_host_rank_thread": [
+        "skull",
+        0,
+        0
+      ]
+    }
+  },
+  "MPI": {
+    "total_mpi_time_seconds": {
+      "min": 0.011282,
+      "max": 0.030227,
+      "avg": 0.020754500000000002,
+      "std": 0.01,
+      "var": 0.0,
+      "min_host_rank_thread": [
+        "skull",
+        0,
+        0
+      ],
+      "max_host_rank_thread": [
+        "skull",
+        1,
+        0
+      ]
+    },
+    "mpi_percent": {
+      "min": 86.95853244951442,
+      "max": 95.05644831598478,
+      "avg": 91.00749038274961,
+      "std": 5.73,
+      "var": 32.79,
+      "min_host_rank_thread": [
+        "skull",
+        0,
+        0
+      ],
+      "max_host_rank_thread": [
+        "skull",
+        1,
+        0
+      ]
+    }
+  },
+  "app_data": {
+    "access": {
+      "write": {
+        "access": "write",
+        "bw_MiB_s_": "1597.53",
+        "IOPS": "6706",
+        "Latency_s_": "0.000211",
+        "block_KiB_": "1024.00",
+        "xfer_KiB_": "256.00",
+        "open_s_": "0.000056",
+        "wr_rd_s_": "0.001193",
+        "close_s_": "0.000352",
+        "total_s_": "0.001252",
+        "iter": "0"
+      },
+      "read": {
+        "access": "read",
+        "bw_MiB_s_": "14717",
+        "IOPS": "61008",
+        "Latency_s_": "0.000033",
+        "block_KiB_": "1024.00",
+        "xfer_KiB_": "256.00",
+        "open_s_": "0.000003",
+        "wr_rd_s_": "0.000131",
+        "close_s_": "0.000007",
+        "total_s_": "0.000136",
+        "iter": "0"
+      }
+    },
+    "Operation": {
+      "write": {
+        "Operation": "write",
+        "Max_MiB_": "1597.53",
+        "Min_MiB_": "1597.53",
+        "Mean_MiB_": "1597.53",
+        "StdDev": "0.00",
+        "Max_OPs_": "6390.10",
+        "Min_OPs_": "6390.10",
+        "Mean_OPs_": "6390.10",
+        "Mean_s_": "0.00125",
+        "Stonewall_s_": "NA",
+        "Stonewall_MiB_": "NA",
+        "Test#": "0",
+        "#Tasks": "2",
+        "tPN": "2",
+        "reps": "1",
+        "fPP": "0",
+        "reord": "0",
+        "reordoff": "1",
+        "reordrand": "0",
+        "seed": "0",
+        "segcnt": "1",
+        "blksiz": "1048576",
+        "xsize": "262144",
+        "aggs_MiB_": "2.0",
+        "API": "POSIX",
+        "RefNum": "0"
+      },
+      "read": {
+        "Operation": "read",
+        "Max_MiB_": "14716.86",
+        "Min_MiB_": "14716.86",
+        "Mean_MiB_": "14716.86",
+        "StdDev": "0.00",
+        "Max_OPs_": "58867.42",
+        "Min_OPs_": "58867.42",
+        "Mean_OPs_": "58867.42",
+        "Mean_s_": "0.00014",
+        "Stonewall_s_": "NA",
+        "Stonewall_MiB_": "NA",
+        "Test#": "0",
+        "#Tasks": "2",
+        "tPN": "2",
+        "reps": "1",
+        "fPP": "0",
+        "reord": "0",
+        "reordoff": "1",
+        "reordrand": "0",
+        "seed": "0",
+        "segcnt": "1",
+        "blksiz": "1048576",
+        "xsize": "262144",
+        "aggs_MiB_": "2.0",
+        "API": "POSIX",
+        "RefNum": "0"
+      }
+    }
+  }
+}

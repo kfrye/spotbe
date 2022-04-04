@@ -1,0 +1,653 @@
+{
+  "executable": {
+    "command_line": "/home/kfrye/NVIDIA_CUDA-11.3_Samples/5_Simulations/nbody/nbody",
+    "executable_path": "/home/kfrye/NVIDIA_CUDA-11.3_Samples/5_Simulations/nbody/nbody",
+    "executable_ldd": {
+      "linux-vdso.so.1": "(0x00007ffd71bc1000)",
+      "libGL.so.1": "/lib/x86_64-linux-gnu/libGL.so.1 (0x00007fc3cbefa000)",
+      "libGLU.so.1": "/lib/x86_64-linux-gnu/libGLU.so.1 (0x00007fc3cbe88000)",
+      "libglut.so.3": "/lib/x86_64-linux-gnu/libglut.so.3 (0x00007fc3cbc3f000)",
+      "librt.so.1": "/lib/x86_64-linux-gnu/librt.so.1 (0x00007fc3cbc34000)",
+      "libpthread.so.0": "/lib/x86_64-linux-gnu/libpthread.so.0 (0x00007fc3cbc11000)",
+      "libdl.so.2": "/lib/x86_64-linux-gnu/libdl.so.2 (0x00007fc3cbc09000)",
+      "libstdc++.so.6": "/lib/x86_64-linux-gnu/libstdc++.so.6 (0x00007fc3cba27000)",
+      "libm.so.6": "/lib/x86_64-linux-gnu/libm.so.6 (0x00007fc3cb8d8000)",
+      "libgcc_s.so.1": "/lib/x86_64-linux-gnu/libgcc_s.so.1 (0x00007fc3cb8bd000)",
+      "libc.so.6": "/lib/x86_64-linux-gnu/libc.so.6 (0x00007fc3cb6cb000)",
+      "/lib64/ld-linux-x86-64.so.2": "(0x00007fc3cc146000)",
+      "libGLdispatch.so.0": "/lib/x86_64-linux-gnu/libGLdispatch.so.0 (0x00007fc3cb613000)",
+      "libGLX.so.0": "/lib/x86_64-linux-gnu/libGLX.so.0 (0x00007fc3cb5dd000)",
+      "libX11.so.6": "/lib/x86_64-linux-gnu/libX11.so.6 (0x00007fc3cb4a0000)",
+      "libXi.so.6": "/lib/x86_64-linux-gnu/libXi.so.6 (0x00007fc3cb48e000)",
+      "libXxf86vm.so.1": "/lib/x86_64-linux-gnu/libXxf86vm.so.1 (0x00007fc3cb487000)",
+      "libxcb.so.1": "/lib/x86_64-linux-gnu/libxcb.so.1 (0x00007fc3cb45d000)",
+      "libXext.so.6": "/lib/x86_64-linux-gnu/libXext.so.6 (0x00007fc3cb446000)",
+      "libXau.so.6": "/lib/x86_64-linux-gnu/libXau.so.6 (0x00007fc3cb440000)",
+      "libXdmcp.so.6": "/lib/x86_64-linux-gnu/libXdmcp.so.6 (0x00007fc3cb438000)",
+      "libbsd.so.0": "/lib/x86_64-linux-gnu/libbsd.so.0 (0x00007fc3cb41e000)"
+    },
+    "mpi": false,
+    "libmpi": null,
+    "openmp": false,
+    "has_accelerator": "NVIDIA",
+    "launch_time": "2022/01/12, 19:17:24",
+    "end_time": "2022/01/12, 19:20:29",
+    "survey_arguments": {
+      "target": [
+        "/home/kfrye/NVIDIA_CUDA-11.3_Samples/5_Simulations/nbody/nbody"
+      ],
+      "counters": null,
+      "disable_papi_multiplex": true,
+      "disable_papi": false,
+      "disable_io": false,
+      "disable_mpi": false,
+      "disable_ompt": false,
+      "use_survey_omp_rt": false,
+      "enable_accelerator": true,
+      "enable_mem": false,
+      "enable_mem_no_gotcha": false,
+      "top_down": false,
+      "top_down_fe": false,
+      "top_down_bs": false,
+      "top_down_be": false,
+      "top_down_ret": false,
+      "top_down_mem_bound": false,
+      "top_down_core_bound": false,
+      "info": null,
+      "advice": false,
+      "csv_only": false,
+      "json_only": false,
+      "debug_collector": false,
+      "debug_monitor": false,
+      "no_collector": false,
+      "output_dir": null,
+      "output_to_file": false,
+      "config": null
+    },
+    "config_file": "/home/kfrye/Documents/survey/pysurvey/data/config.yaml"
+  },
+  "hardware": {
+    "cpu_info": {
+      "hyperthreading": true,
+      "module_type": "CoffeeLake",
+      "Architecture": "x86_64",
+      "CPU_op-mode_s_": "32-bit, 64-bit",
+      "Byte_Order": "Little Endian",
+      "Address_sizes": "39 bits physical, 48 bits virtual",
+      "CPU_s_": "16",
+      "On-line_CPU_s__list": "0-15",
+      "Thread_s__per_core": "2",
+      "Core_s__per_socket": "8",
+      "Socket_s_": "1",
+      "NUMA_node_s_": "1",
+      "Vendor_ID": "GenuineIntel",
+      "CPU_family": "6",
+      "Model": "158",
+      "Model_name": "Intel(R) Core(TM) i9-9980HK CPU @ 2.40GHz",
+      "Stepping": "13",
+      "CPU_MHz": "4564.214",
+      "CPU_max_MHz": "5000.0000",
+      "CPU_min_MHz": "800.0000",
+      "BogoMIPS": "4800.00",
+      "Virtualization": "VT-x",
+      "L1d_cache": "256 KiB",
+      "L1i_cache": "256 KiB",
+      "L2_cache": "2 MiB",
+      "L3_cache": "16 MiB",
+      "NUMA_node0_CPU_s_": "0-15",
+      "Vulnerability_Itlb_multihit": "KVM",
+      "Vulnerability_L1tf": "Not affected",
+      "Vulnerability_Mds": "Not affected",
+      "Vulnerability_Meltdown": "Not affected",
+      "Vulnerability_Spec_store_bypass": "Mitigation; Speculative Store Bypass disabled via prctl and seccomp",
+      "Vulnerability_Spectre_v1": "Mitigation; usercopy/swapgs barriers and __user pointer sanitization",
+      "Vulnerability_Spectre_v2": "Mitigation; Enhanced IBRS, IBPB conditional, RSB filling",
+      "Vulnerability_Srbds": "Mitigation; TSX disabled",
+      "Vulnerability_Tsx_async_abort": "Mitigation; TSX disabled"
+    },
+    "mem": {
+      "BLOCKS": [
+        {
+          "RANGE": "0x0000000000000000-0x000000007fffffff",
+          "SIZE": "2G",
+          "STATE": "online",
+          "REMOVABLE": "yes",
+          "BLOCK": "0"
+        },
+        {
+          "RANGE": "0x0000000100000000-0x00000010ffffffff",
+          "SIZE": "64G",
+          "STATE": "online",
+          "REMOVABLE": "yes",
+          "BLOCK": "2-33"
+        }
+      ],
+      "Memory block size": "2G",
+      "Total online memory": "66G",
+      "Total offline memory": "0B"
+    },
+    "filesystems": [
+      {
+        "Filesystem": "/dev/nvme0n1p6",
+        "Size": "461G",
+        "Used": "150G",
+        "Avail": "288G",
+        "Use%": "35%",
+        "Mounted": "/"
+      }
+    ],
+    "lspci": [
+      {
+        "slot": "00:00.0",
+        "class": "Host bridge [0600]",
+        "vendor_name": "Intel Corporation [8086]",
+        "device_name": "Device [3e20]",
+        "device_option": [
+          "-r0d"
+        ],
+        "subsystem_vendor_name": "Intel Corporation [8086]",
+        "subsystem_name": "Device [2089]"
+      },
+      {
+        "slot": "00:01.0",
+        "class": "PCI bridge [0604]",
+        "vendor_name": "Intel Corporation [8086]",
+        "device_name": "Xeon E3-1200 v5/E3-1500 v5/6th Gen Core Processor PCIe Controller (x16) [1901]",
+        "device_option": [
+          "-r0d"
+        ]
+      },
+      {
+        "slot": "00:02.0",
+        "class": "Display controller [0380]",
+        "vendor_name": "Intel Corporation [8086]",
+        "device_name": "UHD Graphics 630 (Mobile) [3e9b]",
+        "device_option": [
+          "-r02"
+        ],
+        "subsystem_vendor_name": "Intel Corporation [8086]",
+        "subsystem_name": "UHD Graphics 630 (Mobile) [2089]"
+      },
+      {
+        "slot": "00:08.0",
+        "class": "System peripheral [0880]",
+        "vendor_name": "Intel Corporation [8086]",
+        "device_name": "Xeon E3-1200 v5/v6 / E3-1500 v5 / 6th/7th/8th Gen Core Processor Gaussian Mixture Model [1911]",
+        "subsystem_vendor_name": "Intel Corporation [8086]",
+        "subsystem_name": "Xeon E3-1200 v5/v6 / E3-1500 v5 / 6th/7th/8th Gen Core Processor Gaussian Mixture Model [2089]"
+      },
+      {
+        "slot": "00:12.0",
+        "class": "Signal processing controller [1180]",
+        "vendor_name": "Intel Corporation [8086]",
+        "device_name": "Cannon Lake PCH Thermal Controller [a379]",
+        "device_option": [
+          "-r10"
+        ],
+        "subsystem_vendor_name": "Intel Corporation [8086]",
+        "subsystem_name": "Cannon Lake PCH Thermal Controller [2089]"
+      },
+      {
+        "slot": "00:14.0",
+        "class": "USB controller [0c03]",
+        "vendor_name": "Intel Corporation [8086]",
+        "device_name": "Cannon Lake PCH USB 3.1 xHCI Host Controller [a36d]",
+        "device_option": [
+          "-r10",
+          "-p30"
+        ],
+        "subsystem_vendor_name": "Intel Corporation [8086]",
+        "subsystem_name": "Cannon Lake PCH USB 3.1 xHCI Host Controller [2089]"
+      },
+      {
+        "slot": "00:14.2",
+        "class": "RAM memory [0500]",
+        "vendor_name": "Intel Corporation [8086]",
+        "device_name": "Cannon Lake PCH Shared SRAM [a36f]",
+        "device_option": [
+          "-r10"
+        ],
+        "subsystem_vendor_name": "Intel Corporation [8086]",
+        "subsystem_name": "Cannon Lake PCH Shared SRAM [7270]"
+      },
+      {
+        "slot": "00:15.0",
+        "class": "Serial bus controller [0c80]",
+        "vendor_name": "Intel Corporation [8086]",
+        "device_name": "Cannon Lake PCH Serial IO I2C Controller #0 [a368]",
+        "device_option": [
+          "-r10"
+        ],
+        "subsystem_vendor_name": "Intel Corporation [8086]",
+        "subsystem_name": "Cannon Lake PCH Serial IO I2C Controller [2089]"
+      },
+      {
+        "slot": "00:15.1",
+        "class": "Serial bus controller [0c80]",
+        "vendor_name": "Intel Corporation [8086]",
+        "device_name": "Cannon Lake PCH Serial IO I2C Controller #1 [a369]",
+        "device_option": [
+          "-r10"
+        ],
+        "subsystem_vendor_name": "Intel Corporation [8086]",
+        "subsystem_name": "Cannon Lake PCH Serial IO I2C Controller [2089]"
+      },
+      {
+        "slot": "00:16.0",
+        "class": "Communication controller [0780]",
+        "vendor_name": "Intel Corporation [8086]",
+        "device_name": "Cannon Lake PCH HECI Controller [a360]",
+        "device_option": [
+          "-r10"
+        ],
+        "subsystem_vendor_name": "Intel Corporation [8086]",
+        "subsystem_name": "Cannon Lake PCH HECI Controller [2089]"
+      },
+      {
+        "slot": "00:17.0",
+        "class": "SATA controller [0106]",
+        "vendor_name": "Intel Corporation [8086]",
+        "device_name": "Cannon Lake Mobile PCH SATA AHCI Controller [a353]",
+        "device_option": [
+          "-r10",
+          "-p01"
+        ],
+        "subsystem_vendor_name": "Intel Corporation [8086]",
+        "subsystem_name": "Cannon Lake Mobile PCH SATA AHCI Controller [2089]"
+      },
+      {
+        "slot": "00:1b.0",
+        "class": "PCI bridge [0604]",
+        "vendor_name": "Intel Corporation [8086]",
+        "device_name": "Cannon Lake PCH PCI Express Root Port #21 [a32c]",
+        "device_option": [
+          "-rf0"
+        ]
+      },
+      {
+        "slot": "00:1c.0",
+        "class": "PCI bridge [0604]",
+        "vendor_name": "Intel Corporation [8086]",
+        "device_name": "Cannon Lake PCH PCI Express Root Port #1 [a338]",
+        "device_option": [
+          "-rf0"
+        ]
+      },
+      {
+        "slot": "00:1c.4",
+        "class": "PCI bridge [0604]",
+        "vendor_name": "Intel Corporation [8086]",
+        "device_name": "Cannon Lake PCH PCI Express Root Port #5 [a33c]",
+        "device_option": [
+          "-rf0"
+        ]
+      },
+      {
+        "slot": "00:1d.0",
+        "class": "PCI bridge [0604]",
+        "vendor_name": "Intel Corporation [8086]",
+        "device_name": "Cannon Lake PCH PCI Express Root Port #9 [a330]",
+        "device_option": [
+          "-rf0"
+        ]
+      },
+      {
+        "slot": "00:1d.5",
+        "class": "PCI bridge [0604]",
+        "vendor_name": "Intel Corporation [8086]",
+        "device_name": "Cannon Lake PCH PCI Express Root Port #14 [a335]",
+        "device_option": [
+          "-rf0"
+        ]
+      },
+      {
+        "slot": "00:1e.0",
+        "class": "Communication controller [0780]",
+        "vendor_name": "Intel Corporation [8086]",
+        "device_name": "Cannon Lake PCH Serial IO UART Host Controller [a328]",
+        "device_option": [
+          "-r10"
+        ],
+        "subsystem_vendor_name": "Intel Corporation [8086]",
+        "subsystem_name": "Cannon Lake PCH Serial IO UART Host Controller [2089]"
+      },
+      {
+        "slot": "00:1f.0",
+        "class": "ISA bridge [0601]",
+        "vendor_name": "Intel Corporation [8086]",
+        "device_name": "Device [a30e]",
+        "device_option": [
+          "-r10"
+        ],
+        "subsystem_vendor_name": "Intel Corporation [8086]",
+        "subsystem_name": "Device [2089]"
+      },
+      {
+        "slot": "00:1f.3",
+        "class": "Audio device [0403]",
+        "vendor_name": "Intel Corporation [8086]",
+        "device_name": "Cannon Lake PCH cAVS [a348]",
+        "device_option": [
+          "-r10",
+          "-p80"
+        ],
+        "subsystem_vendor_name": "Intel Corporation [8086]",
+        "subsystem_name": "Cannon Lake PCH cAVS [2089]"
+      },
+      {
+        "slot": "00:1f.4",
+        "class": "SMBus [0c05]",
+        "vendor_name": "Intel Corporation [8086]",
+        "device_name": "Cannon Lake PCH SMBus Controller [a323]",
+        "device_option": [
+          "-r10"
+        ],
+        "subsystem_vendor_name": "Intel Corporation [8086]",
+        "subsystem_name": "Cannon Lake PCH SMBus Controller [2089]"
+      },
+      {
+        "slot": "00:1f.5",
+        "class": "Serial bus controller [0c80]",
+        "vendor_name": "Intel Corporation [8086]",
+        "device_name": "Cannon Lake PCH SPI Controller [a324]",
+        "device_option": [
+          "-r10"
+        ],
+        "subsystem_vendor_name": "Intel Corporation [8086]",
+        "subsystem_name": "Cannon Lake PCH SPI Controller [2089]"
+      },
+      {
+        "slot": "00:1f.6",
+        "class": "Ethernet controller [0200]",
+        "vendor_name": "Intel Corporation [8086]",
+        "device_name": "Ethernet Connection (7) I219-LM [15bb]",
+        "device_option": [
+          "-r10"
+        ],
+        "subsystem_vendor_name": "Intel Corporation [8086]",
+        "subsystem_name": "Ethernet Connection (7) I219-LM [0000]"
+      },
+      {
+        "slot": "01:00.0",
+        "class": "VGA compatible controller [0300]",
+        "vendor_name": "NVIDIA Corporation [10de]",
+        "device_name": "TU117 [GeForce GTX 1650] [1f82]",
+        "device_option": [
+          "-ra1"
+        ],
+        "subsystem_vendor_name": "ASUSTeK Computer Inc. [1043]",
+        "subsystem_name": "TU117 [GeForce GTX 1650] [8773]"
+      },
+      {
+        "slot": "01:00.1",
+        "class": "Audio device [0403]",
+        "vendor_name": "NVIDIA Corporation [10de]",
+        "device_name": "Device [10fa]",
+        "device_option": [
+          "-ra1"
+        ],
+        "subsystem_vendor_name": "ASUSTeK Computer Inc. [1043]",
+        "subsystem_name": "Device [8773]"
+      },
+      {
+        "slot": "02:00.0",
+        "class": "Non-Volatile memory controller [0108]",
+        "vendor_name": "Intel Corporation [8086]",
+        "device_name": "SSD Pro 7600p/760p/E 6100p Series [f1a6]",
+        "device_option": [
+          "-r03",
+          "-p02"
+        ],
+        "subsystem_vendor_name": "Intel Corporation [8086]",
+        "subsystem_name": "Intel Corporation SSD Pro 7600p/760p/E 6100p Series [NVM Express] [390b]"
+      },
+      {
+        "slot": "03:00.0",
+        "class": "Network controller [0280]",
+        "vendor_name": "Intel Corporation [8086]",
+        "device_name": "Wi-Fi 6 AX200 [2723]",
+        "device_option": [
+          "-r1a"
+        ],
+        "subsystem_vendor_name": "Intel Corporation [8086]",
+        "subsystem_name": "Wi-Fi 6 AX200 [008c]"
+      },
+      {
+        "slot": "04:00.0",
+        "class": "PCI bridge [0604]",
+        "vendor_name": "Intel Corporation [8086]",
+        "device_name": "JHL7540 Thunderbolt 3 Bridge [Titan Ridge 4C 2018] [15ea]",
+        "device_option": [
+          "-r06"
+        ]
+      },
+      {
+        "slot": "05:00.0",
+        "class": "PCI bridge [0604]",
+        "vendor_name": "Intel Corporation [8086]",
+        "device_name": "JHL7540 Thunderbolt 3 Bridge [Titan Ridge 4C 2018] [15ea]",
+        "device_option": [
+          "-r06"
+        ]
+      },
+      {
+        "slot": "05:01.0",
+        "class": "PCI bridge [0604]",
+        "vendor_name": "Intel Corporation [8086]",
+        "device_name": "JHL7540 Thunderbolt 3 Bridge [Titan Ridge 4C 2018] [15ea]",
+        "device_option": [
+          "-r06"
+        ]
+      },
+      {
+        "slot": "05:02.0",
+        "class": "PCI bridge [0604]",
+        "vendor_name": "Intel Corporation [8086]",
+        "device_name": "JHL7540 Thunderbolt 3 Bridge [Titan Ridge 4C 2018] [15ea]",
+        "device_option": [
+          "-r06"
+        ]
+      },
+      {
+        "slot": "05:04.0",
+        "class": "PCI bridge [0604]",
+        "vendor_name": "Intel Corporation [8086]",
+        "device_name": "JHL7540 Thunderbolt 3 Bridge [Titan Ridge 4C 2018] [15ea]",
+        "device_option": [
+          "-r06"
+        ]
+      },
+      {
+        "slot": "06:00.0",
+        "class": "System peripheral [0880]",
+        "vendor_name": "Intel Corporation [8086]",
+        "device_name": "JHL7540 Thunderbolt 3 NHI [Titan Ridge 4C 2018] [15eb]",
+        "device_option": [
+          "-r06"
+        ],
+        "subsystem_vendor_name": "Intel Corporation [8086]",
+        "subsystem_name": "JHL7540 Thunderbolt 3 NHI [Titan Ridge 4C 2018] [2088]"
+      },
+      {
+        "slot": "3a:00.0",
+        "class": "USB controller [0c03]",
+        "vendor_name": "Intel Corporation [8086]",
+        "device_name": "JHL7540 Thunderbolt 3 USB Controller [Titan Ridge 4C 2018] [15ec]",
+        "device_option": [
+          "-r06",
+          "-p30"
+        ],
+        "subsystem_vendor_name": "Intel Corporation [8086]",
+        "subsystem_name": "JHL7540 Thunderbolt 3 USB Controller [Titan Ridge 4C 2018] [2088]"
+      },
+      {
+        "slot": "6f:00.0",
+        "class": "Non-Volatile memory controller [0108]",
+        "vendor_name": "Samsung Electronics Co Ltd [144d]",
+        "device_name": "NVMe SSD Controller SM981/PM981/PM983 [a808]",
+        "device_option": [
+          "-p02"
+        ],
+        "subsystem_vendor_name": "Samsung Electronics Co Ltd [144d]",
+        "subsystem_name": "NVMe SSD Controller SM981/PM981/PM983 [a801]"
+      },
+      {
+        "slot": "70:00.0",
+        "class": "Ethernet controller [0200]",
+        "vendor_name": "Intel Corporation [8086]",
+        "device_name": "I210 Gigabit Network Connection [1533]",
+        "device_option": [
+          "-r03"
+        ]
+      }
+    ]
+  },
+  "system": {
+    "node_name": "skull",
+    "user_name": "kfrye",
+    "os_name": "Linux",
+    "os_type": "5.11.0-46-generic",
+    "os_version": "#51~20.04.1-Ubuntu SMP Fri Jan 7 06:51:40 UTC 2022",
+    "limits": {
+      "maximum core file size": {
+        "soft": 0,
+        "hard": "infinity"
+      },
+      "maximum CPU time": {
+        "soft": "infinity",
+        "hard": "infinity"
+      },
+      "maximum file size": {
+        "soft": "infinity",
+        "hard": "infinity"
+      },
+      "maximum heap size": {
+        "soft": "infinity",
+        "hard": "infinity"
+      },
+      "maximum stack size": {
+        "soft": 8388608,
+        "hard": "infinity"
+      },
+      "maximum resident set size": {
+        "soft": "infinity",
+        "hard": "infinity"
+      },
+      "maximum number of processes": {
+        "soft": 255813,
+        "hard": 255813
+      },
+      "maximum number of open files": {
+        "soft": 1048576,
+        "hard": 1048576
+      },
+      "maximum lockable memory addresses": {
+        "soft": 67108864,
+        "hard": 67108864
+      },
+      "maximum area of address space": {
+        "soft": "infinity",
+        "hard": "infinity"
+      },
+      "number of bytes for POSIX messages queues": {
+        "soft": 819200,
+        "hard": 819200
+      },
+      "ceiling for nice level": {
+        "soft": 0,
+        "hard": 0
+      },
+      "ceiling of the real-time priority": {
+        "soft": 0,
+        "hard": 0
+      },
+      "time limit on CPU time under real-time scheduling": {
+        "soft": "infinity",
+        "hard": "infinity"
+      },
+      "number of signals that can be queued": {
+        "soft": 255813,
+        "hard": 255813
+      }
+    },
+    "env_variables": {
+      "BAMF_DESKTOP_FILE_HINT": "/var/lib/snapd/desktop/applications/pycharm-professional_pycharm-professional.desktop",
+      "BASH_ENV": "/usr/share/modules/init/bash",
+      "DBUS_SESSION_BUS_ADDRESS": "unix:path=/run/user/1000/bus",
+      "DESKTOP_SESSION": "ubuntu",
+      "DISPLAY": ":1",
+      "ENV": "/usr/share/modules/init/profile.sh",
+      "GDMSESSION": "ubuntu",
+      "GIO_LAUNCHED_DESKTOP_FILE": "/var/lib/snapd/desktop/applications/pycharm-professional_pycharm-professional.desktop",
+      "GIO_LAUNCHED_DESKTOP_FILE_PID": "22805",
+      "GJS_DEBUG_OUTPUT": "stderr",
+      "GJS_DEBUG_TOPICS": "JS ERROR;JS LOG",
+      "GNOME_DESKTOP_SESSION_ID": "this-is-deprecated",
+      "GNOME_SHELL_SESSION_MODE": "ubuntu",
+      "GPG_AGENT_INFO": "/run/user/1000/gnupg/S.gpg-agent:0:1",
+      "GTK_MODULES": "gail:atk-bridge",
+      "HOME": "/home/kfrye",
+      "INVOCATION_ID": "722d515dee3b4226a504e7d21e404987",
+      "JOURNAL_STREAM": "8:67112",
+      "LANG": "en_US.UTF-8",
+      "LD_LIBRARY_PATH": "/home/kfrye/spack/opt/spack/linux-ubuntu20.04-skylake/gcc-9.3.0/py-pyyaml-5.3.1-47cimrx5wms62i7mh6ohwlmpivvfogvp/lib:/opt/openmpi/lib:/home/kfrye/spack/opt/spack/linux-ubuntu20.04-skylake/gcc-9.3.0/survey-1.0-xi7ekuftn7ydurhcaeda7yntydqfmeeo/lib64:/home/kfrye/spack/opt/spack/linux-ubuntu20.04-skylake/gcc-9.3.0/survey-1.0-xi7ekuftn7ydurhcaeda7yntydqfmeeo/lib:/usr/local/cuda-11.3/lib64",
+      "LIBVIRT_DEFAULT_URI": "qemu:///system",
+      "LOADEDMODULES": "",
+      "LOGNAME": "kfrye",
+      "MANAGERPID": "3257",
+      "MANPATH": ":",
+      "MODULEPATH": "/etc/environment-modules/modules:/usr/share/modules/versions:/usr/share/modules/$MODULE_VERSION/modulefiles:/usr/share/modules/modulefiles",
+      "MODULEPATH_modshare": "/etc/environment-modules/modules:1:/usr/share/modules/$MODULE_VERSION/modulefiles:1:/usr/share/modules/modulefiles:1:/usr/share/modules/versions:1",
+      "MODULESHOME": "/usr/share/modules",
+      "MODULES_CMD": "/usr/lib/x86_64-linux-gnu/modulecmd.tcl",
+      "PATH": "/opt/openmpi/bin:/home/kfrye/Documents/survey:/home/kfrye/spack/opt/spack/linux-ubuntu20.04-skylake/gcc-9.3.0/python-3.8.10-5nmbzkki6zhnsk2p3ycuinh3al5fmeto/bin:/home/kfrye/spack/opt/spack/linux-ubuntu20.04-skylake/gcc-9.3.0/survey-1.0-xi7ekuftn7ydurhcaeda7yntydqfmeeo/bin:/usr/local/cuda-11.3/bin:/home/kfrye/miniconda3/bin:/home/kfrye/miniconda3/condabin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/kfrye/Documents/survey/venv/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin",
+      "PS1": "(venv) ",
+      "PWD": "/home/kfrye/Documents/survey",
+      "PYCHARM_DISPLAY_PORT": "63342",
+      "PYCHARM_HOSTED": "1",
+      "PYTHONIOENCODING": "UTF-8",
+      "PYTHONPATH": "/home/kfrye/spack/opt/spack/linux-ubuntu20.04-skylake/gcc-9.3.0/py-pyyaml-5.3.1-47cimrx5wms62i7mh6ohwlmpivvfogvp/lib/python3.8/site-packages:/home/kfrye/spack/opt/spack/linux-ubuntu20.04-skylake/gcc-9.3.0/python-3.8.10-5nmbzkki6zhnsk2p3ycuinh3al5fmeto/lib/python3.8/site-packages:/home/kfrye/spack/opt/spack/linux-ubuntu20.04-skylake/gcc-9.3.0/survey-1.0-xi7ekuftn7ydurhcaeda7yntydqfmeeo/lib/python3.8/site-packages:/home/kfrye/spack/opt/spack/linux-ubuntu20.04-skylake/gcc-9.3.0/py-pandas-1.2.5-xazhdkeendqyd272ydu5j6rzphmlb5fz/lib/python3.8/site-packages:/home/kfrye/spack/opt/spack/linux-ubuntu20.04-skylake/gcc-9.3.0/py-bottleneck-1.3.2-uf7wtxuqlvg43q6lzsvya4l2rtszsqp3/lib/python3.8/site-packages:/home/kfrye/spack/opt/spack/linux-ubuntu20.04-skylake/gcc-9.3.0/py-numpy-1.21.0-67btxua6hqlcd7ncd2zg56n4du7xexil/lib/python3.8/site-packages:/home/kfrye/spack/opt/spack/linux-ubuntu20.04-skylake/gcc-9.3.0/py-setuptools-50.3.2-xdnlnbov2spe4pr2s33lon6fiqq7xwpo/lib/python3.8/site-packages:/home/kfrye/spack/opt/spack/linux-ubuntu20.04-skylake/gcc-9.3.0/py-numexpr-2.7.2-ysnvxci5a3uufdcbvkx2nkzwmyepiduw/lib/python3.8/site-packages:/home/kfrye/spack/opt/spack/linux-ubuntu20.04-skylake/gcc-9.3.0/py-python-dateutil-2.8.1-rm5y2v2a5o2lyzedarrh536po3e2c5wj/lib/python3.8/site-packages:/home/kfrye/spack/opt/spack/linux-ubuntu20.04-skylake/gcc-9.3.0/py-six-1.15.0-ym3sp4y3o7zkxbapqpp2dq5zcn4gwu6b/lib/python3.8/site-packages:/home/kfrye/spack/opt/spack/linux-ubuntu20.04-skylake/gcc-9.3.0/py-pytz-2020.1-ih4mewauivx3cnb6nrmxpkqecyji5cxa/lib/python3.8/site-packages:/home/kfrye/spack/opt/spack/linux-ubuntu20.04-skylake/gcc-9.3.0/py-pbr-5.4.3-j5aeeu7pg6xe5omik5mwi3ocm5q6h77g/lib/python3.8/site-packages:/home/kfrye/spack/opt/spack/linux-ubuntu20.04-skylake/gcc-9.3.0/py-pip-21.1.2-waqu7qui3nbmke5aau7luksnjespz5uj/lib/python3.8/site-packages:/home/kfrye/spack/opt/spack/linux-ubuntu20.04-skylake/gcc-9.3.0/py-psutil-5.7.2-j3tesvt2z5cmwmzvpp5rsb7rfou653qr/lib/python3.8/site-packages:/home/kfrye/spack/opt/spack/linux-ubuntu20.04-skylake/gcc-9.3.0/py-sqlalchemy-1.3.19-vek7zhrykblp4yeerg6mu5bq7pzs25mz/lib/python3.8/site-packages:/home/kfrye/Documents/survey:/snap/pycharm-professional/269/plugins/python/helpers/pycharm_matplotlib_backend:/snap/pycharm-professional/269/plugins/python/helpers/pycharm_display",
+      "PYTHONUNBUFFERED": "1",
+      "QT_ACCESSIBILITY": "1",
+      "QT_IM_MODULE": "ibus",
+      "SESSION_MANAGER": "local/skull:@/tmp/.ICE-unix/3489,unix/skull:/tmp/.ICE-unix/3489",
+      "SHELL": "/bin/bash",
+      "SHLVL": "0",
+      "SNAP": "/snap/pycharm-professional/269",
+      "SNAP_ARCH": "amd64",
+      "SNAP_COMMON": "/var/snap/pycharm-professional/common",
+      "SNAP_CONTEXT": "eoRKInN_H3EH6IVBzampPsbYkQ2_G6SN6LvphEyVXEzKOUTG8PPu",
+      "SNAP_COOKIE": "eoRKInN_H3EH6IVBzampPsbYkQ2_G6SN6LvphEyVXEzKOUTG8PPu",
+      "SNAP_DATA": "/var/snap/pycharm-professional/269",
+      "SNAP_INSTANCE_KEY": "",
+      "SNAP_INSTANCE_NAME": "pycharm-professional",
+      "SNAP_LIBRARY_PATH": "/var/lib/snapd/lib/gl:/var/lib/snapd/lib/gl32:/var/lib/snapd/void",
+      "SNAP_NAME": "pycharm-professional",
+      "SNAP_REAL_HOME": "/home/kfrye",
+      "SNAP_REEXEC": "",
+      "SNAP_REVISION": "269",
+      "SNAP_USER_COMMON": "/home/kfrye/snap/pycharm-professional/common",
+      "SNAP_USER_DATA": "/home/kfrye/snap/pycharm-professional/269",
+      "SNAP_VERSION": "2021.3.1",
+      "SSH_AGENT_PID": "3454",
+      "SSH_AUTH_SOCK": "/run/user/1000/keyring/ssh",
+      "SURVEY_CSVDATA_DIR": "/home/kfrye/Documents/survey/nbody-survey-csvdata-21",
+      "SURVEY_HWC_NO_MULTIPLEX": "1",
+      "USER": "kfrye",
+      "USERNAME": "kfrye",
+      "VIRTUAL_ENV": "/home/kfrye/Documents/survey/venv",
+      "WINDOWPATH": "2",
+      "XAUTHORITY": "/run/user/1000/gdm/Xauthority",
+      "XDG_CONFIG_DIRS": "/etc/xdg/xdg-ubuntu:/etc/xdg",
+      "XDG_CURRENT_DESKTOP": "ubuntu:GNOME",
+      "XDG_DATA_DIRS": "/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop",
+      "XDG_MENU_PREFIX": "gnome-",
+      "XDG_RUNTIME_DIR": "/run/user/1000",
+      "XDG_SESSION_CLASS": "user",
+      "XDG_SESSION_DESKTOP": "ubuntu",
+      "XDG_SESSION_TYPE": "x11",
+      "XMODIFIERS": "@im=ibus"
+    },
+    "slurm_info": null
+  }
+}

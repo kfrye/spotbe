@@ -1,0 +1,82 @@
+{
+  "SUMMARY": {
+    "total_time_seconds": {
+      "value": 0.017118
+    }
+  },
+  "DMEM": {
+    "dmem_size_kB": {
+      "value": 160588
+    },
+    "dmem_resident_kB": {
+      "value": 10204
+    },
+    "dmem_high_water_mark_kB": {
+      "value": 13520
+    },
+    "dmem_shared_kB": {
+      "value": 6916
+    },
+    "dmem_heap_kB": {
+      "value": 19592
+    }
+  },
+  "MEMALLOC": {
+    "allocation_time_seconds": {
+      "value": 1.9e-05
+    },
+    "allocation_calls": {
+      "value": 183
+    },
+    "allocation_bytes": {
+      "value": 301508
+    }
+  },
+  "MEMFREE": {
+    "free_time_seconds": {
+      "value": 1.7e-05
+    },
+    "free_calls": {
+      "value": 144
+    }
+  },
+  "RUSAGE": {
+    "maxrss_kB": {
+      "value": 13520
+    },
+    "utime_seconds": {
+      "value": 0.015296
+    },
+    "stime_seconds": {
+      "value": 0.006118
+    }
+  },
+  "IO": {
+    "io_total_time_seconds": {
+      "value": 0.000526
+    },
+    "read_time_seconds": {
+      "value": 5.7e-05
+    },
+    "write_time_seconds": {
+      "value": 0.000412
+    },
+    "read_bytes": {
+      "value": 1048576
+    },
+    "write_bytes": {
+      "value": 1048728
+    },
+    "io_percent": {
+      "value": 3.072788877205281
+    }
+  },
+  "MPI": {
+    "total_mpi_time_seconds": {
+      "value": 0.016276
+    },
+    "mpi_percent": {
+      "value": 95.08120107489192
+    }
+  }
+}

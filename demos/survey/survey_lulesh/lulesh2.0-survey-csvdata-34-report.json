@@ -1,0 +1,1586 @@
+{
+  "SUMMARY": {
+    "total_time_seconds": {
+      "min": 757.618591,
+      "max": 758.727356,
+      "avg": 758.4485092291669,
+      "std": 0.12,
+      "var": 0.02,
+      "min_host_rank_thread": [
+        "oslic8.llnl.gov",
+        1,
+        14
+      ],
+      "max_host_rank_thread": [
+        "oslic8.llnl.gov",
+        3,
+        0
+      ]
+    }
+  },
+  "DMEM": {
+    "dmem_size_kB": {
+      "min": 1412364,
+      "max": 2465172,
+      "avg": 2354476,
+      "std": 225599.81,
+      "var": 50895275447.12,
+      "min_host_rank_thread": [
+        "oslic8.llnl.gov",
+        0,
+        14
+      ],
+      "max_host_rank_thread": [
+        "oslic8.llnl.gov",
+        0,
+        0
+      ]
+    },
+    "dmem_resident_kB": {
+      "min": 15516,
+      "max": 41904,
+      "avg": 24503,
+      "std": 7333.35,
+      "var": 53778041.42,
+      "min_host_rank_thread": [
+        "oslic8.llnl.gov",
+        1,
+        0
+      ],
+      "max_host_rank_thread": [
+        "oslic8.llnl.gov",
+        4,
+        9
+      ]
+    },
+    "dmem_high_water_mark_kB": {
+      "min": 37372,
+      "max": 61948,
+      "avg": 47510,
+      "std": 9913.59,
+      "var": 98279174.01,
+      "min_host_rank_thread": [
+        "oslic8.llnl.gov",
+        1,
+        0
+      ],
+      "max_host_rank_thread": [
+        "oslic8.llnl.gov",
+        4,
+        0
+      ]
+    },
+    "dmem_shared_kB": {
+      "min": 7096,
+      "max": 7128,
+      "avg": 7108,
+      "std": 7.91,
+      "var": 62.51,
+      "min_host_rank_thread": [
+        "oslic8.llnl.gov",
+        4,
+        0
+      ],
+      "max_host_rank_thread": [
+        "oslic8.llnl.gov",
+        0,
+        4
+      ]
+    },
+    "dmem_heap_kB": {
+      "min": 1325056,
+      "max": 2377864,
+      "avg": 2267168,
+      "std": 225599.81,
+      "var": 50895275447.12,
+      "min_host_rank_thread": [
+        "oslic8.llnl.gov",
+        0,
+        14
+      ],
+      "max_host_rank_thread": [
+        "oslic8.llnl.gov",
+        0,
+        0
+      ]
+    }
+  },
+  "MEMALLOC": {
+    "allocation_time_seconds": {
+      "min": 0,
+      "max": 0.248962,
+      "avg": 0.012112562499999925,
+      "std": 0.05,
+      "var": 0.0,
+      "min_host_rank_thread": [
+        "oslic8.llnl.gov",
+        3,
+        15
+      ],
+      "max_host_rank_thread": [
+        "oslic8.llnl.gov",
+        4,
+        0
+      ]
+    },
+    "allocation_calls": {
+      "min": 3,
+      "max": 439070,
+      "avg": 24395,
+      "std": 100923.49,
+      "var": 10185551321.43,
+      "min_host_rank_thread": [
+        "oslic8.llnl.gov",
+        4,
+        3
+      ],
+      "max_host_rank_thread": [
+        "oslic8.llnl.gov",
+        0,
+        0
+      ]
+    },
+    "allocation_bytes": {
+      "min": 880,
+      "max": 57941373051,
+      "avg": 3129946552,
+      "std": 12951748521.5,
+      "var": 1.6774778976430257e+20,
+      "min_host_rank_thread": [
+        "oslic8.llnl.gov",
+        4,
+        3
+      ],
+      "max_host_rank_thread": [
+        "oslic8.llnl.gov",
+        0,
+        0
+      ]
+    }
+  },
+  "MEMFREE": {
+    "free_time_seconds": {
+      "min": 0,
+      "max": 3.922185,
+      "avg": 0.2092052986111111,
+      "std": 0.87,
+      "var": 0.75,
+      "min_host_rank_thread": [
+        "oslic8.llnl.gov",
+        4,
+        3
+      ],
+      "max_host_rank_thread": [
+        "oslic8.llnl.gov",
+        3,
+        0
+      ]
+    },
+    "free_calls": {
+      "min": 1,
+      "max": 438818,
+      "avg": 24380,
+      "std": 100866.37,
+      "var": 10174024994.45,
+      "min_host_rank_thread": [
+        "oslic8.llnl.gov",
+        4,
+        3
+      ],
+      "max_host_rank_thread": [
+        "oslic8.llnl.gov",
+        2,
+        0
+      ]
+    }
+  },
+  "RUSAGE": {
+    "maxrss_kB": {
+      "min": 37372,
+      "max": 61948,
+      "avg": 47510,
+      "std": 9913.59,
+      "var": 98279174.01,
+      "min_host_rank_thread": [
+        "oslic8.llnl.gov",
+        1,
+        0
+      ],
+      "max_host_rank_thread": [
+        "oslic8.llnl.gov",
+        4,
+        0
+      ]
+    },
+    "utime_seconds": {
+      "min": 72.29303,
+      "max": 175.524891,
+      "avg": 80.5742500902778,
+      "std": 20.17,
+      "var": 406.83,
+      "min_host_rank_thread": [
+        "oslic8.llnl.gov",
+        4,
+        8
+      ],
+      "max_host_rank_thread": [
+        "oslic8.llnl.gov",
+        3,
+        0
+      ]
+    },
+    "stime_seconds": {
+      "min": 30.899254,
+      "max": 111.568117,
+      "avg": 103.13429923611115,
+      "std": 17.41,
+      "var": 303.09,
+      "min_host_rank_thread": [
+        "oslic8.llnl.gov",
+        6,
+        0
+      ],
+      "max_host_rank_thread": [
+        "oslic8.llnl.gov",
+        5,
+        15
+      ]
+    },
+    "minflt": {
+      "min": 398078,
+      "max": 487427,
+      "avg": 471066,
+      "std": 20037.15,
+      "var": 401487273.99,
+      "min_host_rank_thread": [
+        "oslic8.llnl.gov",
+        0,
+        0
+      ],
+      "max_host_rank_thread": [
+        "oslic8.llnl.gov",
+        7,
+        10
+      ]
+    },
+    "nvcsw": {
+      "min": 17,
+      "max": 429,
+      "avg": 93,
+      "std": 70.1,
+      "var": 4914.27,
+      "min_host_rank_thread": [
+        "oslic8.llnl.gov",
+        1,
+        19
+      ],
+      "max_host_rank_thread": [
+        "oslic8.llnl.gov",
+        4,
+        0
+      ]
+    },
+    "nivcsw": {
+      "min": 3012294,
+      "max": 12362809,
+      "avg": 11456567,
+      "std": 2037821.45,
+      "var": 4152716277297.96,
+      "min_host_rank_thread": [
+        "oslic8.llnl.gov",
+        6,
+        0
+      ],
+      "max_host_rank_thread": [
+        "oslic8.llnl.gov",
+        6,
+        9
+      ]
+    }
+  },
+  "IO": {
+    "io_total_time_seconds": {
+      "min": 0.000397,
+      "max": 0.000485,
+      "avg": 0.00044050000000000003,
+      "std": 0.0,
+      "var": 0.0,
+      "min_host_rank_thread": [
+        "oslic8.llnl.gov",
+        7,
+        0
+      ],
+      "max_host_rank_thread": [
+        "oslic8.llnl.gov",
+        3,
+        0
+      ]
+    },
+    "write_time_seconds": {
+      "min": 0.000191,
+      "max": 0.000229,
+      "avg": 0.00019899999999999999,
+      "std": 0.0,
+      "var": 0.0,
+      "min_host_rank_thread": [
+        "oslic8.llnl.gov",
+        7,
+        0
+      ],
+      "max_host_rank_thread": [
+        "oslic8.llnl.gov",
+        5,
+        0
+      ]
+    },
+    "write_bytes": {
+      "min": 288,
+      "max": 296,
+      "avg": 294,
+      "std": 3.7,
+      "var": 13.71,
+      "min_host_rank_thread": [
+        "oslic8.llnl.gov",
+        2,
+        0
+      ],
+      "max_host_rank_thread": [
+        "oslic8.llnl.gov",
+        4,
+        0
+      ]
+    },
+    "io_percent": {
+      "min": 5.2324852507180235e-05,
+      "max": 6.392283027158968e-05,
+      "avg": 5.805830456125853e-05,
+      "std": 0.0,
+      "var": 0.0,
+      "min_host_rank_thread": [
+        "oslic8.llnl.gov",
+        7,
+        0
+      ],
+      "max_host_rank_thread": [
+        "oslic8.llnl.gov",
+        3,
+        0
+      ]
+    }
+  },
+  "MPI": {
+    "total_mpi_time_seconds": {
+      "min": 460.131561,
+      "max": 474.151184,
+      "avg": 466.69501887499996,
+      "std": 5.02,
+      "var": 25.15,
+      "min_host_rank_thread": [
+        "oslic8.llnl.gov",
+        1,
+        0
+      ],
+      "max_host_rank_thread": [
+        "oslic8.llnl.gov",
+        3,
+        0
+      ]
+    },
+    "mpi_percent": {
+      "min": 60.64535432124771,
+      "max": 62.49296011939235,
+      "avg": 61.51083129511417,
+      "std": 0.66,
+      "var": 0.44,
+      "min_host_rank_thread": [
+        "oslic8.llnl.gov",
+        1,
+        0
+      ],
+      "max_host_rank_thread": [
+        "oslic8.llnl.gov",
+        3,
+        0
+      ]
+    }
+  },
+  "OMPT": {
+    "implicit_task_time_seconds": {
+      "min": 277.677216,
+      "max": 758.172424,
+      "avg": 731.6792494375,
+      "std": 108.72,
+      "var": 11820.75,
+      "min_host_rank_thread": [
+        "oslic8.llnl.gov",
+        3,
+        0
+      ],
+      "max_host_rank_thread": [
+        "oslic8.llnl.gov",
+        3,
+        4
+      ]
+    },
+    "serial_time_seconds": {
+      "min": 0.493171,
+      "max": 481.135559,
+      "avg": 26.97868577083332,
+      "std": 108.76,
+      "var": 11828.47,
+      "min_host_rank_thread": [
+        "oslic8.llnl.gov",
+        3,
+        4
+      ],
+      "max_host_rank_thread": [
+        "oslic8.llnl.gov",
+        3,
+        0
+      ]
+    }
+  },
+  "TOP_DOWN": {
+    "frontend_bound (%)": {
+      "min": 8.39,
+      "max": 13.32,
+      "avg": 9.101805555555554,
+      "std": 0.97,
+      "var": 0.94,
+      "min_host_rank_thread": [
+        "oslic8.llnl.gov",
+        3,
+        19
+      ],
+      "max_host_rank_thread": [
+        "oslic8.llnl.gov",
+        5,
+        0
+      ]
+    },
+    "  frontend_latency (%)": {
+      "min": 4.74,
+      "max": 6.81,
+      "avg": 6.034444444444443,
+      "std": 0.28,
+      "var": 0.08,
+      "min_host_rank_thread": [
+        "oslic8.llnl.gov",
+        4,
+        0
+      ],
+      "max_host_rank_thread": [
+        "oslic8.llnl.gov",
+        1,
+        12
+      ]
+    },
+    "    icache_misses (%)": {
+      "min": 0.51,
+      "max": 0.82,
+      "avg": 0.6384722222222223,
+      "std": 0.07,
+      "var": 0.0,
+      "min_host_rank_thread": [
+        "oslic8.llnl.gov",
+        7,
+        16
+      ],
+      "max_host_rank_thread": [
+        "oslic8.llnl.gov",
+        7,
+        6
+      ]
+    },
+    "    itlb_misses (%)": {
+      "min": 0.52,
+      "max": 2,
+      "avg": 1.5559722222222216,
+      "std": 0.29,
+      "var": 0.09,
+      "min_host_rank_thread": [
+        "oslic8.llnl.gov",
+        3,
+        0
+      ],
+      "max_host_rank_thread": [
+        "oslic8.llnl.gov",
+        2,
+        14
+      ]
+    },
+    "    branch_resteers (%)": {
+      "min": 0.16,
+      "max": 1.18,
+      "avg": 0.23048611111111145,
+      "std": 0.23,
+      "var": 0.05,
+      "min_host_rank_thread": [
+        "oslic8.llnl.gov",
+        6,
+        3
+      ],
+      "max_host_rank_thread": [
+        "oslic8.llnl.gov",
+        3,
+        0
+      ]
+    },
+    "    dsb_switches (%)": {
+      "min": 0.04,
+      "max": 0.2,
+      "avg": 0.17194444444444457,
+      "std": 0.03,
+      "var": 0.0,
+      "min_host_rank_thread": [
+        "oslic8.llnl.gov",
+        4,
+        0
+      ],
+      "max_host_rank_thread": [
+        "oslic8.llnl.gov",
+        3,
+        8
+      ]
+    },
+    "    ms_switches (%)": {
+      "min": 10.05,
+      "max": 15.44,
+      "avg": 14.931944444444444,
+      "std": 1.1,
+      "var": 1.22,
+      "min_host_rank_thread": [
+        "oslic8.llnl.gov",
+        4,
+        0
+      ],
+      "max_host_rank_thread": [
+        "oslic8.llnl.gov",
+        7,
+        3
+      ]
+    },
+    "  frontend_bandwidth (%)": {
+      "min": 2.61,
+      "max": 7.7,
+      "avg": 3.0675694444444437,
+      "std": 1.07,
+      "var": 1.15,
+      "min_host_rank_thread": [
+        "oslic8.llnl.gov",
+        0,
+        6
+      ],
+      "max_host_rank_thread": [
+        "oslic8.llnl.gov",
+        5,
+        0
+      ]
+    },
+    "    mite (%)": {
+      "min": 0.79,
+      "max": 2.15,
+      "avg": 1.892152777777778,
+      "std": 0.26,
+      "var": 0.07,
+      "min_host_rank_thread": [
+        "oslic8.llnl.gov",
+        3,
+        0
+      ],
+      "max_host_rank_thread": [
+        "oslic8.llnl.gov",
+        7,
+        6
+      ]
+    },
+    "    dsb (%)": {
+      "min": 24.98,
+      "max": 28.25,
+      "avg": 26.323680555555555,
+      "std": 0.61,
+      "var": 0.37,
+      "min_host_rank_thread": [
+        "oslic8.llnl.gov",
+        0,
+        6
+      ],
+      "max_host_rank_thread": [
+        "oslic8.llnl.gov",
+        6,
+        0
+      ]
+    },
+    "bad_speculation (%)": {
+      "min": 0.11,
+      "max": 1.88,
+      "avg": 0.3290972222222221,
+      "std": 0.35,
+      "var": 0.12,
+      "min_host_rank_thread": [
+        "oslic8.llnl.gov",
+        6,
+        5
+      ],
+      "max_host_rank_thread": [
+        "oslic8.llnl.gov",
+        3,
+        0
+      ]
+    },
+    "  branch_mispredicts (%)": {
+      "min": 0.11,
+      "max": 1.84,
+      "avg": 0.3157638888888891,
+      "std": 0.35,
+      "var": 0.12,
+      "min_host_rank_thread": [
+        "oslic8.llnl.gov",
+        6,
+        5
+      ],
+      "max_host_rank_thread": [
+        "oslic8.llnl.gov",
+        5,
+        0
+      ]
+    },
+    "  machine_clears (%)": {
+      "min": 0.01,
+      "max": 0.03,
+      "avg": 0.012222222222222232,
+      "std": 0.0,
+      "var": 0.0,
+      "min_host_rank_thread": [
+        "oslic8.llnl.gov",
+        6,
+        0
+      ],
+      "max_host_rank_thread": [
+        "oslic8.llnl.gov",
+        5,
+        0
+      ]
+    },
+    "backend_bound (%)": {
+      "min": 20.88,
+      "max": 53.14,
+      "avg": 50.84888888888889,
+      "std": 7.08,
+      "var": 50.09,
+      "min_host_rank_thread": [
+        "oslic8.llnl.gov",
+        5,
+        0
+      ],
+      "max_host_rank_thread": [
+        "oslic8.llnl.gov",
+        0,
+        16
+      ]
+    },
+    "  memory_bound (%)": {
+      "min": 3.28,
+      "max": 9.57,
+      "avg": 8.383402777777778,
+      "std": 1.23,
+      "var": 1.52,
+      "min_host_rank_thread": [
+        "oslic8.llnl.gov",
+        5,
+        0
+      ],
+      "max_host_rank_thread": [
+        "oslic8.llnl.gov",
+        0,
+        17
+      ]
+    },
+    "    l1_bound (%)": {
+      "min": 4.01,
+      "max": 6.09,
+      "avg": 4.3902777777777775,
+      "std": 0.41,
+      "var": 0.17,
+      "min_host_rank_thread": [
+        "oslic8.llnl.gov",
+        0,
+        3
+      ],
+      "max_host_rank_thread": [
+        "oslic8.llnl.gov",
+        3,
+        0
+      ]
+    },
+    "    l2_bound (%)": {
+      "min": 0.11,
+      "max": 0.79,
+      "avg": 0.6268749999999998,
+      "std": 0.13,
+      "var": 0.02,
+      "min_host_rank_thread": [
+        "oslic8.llnl.gov",
+        6,
+        0
+      ],
+      "max_host_rank_thread": [
+        "oslic8.llnl.gov",
+        3,
+        5
+      ]
+    },
+    "    l3_bound (%)": {
+      "min": 0.78,
+      "max": 2.64,
+      "avg": 1.9888194444444447,
+      "std": 0.36,
+      "var": 0.13,
+      "min_host_rank_thread": [
+        "oslic8.llnl.gov",
+        5,
+        0
+      ],
+      "max_host_rank_thread": [
+        "oslic8.llnl.gov",
+        0,
+        5
+      ]
+    },
+    "    dram_bound (%)": {
+      "min": 0.4,
+      "max": 0.78,
+      "avg": 0.5811111111111114,
+      "std": 0.07,
+      "var": 0.01,
+      "min_host_rank_thread": [
+        "oslic8.llnl.gov",
+        2,
+        0
+      ],
+      "max_host_rank_thread": [
+        "oslic8.llnl.gov",
+        3,
+        11
+      ]
+    },
+    "    store_bound (%)": {
+      "min": 0.67,
+      "max": 1.87,
+      "avg": 1.2661805555555563,
+      "std": 0.23,
+      "var": 0.05,
+      "min_host_rank_thread": [
+        "oslic8.llnl.gov",
+        7,
+        0
+      ],
+      "max_host_rank_thread": [
+        "oslic8.llnl.gov",
+        0,
+        3
+      ]
+    },
+    "  core_bound (%)": {
+      "min": 20.88,
+      "max": 53.14,
+      "avg": 50.84888888888889,
+      "std": 7.08,
+      "var": 50.09,
+      "min_host_rank_thread": [
+        "oslic8.llnl.gov",
+        5,
+        0
+      ],
+      "max_host_rank_thread": [
+        "oslic8.llnl.gov",
+        0,
+        16
+      ]
+    },
+    "    divider (%)": {
+      "min": 0.27,
+      "max": 0.94,
+      "avg": 0.691111111111111,
+      "std": 0.14,
+      "var": 0.02,
+      "min_host_rank_thread": [
+        "oslic8.llnl.gov",
+        5,
+        0
+      ],
+      "max_host_rank_thread": [
+        "oslic8.llnl.gov",
+        0,
+        15
+      ]
+    },
+    "    port_utilization (%)": {
+      "min": 42.4,
+      "max": 45.49,
+      "avg": 44.85027777777778,
+      "std": 0.54,
+      "var": 0.29,
+      "min_host_rank_thread": [
+        "oslic8.llnl.gov",
+        2,
+        0
+      ],
+      "max_host_rank_thread": [
+        "oslic8.llnl.gov",
+        7,
+        3
+      ]
+    },
+    "retiring (%)": {
+      "min": 37.76,
+      "max": 63.94,
+      "avg": 39.721041666666665,
+      "std": 5.8,
+      "var": 33.62,
+      "min_host_rank_thread": [
+        "oslic8.llnl.gov",
+        0,
+        6
+      ],
+      "max_host_rank_thread": [
+        "oslic8.llnl.gov",
+        5,
+        0
+      ]
+    },
+    "  base (%)": {
+      "min": 28.51,
+      "max": 59.59,
+      "avg": 30.560555555555556,
+      "std": 6.98,
+      "var": 48.79,
+      "min_host_rank_thread": [
+        "oslic8.llnl.gov",
+        3,
+        6
+      ],
+      "max_host_rank_thread": [
+        "oslic8.llnl.gov",
+        5,
+        0
+      ]
+    },
+    "    fp_arith (%)": {
+      "min": 0.62,
+      "max": 2.91,
+      "avg": 2.4137499999999976,
+      "std": 0.44,
+      "var": 0.2,
+      "min_host_rank_thread": [
+        "oslic8.llnl.gov",
+        3,
+        0
+      ],
+      "max_host_rank_thread": [
+        "oslic8.llnl.gov",
+        1,
+        7
+      ]
+    },
+    "      fp_scalar (%)": {
+      "min": 0.56,
+      "max": 2.61,
+      "avg": 2.1764583333333345,
+      "std": 0.4,
+      "var": 0.16,
+      "min_host_rank_thread": [
+        "oslic8.llnl.gov",
+        3,
+        0
+      ],
+      "max_host_rank_thread": [
+        "oslic8.llnl.gov",
+        1,
+        7
+      ]
+    },
+    "      fp_vector (%)": {
+      "min": 0.06,
+      "max": 0.3,
+      "avg": 0.2366666666666667,
+      "std": 0.04,
+      "var": 0.0,
+      "min_host_rank_thread": [
+        "oslic8.llnl.gov",
+        5,
+        0
+      ],
+      "max_host_rank_thread": [
+        "oslic8.llnl.gov",
+        0,
+        15
+      ]
+    },
+    "    other (%)": {
+      "min": 97.09,
+      "max": 99.38,
+      "avg": 97.58625,
+      "std": 0.44,
+      "var": 0.2,
+      "min_host_rank_thread": [
+        "oslic8.llnl.gov",
+        1,
+        7
+      ],
+      "max_host_rank_thread": [
+        "oslic8.llnl.gov",
+        3,
+        0
+      ]
+    },
+    "  microcode_sequencer (%)": {
+      "min": 4.21,
+      "max": 9.62,
+      "avg": 9.160347222222224,
+      "std": 1.19,
+      "var": 1.42,
+      "min_host_rank_thread": [
+        "oslic8.llnl.gov",
+        4,
+        0
+      ],
+      "max_host_rank_thread": [
+        "oslic8.llnl.gov",
+        7,
+        3
+      ]
+    }
+  },
+  "DATA": {
+    "ARITH:FPU_DIV_ACTIVE": {
+      "min": 1064360151,
+      "max": 1708328120,
+      "avg": 1315350080,
+      "std": 195422543.43,
+      "var": 3.818997048016411e+16,
+      "min_host_rank_thread": [
+        "oslic8.llnl.gov",
+        5,
+        19
+      ],
+      "max_host_rank_thread": [
+        "oslic8.llnl.gov",
+        0,
+        17
+      ]
+    },
+    "BACLEARS:ANY": {
+      "min": 900807,
+      "max": 23457148,
+      "avg": 3071603,
+      "std": 3699666.42,
+      "var": 13687531582327.47,
+      "min_host_rank_thread": [
+        "oslic8.llnl.gov",
+        4,
+        18
+      ],
+      "max_host_rank_thread": [
+        "oslic8.llnl.gov",
+        3,
+        0
+      ]
+    },
+    "BR_MISP_RETIRED:ALL_BRANCHES": {
+      "min": 20961434,
+      "max": 403893316,
+      "avg": 43061459,
+      "std": 80672397.02,
+      "var": 6508035640977728.0,
+      "min_host_rank_thread": [
+        "oslic8.llnl.gov",
+        7,
+        17
+      ],
+      "max_host_rank_thread": [
+        "oslic8.llnl.gov",
+        3,
+        0
+      ]
+    },
+    "CPU_CLK_UNHALTED:t=0": {
+      "min": 176706018052,
+      "max": 443381503987,
+      "avg": 197127325134,
+      "std": 52284035402.63,
+      "var": 2.733620357983762e+21,
+      "min_host_rank_thread": [
+        "oslic8.llnl.gov",
+        7,
+        17
+      ],
+      "max_host_rank_thread": [
+        "oslic8.llnl.gov",
+        3,
+        0
+      ]
+    },
+    "CYCLE_ACTIVITY:STALLS_L1D_PENDING": {
+      "min": 4756950051,
+      "max": 7604730836,
+      "avg": 6084956553,
+      "std": 547551574.14,
+      "var": 2.998127263434938e+17,
+      "min_host_rank_thread": [
+        "oslic8.llnl.gov",
+        7,
+        16
+      ],
+      "max_host_rank_thread": [
+        "oslic8.llnl.gov",
+        0,
+        17
+      ]
+    },
+    "CYCLE_ACTIVITY:STALLS_L2_PENDING": {
+      "min": 3594986911,
+      "max": 6250727689,
+      "avg": 4912017194,
+      "std": 520056722.13,
+      "var": 2.7045899422889654e+17,
+      "min_host_rank_thread": [
+        "oslic8.llnl.gov",
+        3,
+        4
+      ],
+      "max_host_rank_thread": [
+        "oslic8.llnl.gov",
+        0,
+        17
+      ]
+    },
+    "CYCLE_ACTIVITY:STALLS_LDM_PENDING": {
+      "min": 12452432112,
+      "max": 33093242485,
+      "avg": 14947078237,
+      "std": 3924989539.26,
+      "var": 1.5405542883326884e+19,
+      "min_host_rank_thread": [
+        "oslic8.llnl.gov",
+        7,
+        16
+      ],
+      "max_host_rank_thread": [
+        "oslic8.llnl.gov",
+        3,
+        0
+      ]
+    },
+    "CYCLE_ACTIVITY:STALLS_TOTAL": {
+      "min": 56020115844,
+      "max": 67259438125,
+      "avg": 61539382372,
+      "std": 2204147281.01,
+      "var": 4.858265236380754e+18,
+      "min_host_rank_thread": [
+        "oslic8.llnl.gov",
+        7,
+        17
+      ],
+      "max_host_rank_thread": [
+        "oslic8.llnl.gov",
+        3,
+        0
+      ]
+    },
+    "DSB2MITE_SWITCHES:PENALTY_CYCLES": {
+      "min": 166177439,
+      "max": 374504807,
+      "avg": 322771013,
+      "std": 38934952.85,
+      "var": 1515930553401692.0,
+      "min_host_rank_thread": [
+        "oslic8.llnl.gov",
+        6,
+        0
+      ],
+      "max_host_rank_thread": [
+        "oslic8.llnl.gov",
+        6,
+        12
+      ]
+    },
+    "FP_ARITH_INST_RETIRED:SCALAR_DOUBLE": {
+      "min": 5690327764,
+      "max": 7139873389,
+      "avg": 6418355591,
+      "std": 333190736.68,
+      "var": 1.110160670085663e+17,
+      "min_host_rank_thread": [
+        "oslic8.llnl.gov",
+        7,
+        5
+      ],
+      "max_host_rank_thread": [
+        "oslic8.llnl.gov",
+        1,
+        6
+      ]
+    },
+    "FP_ARITH_INST_RETIRED:128B_PACKED_DOUBLE": {
+      "min": 590020198,
+      "max": 831350028,
+      "avg": 698513846,
+      "std": 52447477.22,
+      "var": 2750737866658398.0,
+      "min_host_rank_thread": [
+        "oslic8.llnl.gov",
+        5,
+        15
+      ],
+      "max_host_rank_thread": [
+        "oslic8.llnl.gov",
+        0,
+        15
+      ]
+    },
+    "ICACHE:IFDATA_STALL": {
+      "min": 900482604,
+      "max": 2814952364,
+      "avg": 1264220287,
+      "std": 388820687.92,
+      "var": 1.5118152735221856e+17,
+      "min_host_rank_thread": [
+        "oslic8.llnl.gov",
+        7,
+        16
+      ],
+      "max_host_rank_thread": [
+        "oslic8.llnl.gov",
+        7,
+        0
+      ]
+    },
+    "IDQ:MS_SWITCHES": {
+      "min": 13301584250,
+      "max": 23350328412,
+      "avg": 14435738640,
+      "std": 1767378509.07,
+      "var": 3.1236267943334185e+18,
+      "min_host_rank_thread": [
+        "oslic8.llnl.gov",
+        2,
+        14
+      ],
+      "max_host_rank_thread": [
+        "oslic8.llnl.gov",
+        3,
+        0
+      ]
+    },
+    "IDQ:ALL_DSB_CYCLES_ANY_UOPS": {
+      "min": 85061554492,
+      "max": 342435061897,
+      "avg": 101682396536,
+      "std": 52106093148.21,
+      "var": 2.715044943170445e+21,
+      "min_host_rank_thread": [
+        "oslic8.llnl.gov",
+        2,
+        14
+      ],
+      "max_host_rank_thread": [
+        "oslic8.llnl.gov",
+        3,
+        0
+      ]
+    },
+    "IDQ:ALL_DSB_CYCLES_4_UOPS": {
+      "min": 38761985554,
+      "max": 217193133240,
+      "avg": 49588301130,
+      "std": 36690329351.83,
+      "var": 1.3461802679457344e+21,
+      "min_host_rank_thread": [
+        "oslic8.llnl.gov",
+        1,
+        7
+      ],
+      "max_host_rank_thread": [
+        "oslic8.llnl.gov",
+        3,
+        0
+      ]
+    },
+    "IDQ:ALL_MITE_CYCLES_ANY_UOPS": {
+      "min": 4197703389,
+      "max": 5092622069,
+      "avg": 4566295868,
+      "std": 178759430.7,
+      "var": 3.1954934065086616e+16,
+      "min_host_rank_thread": [
+        "oslic8.llnl.gov",
+        0,
+        7
+      ],
+      "max_host_rank_thread": [
+        "oslic8.llnl.gov",
+        7,
+        6
+      ]
+    },
+    "IDQ:ALL_MITE_CYCLES_4_UOPS": {
+      "min": 868045490,
+      "max": 1079613793,
+      "avg": 967117095,
+      "std": 46648492.3,
+      "var": 2176081834145831.8,
+      "min_host_rank_thread": [
+        "oslic8.llnl.gov",
+        0,
+        7
+      ],
+      "max_host_rank_thread": [
+        "oslic8.llnl.gov",
+        5,
+        0
+      ]
+    },
+    "IDQ:MS_UOPS": {
+      "min": 66285158879,
+      "max": 78395358512,
+      "avg": 70137789854,
+      "std": 2496067852.1,
+      "var": 6.230354722281944e+18,
+      "min_host_rank_thread": [
+        "oslic8.llnl.gov",
+        2,
+        14
+      ],
+      "max_host_rank_thread": [
+        "oslic8.llnl.gov",
+        3,
+        0
+      ]
+    },
+    "IDQ_UOPS_NOT_DELIVERED:CORE": {
+      "min": 59638596265,
+      "max": 235841865392,
+      "avg": 73694137459,
+      "std": 34004297231.98,
+      "var": 1.1562922302409228e+21,
+      "min_host_rank_thread": [
+        "oslic8.llnl.gov",
+        3,
+        19
+      ],
+      "max_host_rank_thread": [
+        "oslic8.llnl.gov",
+        3,
+        0
+      ]
+    },
+    "IDQ_UOPS_NOT_DELIVERED:CYCLES_0_UOPS_DELIV_CORE": {
+      "min": 9779940616,
+      "max": 24826293483,
+      "avg": 11830506419,
+      "std": 2699103059.75,
+      "var": 7.285157327134729e+18,
+      "min_host_rank_thread": [
+        "oslic8.llnl.gov",
+        3,
+        19
+      ],
+      "max_host_rank_thread": [
+        "oslic8.llnl.gov",
+        3,
+        0
+      ]
+    },
+    "ILD_STALL:LCP": {
+      "min": 0,
+      "max": 2228103,
+      "avg": 93932,
+      "std": 394764.58,
+      "var": 155839075098.69,
+      "min_host_rank_thread": [
+        "oslic8.llnl.gov",
+        4,
+        3
+      ],
+      "max_host_rank_thread": [
+        "oslic8.llnl.gov",
+        3,
+        0
+      ]
+    },
+    "INST_RETIRED:ANY_P": {
+      "min": 206194890747,
+      "max": 1086082201009,
+      "avg": 260150622782,
+      "std": 180507871533.36,
+      "var": 3.258309168550483e+22,
+      "min_host_rank_thread": [
+        "oslic8.llnl.gov",
+        7,
+        5
+      ],
+      "max_host_rank_thread": [
+        "oslic8.llnl.gov",
+        3,
+        0
+      ]
+    },
+    "INST_RETIRED:X87": {
+      "min": 996953,
+      "max": 1238232,
+      "avg": 1064391,
+      "std": 44962.14,
+      "var": 2021594051.31,
+      "min_host_rank_thread": [
+        "oslic8.llnl.gov",
+        6,
+        4
+      ],
+      "max_host_rank_thread": [
+        "oslic8.llnl.gov",
+        6,
+        0
+      ]
+    },
+    "INT_MISC:RECOVERY_CYCLES": {
+      "min": 137117415,
+      "max": 2317492077,
+      "avg": 262541269,
+      "std": 448898480.86,
+      "var": 2.015098461163715e+17,
+      "min_host_rank_thread": [
+        "oslic8.llnl.gov",
+        7,
+        5
+      ],
+      "max_host_rank_thread": [
+        "oslic8.llnl.gov",
+        3,
+        0
+      ]
+    },
+    "ITLB_MISSES:STLB_HIT": {
+      "min": 41084,
+      "max": 795540,
+      "avg": 194689,
+      "std": 207282.71,
+      "var": 42966122521.3,
+      "min_host_rank_thread": [
+        "oslic8.llnl.gov",
+        2,
+        7
+      ],
+      "max_host_rank_thread": [
+        "oslic8.llnl.gov",
+        6,
+        18
+      ]
+    },
+    "ITLB_MISSES:WALK_DURATION": {
+      "min": 1799680024,
+      "max": 3018521643,
+      "avg": 2463632103,
+      "std": 302142976.81,
+      "var": 9.129037843269122e+16,
+      "min_host_rank_thread": [
+        "oslic8.llnl.gov",
+        3,
+        19
+      ],
+      "max_host_rank_thread": [
+        "oslic8.llnl.gov",
+        0,
+        5
+      ]
+    },
+    "ITLB_MISSES:WALK_COMPLETED": {
+      "min": 51078527,
+      "max": 81734720,
+      "avg": 68401081,
+      "std": 6839878.8,
+      "var": 46783941948047.09,
+      "min_host_rank_thread": [
+        "oslic8.llnl.gov",
+        3,
+        19
+      ],
+      "max_host_rank_thread": [
+        "oslic8.llnl.gov",
+        6,
+        18
+      ]
+    },
+    "MACHINE_CLEARS:COUNT": {
+      "min": 1044717,
+      "max": 6933924,
+      "avg": 1476721,
+      "std": 884206.54,
+      "var": 781821204116.84,
+      "min_host_rank_thread": [
+        "oslic8.llnl.gov",
+        5,
+        3
+      ],
+      "max_host_rank_thread": [
+        "oslic8.llnl.gov",
+        3,
+        0
+      ]
+    },
+    "MEM_LOAD_UOPS_RETIRED:L3_HIT": {
+      "min": 76134423,
+      "max": 187494916,
+      "avg": 110550790,
+      "std": 19423373.82,
+      "var": 377267450615002.8,
+      "min_host_rank_thread": [
+        "oslic8.llnl.gov",
+        5,
+        16
+      ],
+      "max_host_rank_thread": [
+        "oslic8.llnl.gov",
+        2,
+        0
+      ]
+    },
+    "MEM_LOAD_UOPS_RETIRED:L3_MISS": {
+      "min": 3269346,
+      "max": 11984864,
+      "avg": 4780980,
+      "std": 1624229.55,
+      "var": 2638121639056.74,
+      "min_host_rank_thread": [
+        "oslic8.llnl.gov",
+        6,
+        14
+      ],
+      "max_host_rank_thread": [
+        "oslic8.llnl.gov",
+        6,
+        0
+      ]
+    },
+    "RESOURCE_STALLS:SB": {
+      "min": 1748715723,
+      "max": 5300148480,
+      "avg": 2452564562,
+      "std": 544034188.63,
+      "var": 2.9597319839519654e+17,
+      "min_host_rank_thread": [
+        "oslic8.llnl.gov",
+        5,
+        4
+      ],
+      "max_host_rank_thread": [
+        "oslic8.llnl.gov",
+        0,
+        0
+      ]
+    },
+    "RS_EVENTS:EMPTY_CYCLES": {
+      "min": 31521793208,
+      "max": 55710152973,
+      "avg": 49641428638,
+      "std": 4557375451.37,
+      "var": 2.076967100472021e+19,
+      "min_host_rank_thread": [
+        "oslic8.llnl.gov",
+        1,
+        0
+      ],
+      "max_host_rank_thread": [
+        "oslic8.llnl.gov",
+        4,
+        6
+      ]
+    },
+    "UOPS_EXECUTED:CYCLES_GE_1_UOP_EXEC": {
+      "min": 117751224101,
+      "max": 375128485928,
+      "avg": 135786402242,
+      "std": 51624982338.26,
+      "var": 2.665138801425636e+21,
+      "min_host_rank_thread": [
+        "oslic8.llnl.gov",
+        3,
+        10
+      ],
+      "max_host_rank_thread": [
+        "oslic8.llnl.gov",
+        3,
+        0
+      ]
+    },
+    "UOPS_EXECUTED:CYCLES_GE_2_UOPS_EXEC": {
+      "min": 83770226317,
+      "max": 310199532780,
+      "avg": 98873845930,
+      "std": 45880263245.27,
+      "var": 2.104998555455048e+21,
+      "min_host_rank_thread": [
+        "oslic8.llnl.gov",
+        3,
+        10
+      ],
+      "max_host_rank_thread": [
+        "oslic8.llnl.gov",
+        3,
+        0
+      ]
+    },
+    "UOPS_EXECUTED:CYCLES_GE_3_UOPS_EXEC": {
+      "min": 47689414645,
+      "max": 218435168445,
+      "avg": 61435662654,
+      "std": 34320924235.74,
+      "var": 1.1779258403956822e+21,
+      "min_host_rank_thread": [
+        "oslic8.llnl.gov",
+        7,
+        17
+      ],
+      "max_host_rank_thread": [
+        "oslic8.llnl.gov",
+        3,
+        0
+      ]
+    },
+    "UOPS_ISSUED:ANY": {
+      "min": 271600977847,
+      "max": 1151656043572,
+      "avg": 327369949740,
+      "std": 179387667322.55,
+      "var": 3.2179935187426527e+22,
+      "min_host_rank_thread": [
+        "oslic8.llnl.gov",
+        7,
+        17
+      ],
+      "max_host_rank_thread": [
+        "oslic8.llnl.gov",
+        3,
+        0
+      ]
+    },
+    "UOPS_RETIRED:RETIRE_SLOTS": {
+      "min": 270639784347,
+      "max": 1127665014020,
+      "avg": 325113722675,
+      "std": 174978826850.4,
+      "var": 3.061758984594279e+22,
+      "min_host_rank_thread": [
+        "oslic8.llnl.gov",
+        7,
+        17
+      ],
+      "max_host_rank_thread": [
+        "oslic8.llnl.gov",
+        3,
+        0
+      ]
+    }
+  }
+}

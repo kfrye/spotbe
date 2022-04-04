@@ -102,6 +102,9 @@ def connect(database_key,read_only=False):
     import os
 
     if os.path.isdir(database_key):
+        if 'survey' in database_key:
+            from .survey_spot import SurveySpot
+            return SurveySpot(database_key)
         from .calidirdb import SpotCaliperDirectoryDB
         return SpotCaliperDirectoryDB(database_key)
     elif database_key.endswith(".sqlite") or database_key.startswith("mysql"):

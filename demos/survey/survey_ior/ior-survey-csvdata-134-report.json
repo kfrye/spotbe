@@ -1,0 +1,170 @@
+{
+  "SUMMARY": {
+    "total_time_seconds": {
+      "value": 0.030106
+    }
+  },
+  "DMEM": {
+    "dmem_size_kB": {
+      "value": 160588
+    },
+    "dmem_resident_kB": {
+      "value": 9964
+    },
+    "dmem_high_water_mark_kB": {
+      "value": 13248
+    },
+    "dmem_shared_kB": {
+      "value": 6676
+    },
+    "dmem_heap_kB": {
+      "value": 19592
+    }
+  },
+  "MEMALLOC": {
+    "allocation_time_seconds": {
+      "value": 3.1e-05
+    },
+    "allocation_calls": {
+      "value": 183
+    },
+    "allocation_bytes": {
+      "value": 301508
+    }
+  },
+  "MEMFREE": {
+    "free_time_seconds": {
+      "value": 3.4e-05
+    },
+    "free_calls": {
+      "value": 144
+    }
+  },
+  "RUSAGE": {
+    "maxrss_kB": {
+      "value": 13248
+    },
+    "utime_seconds": {
+      "value": 0.021191
+    },
+    "stime_seconds": {
+      "value": 0.012714
+    }
+  },
+  "IO": {
+    "io_total_time_seconds": {
+      "value": 0.00096
+    },
+    "read_time_seconds": {
+      "value": 9.9e-05
+    },
+    "write_time_seconds": {
+      "value": 0.000761
+    },
+    "read_bytes": {
+      "value": 1048576
+    },
+    "write_bytes": {
+      "value": 1048728
+    },
+    "io_percent": {
+      "value": 3.188733142895104
+    }
+  },
+  "MPI": {
+    "total_mpi_time_seconds": {
+      "value": 0.028572
+    },
+    "mpi_percent": {
+      "value": 94.90467016541554
+    }
+  },
+  "app_data": {
+    "access": {
+      "write": {
+        "access": "write",
+        "bw_MiB_s_": "1383.35",
+        "IOPS": "5866",
+        "Latency_s_": "0.000170",
+        "block_KiB_": "1024.00",
+        "xfer_KiB_": "256.00",
+        "open_s_": "0.000038",
+        "wr_rd_s_": "0.000682",
+        "close_s_": "0.000003",
+        "total_s_": "0.000723",
+        "iter": "0"
+      },
+      "read": {
+        "access": "read",
+        "bw_MiB_s_": "8924",
+        "IOPS": "38044",
+        "Latency_s_": "0.000026",
+        "block_KiB_": "1024.00",
+        "xfer_KiB_": "256.00",
+        "open_s_": "0.000004",
+        "wr_rd_s_": "0.000105",
+        "close_s_": "0.000003",
+        "total_s_": "0.000112",
+        "iter": "0"
+      }
+    },
+    "Operation": {
+      "write": {
+        "Operation": "write",
+        "Max_MiB_": "1383.35",
+        "Min_MiB_": "1383.35",
+        "Mean_MiB_": "1383.35",
+        "StdDev": "0.00",
+        "Max_OPs_": "5533.38",
+        "Min_OPs_": "5533.38",
+        "Mean_OPs_": "5533.38",
+        "Mean_s_": "0.00072",
+        "Stonewall_s_": "NA",
+        "Stonewall_MiB_": "NA",
+        "Test#": "0",
+        "#Tasks": "1",
+        "tPN": "1",
+        "reps": "1",
+        "fPP": "0",
+        "reord": "0",
+        "reordoff": "1",
+        "reordrand": "0",
+        "seed": "0",
+        "segcnt": "1",
+        "blksiz": "1048576",
+        "xsize": "262144",
+        "aggs_MiB_": "1.0",
+        "API": "POSIX",
+        "RefNum": "0"
+      },
+      "read": {
+        "Operation": "read",
+        "Max_MiB_": "8924.05",
+        "Min_MiB_": "8924.05",
+        "Mean_MiB_": "8924.05",
+        "StdDev": "0.00",
+        "Max_OPs_": "35696.20",
+        "Min_OPs_": "35696.20",
+        "Mean_OPs_": "35696.20",
+        "Mean_s_": "0.00011",
+        "Stonewall_s_": "NA",
+        "Stonewall_MiB_": "NA",
+        "Test#": "0",
+        "#Tasks": "1",
+        "tPN": "1",
+        "reps": "1",
+        "fPP": "0",
+        "reord": "0",
+        "reordoff": "1",
+        "reordrand": "0",
+        "seed": "0",
+        "segcnt": "1",
+        "blksiz": "1048576",
+        "xsize": "262144",
+        "aggs_MiB_": "1.0",
+        "API": "POSIX",
+        "RefNum": "0"
+      }
+    }
+  }
+}

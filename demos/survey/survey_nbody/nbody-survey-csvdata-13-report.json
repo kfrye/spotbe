@@ -1,0 +1,265 @@
+{
+  "SUMMARY": {
+    "total_time_seconds": {
+      "min": 2.014723,
+      "max": 2.19547,
+      "avg": 2.08230725,
+      "std": 0.08,
+      "var": 0.01,
+      "min_host_rank_thread": [
+        "skull",
+        0,
+        3
+      ],
+      "max_host_rank_thread": [
+        "skull",
+        0,
+        0
+      ]
+    }
+  },
+  "DMEM": {
+    "dmem_size_kB": [
+      {
+        "value": 5033368
+      }
+    ],
+    "dmem_resident_kB": [
+      {
+        "value": 149252
+      }
+    ],
+    "dmem_high_water_mark_kB": [
+      {
+        "value": 149952
+      }
+    ],
+    "dmem_shared_kB": [
+      {
+        "value": 127284
+      }
+    ],
+    "dmem_heap_kB": [
+      {
+        "value": 49712
+      }
+    ]
+  },
+  "MEMALLOC": {
+    "allocation_calls": [
+      {
+        "min": 2,
+        "max": 35000,
+        "avg": 11678,
+        "std": 20197.45,
+        "var": 407936988.0,
+        "min_host_rank_thread": [
+          "skull",
+          0,
+          1
+        ],
+        "max_host_rank_thread": [
+          "skull",
+          0,
+          0
+        ]
+      }
+    ],
+    "allocation_bytes": [
+      {
+        "min": 24,
+        "max": 508249285,
+        "avg": 169417215,
+        "std": 293437180.24,
+        "var": 8.610537874670002e+16,
+        "min_host_rank_thread": [
+          "skull",
+          0,
+          1
+        ],
+        "max_host_rank_thread": [
+          "skull",
+          0,
+          0
+        ]
+      }
+    ]
+  },
+  "MEMFREE": {
+    "free_calls": [
+      {
+        "min": 3,
+        "max": 21724,
+        "avg": 7259,
+        "std": 12526.79,
+        "var": 156920512.33,
+        "min_host_rank_thread": [
+          "skull",
+          0,
+          1
+        ],
+        "max_host_rank_thread": [
+          "skull",
+          0,
+          0
+        ]
+      }
+    ]
+  },
+  "RUSAGE": {
+    "maxrss_kB": [
+      {
+        "value": 149952
+      }
+    ],
+    "utime_seconds": [
+      {
+        "min": 0.000192,
+        "max": 0.260791,
+        "avg": 0.06579475000000001,
+        "std": 0.13,
+        "var": 0.02,
+        "min_host_rank_thread": [
+          "skull",
+          0,
+          1
+        ],
+        "max_host_rank_thread": [
+          "skull",
+          0,
+          0
+        ]
+      }
+    ]
+  },
+  "IO": {
+    "io_total_time_seconds": [
+      {
+        "min": 1e-06,
+        "max": 0.013185,
+        "avg": 0.004398333333333333,
+        "std": 0.01,
+        "var": 0.0,
+        "min_host_rank_thread": [
+          "skull",
+          0,
+          1
+        ],
+        "max_host_rank_thread": [
+          "skull",
+          0,
+          0
+        ]
+      }
+    ],
+    "read_time_seconds": [
+      {
+        "min": 1e-06,
+        "max": 0.000486,
+        "avg": 0.00016533333333333333,
+        "std": 0.0,
+        "var": 0.0,
+        "min_host_rank_thread": [
+          "skull",
+          0,
+          1
+        ],
+        "max_host_rank_thread": [
+          "skull",
+          0,
+          0
+        ]
+      }
+    ],
+    "read_bytes": [
+      {
+        "min": 8,
+        "max": 450292,
+        "avg": 150129,
+        "std": 259948.5,
+        "var": 67573221445.33,
+        "min_host_rank_thread": [
+          "skull",
+          0,
+          1
+        ],
+        "max_host_rank_thread": [
+          "skull",
+          0,
+          0
+        ]
+      }
+    ],
+    "io_percent": [
+      {
+        "min": 4.7969245957032025e-05,
+        "max": 0.6005547787034212,
+        "avg": 0.2003483820008112,
+        "std": 0.35,
+        "var": 0.12,
+        "min_host_rank_thread": [
+          "skull",
+          0,
+          1
+        ],
+        "max_host_rank_thread": [
+          "skull",
+          0,
+          0
+        ]
+      }
+    ]
+  },
+  "gpu_data": {
+    "0": {
+      "utilization.gpu [%]": {
+        "count": 3.0,
+        "mean": 22.666666666666668,
+        "std": 8.621678104251709,
+        "min": 15.0,
+        "10%": 16.2,
+        "20%": 17.4,
+        "30%": 18.6,
+        "40%": 19.8,
+        "50%": 21.0,
+        "60%": 23.200000000000003,
+        "70%": 25.4,
+        "80%": 27.6,
+        "90%": 29.8,
+        "max": 32.0
+      },
+      "utilization.memory [%]": {
+        "count": 3.0,
+        "mean": 8.333333333333334,
+        "std": 5.773502691896258,
+        "min": 5.0,
+        "10%": 5.0,
+        "20%": 5.0,
+        "30%": 5.0,
+        "40%": 5.0,
+        "50%": 5.0,
+        "60%": 7.000000000000002,
+        "70%": 9.0,
+        "80%": 11.0,
+        "90%": 13.0,
+        "max": 15.0
+      },
+      "temperature.gpu": {
+        "count": 3.0,
+        "mean": 43.333333333333336,
+        "std": 1.1547005383792515,
+        "min": 42.0,
+        "10%": 42.4,
+        "20%": 42.8,
+        "30%": 43.2,
+        "40%": 43.6,
+        "50%": 44.0,
+        "60%": 44.0,
+        "70%": 44.0,
+        "80%": 44.0,
+        "90%": 44.0,
+        "max": 44.0
+      }
+    }
+  }
+}

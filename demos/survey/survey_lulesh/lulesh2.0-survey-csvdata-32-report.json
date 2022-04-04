@@ -1,0 +1,486 @@
+{
+  "SUMMARY": {
+    "total_time_seconds": 
+      {
+        "value": 36.639595
+      }
+  },
+  "DMEM": {
+    "dmem_size_kB": [
+      {
+        "value": 225032
+      }
+    ],
+    "dmem_resident_kB": [
+      {
+        "value": 10716
+      }
+    ],
+    "dmem_high_water_mark_kB": [
+      {
+        "value": 28876
+      }
+    ],
+    "dmem_shared_kB": [
+      {
+        "value": 6880
+      }
+    ],
+    "dmem_heap_kB": [
+      {
+        "value": 137724
+      }
+    ]
+  },
+  "MEMALLOC": {
+    "allocation_time_seconds": [
+      {
+        "value": 0.109229
+      }
+    ],
+    "allocation_calls": [
+      {
+        "value": 651586
+      }
+    ],
+    "allocation_bytes": [
+      {
+        "value": 17061076861
+      }
+    ]
+  },
+  "MEMFREE": {
+    "free_time_seconds": [
+      {
+        "value": 0.860225
+      }
+    ],
+    "free_calls": [
+      {
+        "value": 651545
+      }
+    ]
+  },
+  "RUSAGE": {
+    "maxrss_kB": [
+      {
+        "value": 28876
+      }
+    ],
+    "utime_seconds": [
+      {
+        "value": 32.085226
+      }
+    ],
+    "stime_seconds": [
+      {
+        "value": 4.51658
+      }
+    ],
+    "minflt": [
+      {
+        "value": 2354443
+      }
+    ],
+    "majflt": [
+      {
+        "value": 19
+      }
+    ],
+    "inblock": [
+      {
+        "value": 30832
+      }
+    ],
+    "nvcsw": [
+      {
+        "value": 148
+      }
+    ],
+    "nivcsw": [
+      {
+        "value": 939
+      }
+    ]
+  },
+  "IO": {
+    "io_total_time_seconds": [
+      {
+        "value": 0.000207
+      }
+    ],
+    "write_time_seconds": [
+      {
+        "value": 5.7e-05
+      }
+    ],
+    "write_bytes": [
+      {
+        "value": 72
+      }
+    ],
+    "io_percent": [
+      {
+        "value": 0.00056496257668787
+      }
+    ]
+  },
+  "MPI": {
+    "total_mpi_time_seconds": [
+      {
+        "value": 0.099541
+      }
+    ],
+    "mpi_percent": [
+      {
+        "value": 0.27167603790380324
+      }
+    ]
+  },
+  "OMPT": {
+    "implicit_task_time_seconds": [
+      {
+        "value": 35.294266
+      }
+    ],
+    "serial_time_seconds": [
+      {
+        "value": 1.440718
+      }
+    ]
+  },
+  "TOP_DOWN": {
+    "frontend_bound (%)": [
+      {
+        "value": 4.32
+      }
+    ],
+    "  frontend_latency (%)": [
+      {
+        "value": 0.68
+      }
+    ],
+    "    icache_misses (%)": [
+      {
+        "value": 0.25
+      }
+    ],
+    "    itlb_misses (%)": [
+      {
+        "value": 0.05
+      }
+    ],
+    "    branch_resteers (%)": [
+      {
+        "value": 0.47
+      }
+    ],
+    "    dsb_switches (%)": [
+      {
+        "value": 0.19
+      }
+    ],
+    "    ms_switches (%)": [
+      {
+        "value": 0.3
+      }
+    ],
+    "  frontend_bandwidth (%)": [
+      {
+        "value": 3.64
+      }
+    ],
+    "    mite (%)": [
+      {
+        "value": 10.87
+      }
+    ],
+    "    dsb (%)": [
+      {
+        "value": 4.69
+      }
+    ],
+    "bad_speculation (%)": [
+      {
+        "value": 0.91
+      }
+    ],
+    "  branch_mispredicts (%)": [
+      {
+        "value": 0.74
+      }
+    ],
+    "  machine_clears (%)": [
+      {
+        "value": 0.17
+      }
+    ],
+    "backend_bound (%)": [
+      {
+        "value": 40.32
+      }
+    ],
+    "  memory_bound (%)": [
+      {
+        "value": 13.9
+      }
+    ],
+    "    l1_bound (%)": [
+      {
+        "value": 3.18
+      }
+    ],
+    "    l2_bound (%)": [
+      {
+        "value": 1.66
+      }
+    ],
+    "    l3_bound (%)": [
+      {
+        "value": 2.64
+      }
+    ],
+    "    dram_bound (%)": [
+      {
+        "value": 0.54
+      }
+    ],
+    "    store_bound (%)": [
+      {
+        "value": 14.07
+      }
+    ],
+    "  core_bound (%)": [
+      {
+        "value": 40.32
+      }
+    ],
+    "    divider (%)": [
+      {
+        "value": 18.49
+      }
+    ],
+    "    port_utilization (%)": [
+      {
+        "value": 42.01
+      }
+    ],
+    "retiring (%)": [
+      {
+        "value": 54.45
+      }
+    ],
+    "  base (%)": [
+      {
+        "value": 53.98
+      }
+    ],
+    "    fp_arith (%)": [
+      {
+        "value": 36.13
+      }
+    ],
+    "      fp_scalar (%)": [
+      {
+        "value": 32.73
+      }
+    ],
+    "      fp_vector (%)": [
+      {
+        "value": 3.4
+      }
+    ],
+    "    other (%)": [
+      {
+        "value": 63.87
+      }
+    ],
+    "  microcode_sequencer (%)": [
+      {
+        "value": 0.47
+      }
+    ]
+  },
+  "DATA": {
+    "ARITH:FPU_DIV_ACTIVE": [
+      {
+        "value": 15076241876
+      }
+    ],
+    "BACLEARS:ANY": [
+      {
+        "value": 2634977
+      }
+    ],
+    "BR_MISP_RETIRED:ALL_BRANCHES": [
+      {
+        "value": 23828449
+      }
+    ],
+    "CPU_CLK_UNHALTED:t=0": [
+      {
+        "value": 81518785157
+      }
+    ],
+    "CYCLE_ACTIVITY:STALLS_L1D_PENDING": [
+      {
+        "value": 3947135824
+      }
+    ],
+    "CYCLE_ACTIVITY:STALLS_L2_PENDING": [
+      {
+        "value": 2594697533
+      }
+    ],
+    "CYCLE_ACTIVITY:STALLS_LDM_PENDING": [
+      {
+        "value": 6540446464
+      }
+    ],
+    "CYCLE_ACTIVITY:STALLS_TOTAL": [
+      {
+        "value": 10656886824
+      }
+    ],
+    "DSB2MITE_SWITCHES:PENALTY_CYCLES": [
+      {
+        "value": 151406213
+      }
+    ],
+    "FP_ARITH_INST_RETIRED:SCALAR_DOUBLE": [
+      {
+        "value": 58112488036
+      }
+    ],
+    "FP_ARITH_INST_RETIRED:128B_PACKED_DOUBLE": [
+      {
+        "value": 6037252894
+      }
+    ],
+    "ICACHE:IFDATA_STALL": [
+      {
+        "value": 203147038
+      }
+    ],
+    "IDQ:MS_SWITCHES": [
+      {
+        "value": 123252920
+      }
+    ],
+    "IDQ:ALL_DSB_CYCLES_ANY_UOPS": [
+      {
+        "value": 28519823134
+      }
+    ],
+    "IDQ:ALL_DSB_CYCLES_4_UOPS": [
+      {
+        "value": 24697595852
+      }
+    ],
+    "IDQ:ALL_MITE_CYCLES_ANY_UOPS": [
+      {
+        "value": 11361519245
+      }
+    ],
+    "IDQ:ALL_MITE_CYCLES_4_UOPS": [
+      {
+        "value": 2500678901
+      }
+    ],
+    "IDQ:MS_UOPS": [
+      {
+        "value": 1560540185
+      }
+    ],
+    "IDQ_UOPS_NOT_DELIVERED:CORE": [
+      {
+        "value": 14078863197
+      }
+    ],
+    "IDQ_UOPS_NOT_DELIVERED:CYCLES_0_UOPS_DELIV_CORE": [
+      {
+        "value": 552288388
+      }
+    ],
+    "INST_RETIRED:ANY_P": [
+      {
+        "value": 177955417713
+      }
+    ],
+    "INST_RETIRED:X87": [
+      {
+        "value": 949896
+      }
+    ],
+    "INT_MISC:RECOVERY_CYCLES": [
+      {
+        "value": 243868770
+      }
+    ],
+    "ITLB_MISSES:STLB_HIT": [
+      {
+        "value": 35087
+      }
+    ],
+    "ITLB_MISSES:WALK_DURATION": [
+      {
+        "value": 32746396
+      }
+    ],
+    "ITLB_MISSES:WALK_COMPLETED": [
+      {
+        "value": 630139
+      }
+    ],
+    "MACHINE_CLEARS:COUNT": [
+      {
+        "value": 5444943
+      }
+    ],
+    "MEM_LOAD_UOPS_RETIRED:L3_HIT": [
+      {
+        "value": 173782415
+      }
+    ],
+    "MEM_LOAD_UOPS_RETIRED:L3_MISS": [
+      {
+        "value": 5071392
+      }
+    ],
+    "RESOURCE_STALLS:SB": [
+      {
+        "value": 11473432712
+      }
+    ],
+    "RS_EVENTS:EMPTY_CYCLES": [
+      {
+        "value": 3532139637
+      }
+    ],
+    "UOPS_EXECUTED:CYCLES_GE_1_UOP_EXEC": [
+      {
+        "value": 70491519678
+      }
+    ],
+    "UOPS_EXECUTED:CYCLES_GE_2_UOPS_EXEC": [
+      {
+        "value": 58917595894
+      }
+    ],
+    "UOPS_EXECUTED:CYCLES_GE_3_UOPS_EXEC": [
+      {
+        "value": 40357930805
+      }
+    ],
+    "UOPS_ISSUED:ANY": [
+      {
+        "value": 179558161780
+      }
+    ],
+    "UOPS_RETIRED:RETIRE_SLOTS": [
+      {
+        "value": 177551413100
+      }
+    ]
+  }
+}

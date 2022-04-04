@@ -1,0 +1,2589 @@
+{
+  "executable": {
+    "command_line": "mpirun -n 1 ./lulesh2.0",
+    "executable_path": "./lulesh2.0",
+    "executable_ldd": {
+      "linux-vdso.so.1": "(0x00002aaaaaacd000)",
+      "libmpi.so.40": "/g/g20/frye10/spack/opt/spack/linux-rhel7-broadwell/gcc-4.9.3/openmpi-4.1.1-dzg3bhmqspjouwl5udvjueskyqfscusk/lib/libmpi.so.40 (0x00002aaaaaccf000)",
+      "libstdc++.so.6": "/usr/tce/packages/gcc/gcc-4.9.3/lib64/libstdc++.so.6 (0x00002aaaab1b2000)",
+      "libm.so.6": "/lib64/libm.so.6 (0x00002aaaab4bc000)",
+      "libgomp.so.1": "/usr/tce/packages/gcc/gcc-4.9.3/lib64/libgomp.so.1 (0x00002aaaab7be000)",
+      "libgcc_s.so.1": "/usr/tce/packages/gcc/gcc-4.9.3/lib64/libgcc_s.so.1 (0x00002aaaab9d5000)",
+      "libpthread.so.0": "/lib64/libpthread.so.0 (0x00002aaaabbec000)",
+      "libc.so.6": "/lib64/libc.so.6 (0x00002aaaabe08000)",
+      "liblustreapi.so.1": "/lib64/liblustreapi.so.1 (0x00002aaaac1d6000)",
+      "libgpfs.so": "/lib64/libgpfs.so (0x00002aaaac405000)",
+      "libopen-rte.so.40": "/g/g20/frye10/spack/opt/spack/linux-rhel7-broadwell/gcc-4.9.3/openmpi-4.1.1-dzg3bhmqspjouwl5udvjueskyqfscusk/lib/libopen-rte.so.40 (0x00002aaaac61b000)",
+      "libopen-orted-mpir.so": "/g/g20/frye10/spack/opt/spack/linux-rhel7-broadwell/gcc-4.9.3/openmpi-4.1.1-dzg3bhmqspjouwl5udvjueskyqfscusk/lib/libopen-orted-mpir.so (0x00002aaaac936000)",
+      "libopen-pal.so.40": "/g/g20/frye10/spack/opt/spack/linux-rhel7-broadwell/gcc-4.9.3/openmpi-4.1.1-dzg3bhmqspjouwl5udvjueskyqfscusk/lib/libopen-pal.so.40 (0x00002aaaacb39000)",
+      "libdl.so.2": "/lib64/libdl.so.2 (0x00002aaaad011000)",
+      "librt.so.1": "/lib64/librt.so.1 (0x00002aaaad215000)",
+      "libutil.so.1": "/lib64/libutil.so.1 (0x00002aaaad41d000)",
+      "libz.so.1": "/g/g20/frye10/spack/opt/spack/linux-rhel7-broadwell/gcc-4.9.3/zlib-1.2.11-odisvif7tj74k7ze6wwmcibh2ci2re3a/lib/libz.so.1 (0x00002aaaad620000)",
+      "libhwloc.so.15": "/g/g20/frye10/spack/opt/spack/linux-rhel7-broadwell/gcc-4.9.3/hwloc-2.5.0-cauzihy4knyo6baziy6zlsydmddazno2/lib/libhwloc.so.15 (0x00002aaaad837000)",
+      "libevent_core-2.1.so.7": "/g/g20/frye10/spack/opt/spack/linux-rhel7-broadwell/gcc-4.9.3/libevent-2.1.12-wzib4jbbf7czyzj3terjzcflj4sd27tw/lib/libevent_core-2.1.so.7 (0x00002aaaada93000)",
+      "libevent_pthreads-2.1.so.7": "/g/g20/frye10/spack/opt/spack/linux-rhel7-broadwell/gcc-4.9.3/libevent-2.1.12-wzib4jbbf7czyzj3terjzcflj4sd27tw/lib/libevent_pthreads-2.1.so.7 (0x00002aaaadcca000)",
+      "/lib64/ld-linux-x86-64.so.2": "(0x00002aaaaaaab000)",
+      "libpciaccess.so.0": "/g/g20/frye10/spack/opt/spack/linux-rhel7-broadwell/gcc-4.9.3/libpciaccess-0.16-uxhteffwxck6suhkv3xuf6jwymjfokr3/lib/libpciaccess.so.0 (0x00002aaaadecd000)",
+      "libxml2.so.2": "/g/g20/frye10/spack/opt/spack/linux-rhel7-broadwell/gcc-4.9.3/libxml2-2.9.12-eluu3dzbdb6j5dnfclo5ixl6p4i5bp64/lib/libxml2.so.2 (0x00002aaaae0d6000)",
+      "liblzma.so.5": "/g/g20/frye10/spack/opt/spack/linux-rhel7-broadwell/gcc-4.9.3/xz-5.2.5-sk5jn6j3lwttco4tg45ncjufubvda6fl/lib/liblzma.so.5 (0x00002aaaae437000)",
+      "libiconv.so.2": "/g/g20/frye10/spack/opt/spack/linux-rhel7-broadwell/gcc-4.9.3/libiconv-1.16-34fqjjubkz22io35ks6lwqqajt3fsqfv/lib/libiconv.so.2 (0x00002aaaae65d000)"
+    },
+    "mpi": true,
+    "libmpi": "libmpi",
+    "openmp": true,
+    "has_accelerator": null,
+    "launch_time": "2022/02/03, 09:59:22",
+    "end_time": "2022/02/03, 09:59:59",
+    "survey_arguments": {
+      "target": [
+        "mpirun",
+        "-n",
+        "1",
+        "./lulesh2.0"
+      ],
+      "counters": null,
+      "disable_papi_multiplex": false,
+      "disable_papi": false,
+      "disable_io": false,
+      "disable_mpi": false,
+      "disable_ompt": false,
+      "use_survey_omp_rt": false,
+      "enable_accelerator": false,
+      "enable_mem": false,
+      "enable_mem_no_gotcha": false,
+      "top_down": false,
+      "top_down_fe": false,
+      "top_down_bs": false,
+      "top_down_be": false,
+      "top_down_ret": false,
+      "top_down_mem_bound": false,
+      "top_down_core_bound": false,
+      "top_down_all": true,
+      "info": null,
+      "advice": false,
+      "csv_only": false,
+      "json_only": false,
+      "debug_collector": false,
+      "debug_monitor": false,
+      "no_collector": false,
+      "output_dir": null,
+      "output_to_file": false,
+      "config": null
+    },
+    "config_file": "/g/g20/frye10/survey/pysurvey/data/config.yaml"
+  },
+  "hardware": {
+    "cpu_info": {
+      "hyperthreading": false,
+      "module_type": "Broadwell_server",
+      "Architecture": "x86_64",
+      "CPU_op-mode_s_": "32-bit, 64-bit",
+      "Byte_Order": "Little Endian",
+      "CPU_s_": "72",
+      "On-line_CPU_s__list": "0-35",
+      "Off-line_CPU_s__list": "36-71",
+      "Thread_s__per_core": "1",
+      "Core_s__per_socket": "18",
+      "Socket_s_": "2",
+      "NUMA_node_s_": "2",
+      "Vendor_ID": "GenuineIntel",
+      "CPU_family": "6",
+      "Model": "79",
+      "Model_name": "Intel(R) Xeon(R) CPU E5-2695 v4 @ 2.10GHz",
+      "Stepping": "1",
+      "CPU_MHz": "2101.000",
+      "CPU_max_MHz": "2101.0000",
+      "CPU_min_MHz": "1200.0000",
+      "BogoMIPS": "4190.29",
+      "Virtualization": "VT-x",
+      "L1d_cache": "32K",
+      "L1i_cache": "32K",
+      "L2_cache": "256K",
+      "L3_cache": "46080K",
+      "NUMA_node0_CPU_s_": "0-17",
+      "NUMA_node1_CPU_s_": "18-35"
+    },
+    "mem": {
+      "BLOCKS": [
+        {
+          "RANGE": "0x0000000000000000-0x000000007fffffff",
+          "SIZE": "2G",
+          "STATE": "online",
+          "REMOVABLE": "no",
+          "BLOCK": "0"
+        },
+        {
+          "RANGE": "0x0000000100000000-0x000000407fffffff",
+          "SIZE": "254G",
+          "STATE": "online",
+          "REMOVABLE": "no",
+          "BLOCK": "2-128"
+        }
+      ],
+      "Memory block size": "2G",
+      "Total online memory": "256G",
+      "Total offline memory": "0B"
+    },
+    "filesystems": [
+      {
+        "Filesystem": "cz-nfs2-nfs.llnl.gov:/cz_g20",
+        "Size": "2.9T",
+        "Used": "1.7T",
+        "Avail": "1.2T",
+        "Use%": "58%",
+        "Mounted": "/g/g20"
+      }
+    ],
+    "lspci": [
+      {
+        "slot": "00:00.0",
+        "class": "Host bridge [0600]",
+        "vendor_name": "Intel Corporation [8086]",
+        "device_name": "Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D DMI2 [6f00]",
+        "device_option": [
+          "-r01"
+        ],
+        "subsystem_vendor_name": "Intel Corporation [8086]",
+        "subsystem_name": "Device [35c4]"
+      },
+      {
+        "slot": "00:01.0",
+        "class": "PCI bridge [0604]",
+        "vendor_name": "Intel Corporation [8086]",
+        "device_name": "Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D PCI Express Root Port 1 [6f02]",
+        "device_option": [
+          "-r01"
+        ]
+      },
+      {
+        "slot": "00:02.0",
+        "class": "PCI bridge [0604]",
+        "vendor_name": "Intel Corporation [8086]",
+        "device_name": "Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D PCI Express Root Port 2 [6f04]",
+        "device_option": [
+          "-r01"
+        ]
+      },
+      {
+        "slot": "00:02.2",
+        "class": "PCI bridge [0604]",
+        "vendor_name": "Intel Corporation [8086]",
+        "device_name": "Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D PCI Express Root Port 2 [6f06]",
+        "device_option": [
+          "-r01"
+        ]
+      },
+      {
+        "slot": "00:03.0",
+        "class": "PCI bridge [0604]",
+        "vendor_name": "Intel Corporation [8086]",
+        "device_name": "Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D PCI Express Root Port 3 [6f08]",
+        "device_option": [
+          "-r01"
+        ]
+      },
+      {
+        "slot": "00:04.0",
+        "class": "System peripheral [0880]",
+        "vendor_name": "Intel Corporation [8086]",
+        "device_name": "Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Crystal Beach DMA Channel 0 [6f20]",
+        "device_option": [
+          "-r01"
+        ],
+        "subsystem_vendor_name": "Intel Corporation [8086]",
+        "subsystem_name": "Device [35c4]"
+      },
+      {
+        "slot": "00:04.1",
+        "class": "System peripheral [0880]",
+        "vendor_name": "Intel Corporation [8086]",
+        "device_name": "Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Crystal Beach DMA Channel 1 [6f21]",
+        "device_option": [
+          "-r01"
+        ],
+        "subsystem_vendor_name": "Intel Corporation [8086]",
+        "subsystem_name": "Device [35c4]"
+      },
+      {
+        "slot": "00:04.2",
+        "class": "System peripheral [0880]",
+        "vendor_name": "Intel Corporation [8086]",
+        "device_name": "Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Crystal Beach DMA Channel 2 [6f22]",
+        "device_option": [
+          "-r01"
+        ],
+        "subsystem_vendor_name": "Intel Corporation [8086]",
+        "subsystem_name": "Device [35c4]"
+      },
+      {
+        "slot": "00:04.3",
+        "class": "System peripheral [0880]",
+        "vendor_name": "Intel Corporation [8086]",
+        "device_name": "Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Crystal Beach DMA Channel 3 [6f23]",
+        "device_option": [
+          "-r01"
+        ],
+        "subsystem_vendor_name": "Intel Corporation [8086]",
+        "subsystem_name": "Device [35c4]"
+      },
+      {
+        "slot": "00:04.4",
+        "class": "System peripheral [0880]",
+        "vendor_name": "Intel Corporation [8086]",
+        "device_name": "Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Crystal Beach DMA Channel 4 [6f24]",
+        "device_option": [
+          "-r01"
+        ],
+        "subsystem_vendor_name": "Intel Corporation [8086]",
+        "subsystem_name": "Device [35c4]"
+      },
+      {
+        "slot": "00:04.5",
+        "class": "System peripheral [0880]",
+        "vendor_name": "Intel Corporation [8086]",
+        "device_name": "Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Crystal Beach DMA Channel 5 [6f25]",
+        "device_option": [
+          "-r01"
+        ],
+        "subsystem_vendor_name": "Intel Corporation [8086]",
+        "subsystem_name": "Device [35c4]"
+      },
+      {
+        "slot": "00:04.6",
+        "class": "System peripheral [0880]",
+        "vendor_name": "Intel Corporation [8086]",
+        "device_name": "Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Crystal Beach DMA Channel 6 [6f26]",
+        "device_option": [
+          "-r01"
+        ],
+        "subsystem_vendor_name": "Intel Corporation [8086]",
+        "subsystem_name": "Device [35c4]"
+      },
+      {
+        "slot": "00:04.7",
+        "class": "System peripheral [0880]",
+        "vendor_name": "Intel Corporation [8086]",
+        "device_name": "Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Crystal Beach DMA Channel 7 [6f27]",
+        "device_option": [
+          "-r01"
+        ],
+        "subsystem_vendor_name": "Intel Corporation [8086]",
+        "subsystem_name": "Device [35c4]"
+      },
+      {
+        "slot": "00:05.0",
+        "class": "System peripheral [0880]",
+        "vendor_name": "Intel Corporation [8086]",
+        "device_name": "Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Map/VTd_Misc/System Management [6f28]",
+        "device_option": [
+          "-r01"
+        ],
+        "subsystem_vendor_name": "Intel Corporation [8086]",
+        "subsystem_name": "Device [35c4]"
+      },
+      {
+        "slot": "00:05.1",
+        "class": "System peripheral [0880]",
+        "vendor_name": "Intel Corporation [8086]",
+        "device_name": "Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D IIO Hot Plug [6f29]",
+        "device_option": [
+          "-r01"
+        ],
+        "subsystem_vendor_name": "Intel Corporation [8086]",
+        "subsystem_name": "Device [35c4]"
+      },
+      {
+        "slot": "00:05.2",
+        "class": "System peripheral [0880]",
+        "vendor_name": "Intel Corporation [8086]",
+        "device_name": "Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D IIO RAS/Control Status/Global Errors [6f2a]",
+        "device_option": [
+          "-r01"
+        ],
+        "subsystem_vendor_name": "Intel Corporation [8086]",
+        "subsystem_name": "Device [35c4]"
+      },
+      {
+        "slot": "00:05.4",
+        "class": "PIC [0800]",
+        "vendor_name": "Intel Corporation [8086]",
+        "device_name": "Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D I/O APIC [6f2c]",
+        "device_option": [
+          "-r01",
+          "-p20"
+        ],
+        "subsystem_vendor_name": "Intel Corporation [8086]",
+        "subsystem_name": "Device [35c4]"
+      },
+      {
+        "slot": "00:11.0",
+        "class": "Unassigned class [ff00]",
+        "vendor_name": "Intel Corporation [8086]",
+        "device_name": "C610/X99 series chipset SPSR [8d7c]",
+        "device_option": [
+          "-r05"
+        ],
+        "subsystem_vendor_name": "Intel Corporation [8086]",
+        "subsystem_name": "Device [0000]"
+      },
+      {
+        "slot": "00:11.1",
+        "class": "SMBus [0c05]",
+        "vendor_name": "Intel Corporation [8086]",
+        "device_name": "C610/X99 series chipset MS SMBus 0 [8d7d]",
+        "device_option": [
+          "-r05"
+        ],
+        "subsystem_vendor_name": "Intel Corporation [8086]",
+        "subsystem_name": "Device [35c4]"
+      },
+      {
+        "slot": "00:11.4",
+        "class": "SATA controller [0106]",
+        "vendor_name": "Intel Corporation [8086]",
+        "device_name": "C610/X99 series chipset sSATA Controller [AHCI mode] [8d62]",
+        "device_option": [
+          "-r05",
+          "-p01"
+        ],
+        "subsystem_vendor_name": "Intel Corporation [8086]",
+        "subsystem_name": "Device [35c4]"
+      },
+      {
+        "slot": "00:14.0",
+        "class": "USB controller [0c03]",
+        "vendor_name": "Intel Corporation [8086]",
+        "device_name": "C610/X99 series chipset USB xHCI Host Controller [8d31]",
+        "device_option": [
+          "-r05",
+          "-p30"
+        ],
+        "subsystem_vendor_name": "Intel Corporation [8086]",
+        "subsystem_name": "Device [35c4]"
+      },
+      {
+        "slot": "00:16.0",
+        "class": "Communication controller [0780]",
+        "vendor_name": "Intel Corporation [8086]",
+        "device_name": "C610/X99 series chipset MEI Controller #1 [8d3a]",
+        "device_option": [
+          "-r05"
+        ],
+        "subsystem_vendor_name": "Intel Corporation [8086]",
+        "subsystem_name": "Device [35c4]"
+      },
+      {
+        "slot": "00:16.1",
+        "class": "Communication controller [0780]",
+        "vendor_name": "Intel Corporation [8086]",
+        "device_name": "C610/X99 series chipset MEI Controller #2 [8d3b]",
+        "device_option": [
+          "-r05"
+        ],
+        "subsystem_vendor_name": "Intel Corporation [8086]",
+        "subsystem_name": "Device [35c4]"
+      },
+      {
+        "slot": "00:1a.0",
+        "class": "USB controller [0c03]",
+        "vendor_name": "Intel Corporation [8086]",
+        "device_name": "C610/X99 series chipset USB Enhanced Host Controller #2 [8d2d]",
+        "device_option": [
+          "-r05",
+          "-p20"
+        ],
+        "subsystem_vendor_name": "Intel Corporation [8086]",
+        "subsystem_name": "Device [35c4]"
+      },
+      {
+        "slot": "00:1c.0",
+        "class": "PCI bridge [0604]",
+        "vendor_name": "Intel Corporation [8086]",
+        "device_name": "C610/X99 series chipset PCI Express Root Port #1 [8d10]",
+        "device_option": [
+          "-rd5"
+        ]
+      },
+      {
+        "slot": "00:1c.3",
+        "class": "PCI bridge [0604]",
+        "vendor_name": "Intel Corporation [8086]",
+        "device_name": "C610/X99 series chipset PCI Express Root Port #4 [8d16]",
+        "device_option": [
+          "-rd5"
+        ]
+      },
+      {
+        "slot": "00:1d.0",
+        "class": "USB controller [0c03]",
+        "vendor_name": "Intel Corporation [8086]",
+        "device_name": "C610/X99 series chipset USB Enhanced Host Controller #1 [8d26]",
+        "device_option": [
+          "-r05",
+          "-p20"
+        ],
+        "subsystem_vendor_name": "Intel Corporation [8086]",
+        "subsystem_name": "Device [35c4]"
+      },
+      {
+        "slot": "00:1f.0",
+        "class": "ISA bridge [0601]",
+        "vendor_name": "Intel Corporation [8086]",
+        "device_name": "C610/X99 series chipset LPC Controller [8d44]",
+        "device_option": [
+          "-r05"
+        ],
+        "subsystem_vendor_name": "Intel Corporation [8086]",
+        "subsystem_name": "Device [35c4]"
+      },
+      {
+        "slot": "00:1f.2",
+        "class": "SATA controller [0106]",
+        "vendor_name": "Intel Corporation [8086]",
+        "device_name": "C610/X99 series chipset 6-Port SATA Controller [AHCI mode] [8d02]",
+        "device_option": [
+          "-r05",
+          "-p01"
+        ],
+        "subsystem_vendor_name": "Intel Corporation [8086]",
+        "subsystem_name": "Device [35c4]"
+      },
+      {
+        "slot": "00:1f.3",
+        "class": "SMBus [0c05]",
+        "vendor_name": "Intel Corporation [8086]",
+        "device_name": "C610/X99 series chipset SMBus Controller [8d22]",
+        "device_option": [
+          "-r05"
+        ],
+        "subsystem_vendor_name": "Intel Corporation [8086]",
+        "subsystem_name": "Device [35c4]"
+      },
+      {
+        "slot": "03:00.0",
+        "class": "Ethernet controller [0200]",
+        "vendor_name": "Intel Corporation [8086]",
+        "device_name": "I350 Gigabit Network Connection [1521]",
+        "device_option": [
+          "-r01"
+        ],
+        "subsystem_vendor_name": "Intel Corporation [8086]",
+        "subsystem_name": "Device [35c4]"
+      },
+      {
+        "slot": "03:00.3",
+        "class": "Ethernet controller [0200]",
+        "vendor_name": "Intel Corporation [8086]",
+        "device_name": "I350 Gigabit Network Connection [1521]",
+        "device_option": [
+          "-r01"
+        ],
+        "subsystem_vendor_name": "Intel Corporation [8086]",
+        "subsystem_name": "Device [35c4]"
+      },
+      {
+        "slot": "05:00.0",
+        "class": "Infiniband controller [0207]",
+        "vendor_name": "Mellanox Technologies [15b3]",
+        "device_name": "MT27800 Family [ConnectX-5] [1017]",
+        "subsystem_vendor_name": "Mellanox Technologies [15b3]",
+        "subsystem_name": "Device [0001]"
+      },
+      {
+        "slot": "05:00.1",
+        "class": "Infiniband controller [0207]",
+        "vendor_name": "Mellanox Technologies [15b3]",
+        "device_name": "MT27800 Family [ConnectX-5] [1017]",
+        "subsystem_vendor_name": "Mellanox Technologies [15b3]",
+        "subsystem_name": "Device [0001]"
+      },
+      {
+        "slot": "07:00.0",
+        "class": "VGA compatible controller [0300]",
+        "vendor_name": "Matrox Electronics Systems Ltd. [102b]",
+        "device_name": "MGA G200e [Pilot] ServerEngines (SEP1) [0522]",
+        "device_option": [
+          "-r05"
+        ],
+        "subsystem_vendor_name": "Intel Corporation [8086]",
+        "subsystem_name": "Device [0103]"
+      },
+      {
+        "slot": "7f:08.0",
+        "class": "System peripheral [0880]",
+        "vendor_name": "Intel Corporation [8086]",
+        "device_name": "Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D QPI Link 0 [6f80]",
+        "device_option": [
+          "-r01"
+        ],
+        "subsystem_vendor_name": "Intel Corporation [8086]",
+        "subsystem_name": "Device [35c4]"
+      },
+      {
+        "slot": "7f:08.2",
+        "class": "Performance counters [1101]",
+        "vendor_name": "Intel Corporation [8086]",
+        "device_name": "Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D QPI Link 0 [6f32]",
+        "device_option": [
+          "-r01"
+        ],
+        "subsystem_vendor_name": "Intel Corporation [8086]",
+        "subsystem_name": "Device [35c4]"
+      },
+      {
+        "slot": "7f:08.3",
+        "class": "System peripheral [0880]",
+        "vendor_name": "Intel Corporation [8086]",
+        "device_name": "Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D QPI Link 0 [6f83]",
+        "device_option": [
+          "-r01"
+        ],
+        "subsystem_vendor_name": "Intel Corporation [8086]",
+        "subsystem_name": "Device [35c4]"
+      },
+      {
+        "slot": "7f:09.0",
+        "class": "System peripheral [0880]",
+        "vendor_name": "Intel Corporation [8086]",
+        "device_name": "Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D QPI Link 1 [6f90]",
+        "device_option": [
+          "-r01"
+        ],
+        "subsystem_vendor_name": "Intel Corporation [8086]",
+        "subsystem_name": "Device [35c4]"
+      },
+      {
+        "slot": "7f:09.2",
+        "class": "Performance counters [1101]",
+        "vendor_name": "Intel Corporation [8086]",
+        "device_name": "Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D QPI Link 1 [6f33]",
+        "device_option": [
+          "-r01"
+        ],
+        "subsystem_vendor_name": "Intel Corporation [8086]",
+        "subsystem_name": "Device [35c4]"
+      },
+      {
+        "slot": "7f:09.3",
+        "class": "System peripheral [0880]",
+        "vendor_name": "Intel Corporation [8086]",
+        "device_name": "Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D QPI Link 1 [6f93]",
+        "device_option": [
+          "-r01"
+        ],
+        "subsystem_vendor_name": "Intel Corporation [8086]",
+        "subsystem_name": "Device [35c4]"
+      },
+      {
+        "slot": "7f:0b.0",
+        "class": "System peripheral [0880]",
+        "vendor_name": "Intel Corporation [8086]",
+        "device_name": "Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D R3 QPI Link 0/1 [6f81]",
+        "device_option": [
+          "-r01"
+        ],
+        "subsystem_vendor_name": "Intel Corporation [8086]",
+        "subsystem_name": "Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D R3 QPI Link 0/1 [6f81]"
+      },
+      {
+        "slot": "7f:0b.1",
+        "class": "Performance counters [1101]",
+        "vendor_name": "Intel Corporation [8086]",
+        "device_name": "Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D R3 QPI Link 0/1 [6f36]",
+        "device_option": [
+          "-r01"
+        ],
+        "subsystem_vendor_name": "Intel Corporation [8086]",
+        "subsystem_name": "Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D R3 QPI Link 0/1 [6f36]"
+      },
+      {
+        "slot": "7f:0b.2",
+        "class": "Performance counters [1101]",
+        "vendor_name": "Intel Corporation [8086]",
+        "device_name": "Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D R3 QPI Link 0/1 [6f37]",
+        "device_option": [
+          "-r01"
+        ],
+        "subsystem_vendor_name": "Intel Corporation [8086]",
+        "subsystem_name": "Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D R3 QPI Link 0/1 [6f37]"
+      },
+      {
+        "slot": "7f:0b.3",
+        "class": "System peripheral [0880]",
+        "vendor_name": "Intel Corporation [8086]",
+        "device_name": "Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D R3 QPI Link Debug [6f76]",
+        "device_option": [
+          "-r01"
+        ]
+      },
+      {
+        "slot": "7f:0c.0",
+        "class": "System peripheral [0880]",
+        "vendor_name": "Intel Corporation [8086]",
+        "device_name": "Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Caching Agent [6fe0]",
+        "device_option": [
+          "-r01"
+        ],
+        "subsystem_vendor_name": "Intel Corporation [8086]",
+        "subsystem_name": "Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Caching Agent [6fe0]"
+      },
+      {
+        "slot": "7f:0c.1",
+        "class": "System peripheral [0880]",
+        "vendor_name": "Intel Corporation [8086]",
+        "device_name": "Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Caching Agent [6fe1]",
+        "device_option": [
+          "-r01"
+        ],
+        "subsystem_vendor_name": "Intel Corporation [8086]",
+        "subsystem_name": "Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Caching Agent [6fe1]"
+      },
+      {
+        "slot": "7f:0c.2",
+        "class": "System peripheral [0880]",
+        "vendor_name": "Intel Corporation [8086]",
+        "device_name": "Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Caching Agent [6fe2]",
+        "device_option": [
+          "-r01"
+        ],
+        "subsystem_vendor_name": "Intel Corporation [8086]",
+        "subsystem_name": "Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Caching Agent [6fe2]"
+      },
+      {
+        "slot": "7f:0c.3",
+        "class": "System peripheral [0880]",
+        "vendor_name": "Intel Corporation [8086]",
+        "device_name": "Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Caching Agent [6fe3]",
+        "device_option": [
+          "-r01"
+        ],
+        "subsystem_vendor_name": "Intel Corporation [8086]",
+        "subsystem_name": "Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Caching Agent [6fe3]"
+      },
+      {
+        "slot": "7f:0c.4",
+        "class": "System peripheral [0880]",
+        "vendor_name": "Intel Corporation [8086]",
+        "device_name": "Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Caching Agent [6fe4]",
+        "device_option": [
+          "-r01"
+        ],
+        "subsystem_vendor_name": "Intel Corporation [8086]",
+        "subsystem_name": "Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Caching Agent [6fe4]"
+      },
+      {
+        "slot": "7f:0c.5",
+        "class": "System peripheral [0880]",
+        "vendor_name": "Intel Corporation [8086]",
+        "device_name": "Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Caching Agent [6fe5]",
+        "device_option": [
+          "-r01"
+        ],
+        "subsystem_vendor_name": "Intel Corporation [8086]",
+        "subsystem_name": "Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Caching Agent [6fe5]"
+      },
+      {
+        "slot": "7f:0c.6",
+        "class": "System peripheral [0880]",
+        "vendor_name": "Intel Corporation [8086]",
+        "device_name": "Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Caching Agent [6fe6]",
+        "device_option": [
+          "-r01"
+        ],
+        "subsystem_vendor_name": "Intel Corporation [8086]",
+        "subsystem_name": "Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Caching Agent [6fe6]"
+      },
+      {
+        "slot": "7f:0c.7",
+        "class": "System peripheral [0880]",
+        "vendor_name": "Intel Corporation [8086]",
+        "device_name": "Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Caching Agent [6fe7]",
+        "device_option": [
+          "-r01"
+        ],
+        "subsystem_vendor_name": "Intel Corporation [8086]",
+        "subsystem_name": "Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Caching Agent [6fe7]"
+      },
+      {
+        "slot": "7f:0d.0",
+        "class": "System peripheral [0880]",
+        "vendor_name": "Intel Corporation [8086]",
+        "device_name": "Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Caching Agent [6fe8]",
+        "device_option": [
+          "-r01"
+        ],
+        "subsystem_vendor_name": "Intel Corporation [8086]",
+        "subsystem_name": "Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Caching Agent [6fe8]"
+      },
+      {
+        "slot": "7f:0d.1",
+        "class": "System peripheral [0880]",
+        "vendor_name": "Intel Corporation [8086]",
+        "device_name": "Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Caching Agent [6fe9]",
+        "device_option": [
+          "-r01"
+        ],
+        "subsystem_vendor_name": "Intel Corporation [8086]",
+        "subsystem_name": "Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Caching Agent [6fe9]"
+      },
+      {
+        "slot": "7f:0d.2",
+        "class": "System peripheral [0880]",
+        "vendor_name": "Intel Corporation [8086]",
+        "device_name": "Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Caching Agent [6fea]",
+        "device_option": [
+          "-r01"
+        ],
+        "subsystem_vendor_name": "Intel Corporation [8086]",
+        "subsystem_name": "Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Caching Agent [6fea]"
+      },
+      {
+        "slot": "7f:0d.3",
+        "class": "System peripheral [0880]",
+        "vendor_name": "Intel Corporation [8086]",
+        "device_name": "Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Caching Agent [6feb]",
+        "device_option": [
+          "-r01"
+        ],
+        "subsystem_vendor_name": "Intel Corporation [8086]",
+        "subsystem_name": "Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Caching Agent [6feb]"
+      },
+      {
+        "slot": "7f:0d.4",
+        "class": "System peripheral [0880]",
+        "vendor_name": "Intel Corporation [8086]",
+        "device_name": "Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Caching Agent [6fec]",
+        "device_option": [
+          "-r01"
+        ],
+        "subsystem_vendor_name": "Intel Corporation [8086]",
+        "subsystem_name": "Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Caching Agent [6fec]"
+      },
+      {
+        "slot": "7f:0d.5",
+        "class": "System peripheral [0880]",
+        "vendor_name": "Intel Corporation [8086]",
+        "device_name": "Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Caching Agent [6fed]",
+        "device_option": [
+          "-r01"
+        ],
+        "subsystem_vendor_name": "Intel Corporation [8086]",
+        "subsystem_name": "Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Caching Agent [6fed]"
+      },
+      {
+        "slot": "7f:0d.6",
+        "class": "System peripheral [0880]",
+        "vendor_name": "Intel Corporation [8086]",
+        "device_name": "Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Caching Agent [6fee]",
+        "device_option": [
+          "-r01"
+        ],
+        "subsystem_vendor_name": "Intel Corporation [8086]",
+        "subsystem_name": "Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Caching Agent [6fee]"
+      },
+      {
+        "slot": "7f:0d.7",
+        "class": "System peripheral [0880]",
+        "vendor_name": "Intel Corporation [8086]",
+        "device_name": "Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Caching Agent [6fef]",
+        "device_option": [
+          "-r01"
+        ],
+        "subsystem_vendor_name": "Intel Corporation [8086]",
+        "subsystem_name": "Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Caching Agent [6fef]"
+      },
+      {
+        "slot": "7f:0e.0",
+        "class": "System peripheral [0880]",
+        "vendor_name": "Intel Corporation [8086]",
+        "device_name": "Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Caching Agent [6ff0]",
+        "device_option": [
+          "-r01"
+        ],
+        "subsystem_vendor_name": "Intel Corporation [8086]",
+        "subsystem_name": "Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Caching Agent [6ff0]"
+      },
+      {
+        "slot": "7f:0e.1",
+        "class": "System peripheral [0880]",
+        "vendor_name": "Intel Corporation [8086]",
+        "device_name": "Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Caching Agent [6ff1]",
+        "device_option": [
+          "-r01"
+        ],
+        "subsystem_vendor_name": "Intel Corporation [8086]",
+        "subsystem_name": "Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Caching Agent [6ff1]"
+      },
+      {
+        "slot": "7f:0f.0",
+        "class": "System peripheral [0880]",
+        "vendor_name": "Intel Corporation [8086]",
+        "device_name": "Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Caching Agent [6ff8]",
+        "device_option": [
+          "-r01"
+        ],
+        "subsystem_vendor_name": "Intel Corporation [8086]",
+        "subsystem_name": "Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Caching Agent [6ff8]"
+      },
+      {
+        "slot": "7f:0f.1",
+        "class": "System peripheral [0880]",
+        "vendor_name": "Intel Corporation [8086]",
+        "device_name": "Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Caching Agent [6ff9]",
+        "device_option": [
+          "-r01"
+        ],
+        "subsystem_vendor_name": "Intel Corporation [8086]",
+        "subsystem_name": "Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Caching Agent [6ff9]"
+      },
+      {
+        "slot": "7f:0f.2",
+        "class": "System peripheral [0880]",
+        "vendor_name": "Intel Corporation [8086]",
+        "device_name": "Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Caching Agent [6ffa]",
+        "device_option": [
+          "-r01"
+        ],
+        "subsystem_vendor_name": "Intel Corporation [8086]",
+        "subsystem_name": "Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Caching Agent [6ffa]"
+      },
+      {
+        "slot": "7f:0f.3",
+        "class": "System peripheral [0880]",
+        "vendor_name": "Intel Corporation [8086]",
+        "device_name": "Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Caching Agent [6ffb]",
+        "device_option": [
+          "-r01"
+        ],
+        "subsystem_vendor_name": "Intel Corporation [8086]",
+        "subsystem_name": "Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Caching Agent [6ffb]"
+      },
+      {
+        "slot": "7f:0f.4",
+        "class": "System peripheral [0880]",
+        "vendor_name": "Intel Corporation [8086]",
+        "device_name": "Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Caching Agent [6ffc]",
+        "device_option": [
+          "-r01"
+        ],
+        "subsystem_vendor_name": "Intel Corporation [8086]",
+        "subsystem_name": "Device [6fe0]"
+      },
+      {
+        "slot": "7f:0f.5",
+        "class": "System peripheral [0880]",
+        "vendor_name": "Intel Corporation [8086]",
+        "device_name": "Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Caching Agent [6ffd]",
+        "device_option": [
+          "-r01"
+        ],
+        "subsystem_vendor_name": "Intel Corporation [8086]",
+        "subsystem_name": "Device [6fe0]"
+      },
+      {
+        "slot": "7f:0f.6",
+        "class": "System peripheral [0880]",
+        "vendor_name": "Intel Corporation [8086]",
+        "device_name": "Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Caching Agent [6ffe]",
+        "device_option": [
+          "-r01"
+        ],
+        "subsystem_vendor_name": "Intel Corporation [8086]",
+        "subsystem_name": "Device [6fe0]"
+      },
+      {
+        "slot": "7f:10.0",
+        "class": "System peripheral [0880]",
+        "vendor_name": "Intel Corporation [8086]",
+        "device_name": "Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D R2PCIe Agent [6f1d]",
+        "device_option": [
+          "-r01"
+        ],
+        "subsystem_vendor_name": "Intel Corporation [8086]",
+        "subsystem_name": "Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D R2PCIe Agent [6f1d]"
+      },
+      {
+        "slot": "7f:10.1",
+        "class": "Performance counters [1101]",
+        "vendor_name": "Intel Corporation [8086]",
+        "device_name": "Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D R2PCIe Agent [6f34]",
+        "device_option": [
+          "-r01"
+        ],
+        "subsystem_vendor_name": "Intel Corporation [8086]",
+        "subsystem_name": "Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D R2PCIe Agent [6f34]"
+      },
+      {
+        "slot": "7f:10.5",
+        "class": "System peripheral [0880]",
+        "vendor_name": "Intel Corporation [8086]",
+        "device_name": "Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Ubox [6f1e]",
+        "device_option": [
+          "-r01"
+        ],
+        "subsystem_vendor_name": "Intel Corporation [8086]",
+        "subsystem_name": "Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Ubox [6f1e]"
+      },
+      {
+        "slot": "7f:10.6",
+        "class": "Performance counters [1101]",
+        "vendor_name": "Intel Corporation [8086]",
+        "device_name": "Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Ubox [6f7d]",
+        "device_option": [
+          "-r01"
+        ],
+        "subsystem_vendor_name": "Intel Corporation [8086]",
+        "subsystem_name": "Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Ubox [6f7d]"
+      },
+      {
+        "slot": "7f:10.7",
+        "class": "System peripheral [0880]",
+        "vendor_name": "Intel Corporation [8086]",
+        "device_name": "Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Ubox [6f1f]",
+        "device_option": [
+          "-r01"
+        ],
+        "subsystem_vendor_name": "Intel Corporation [8086]",
+        "subsystem_name": "Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Ubox [6f1f]"
+      },
+      {
+        "slot": "7f:12.0",
+        "class": "System peripheral [0880]",
+        "vendor_name": "Intel Corporation [8086]",
+        "device_name": "Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Home Agent 0 [6fa0]",
+        "device_option": [
+          "-r01"
+        ],
+        "subsystem_vendor_name": "Intel Corporation [8086]",
+        "subsystem_name": "Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Home Agent 0 [6fa0]"
+      },
+      {
+        "slot": "7f:12.1",
+        "class": "Performance counters [1101]",
+        "vendor_name": "Intel Corporation [8086]",
+        "device_name": "Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Home Agent 0 [6f30]",
+        "device_option": [
+          "-r01"
+        ],
+        "subsystem_vendor_name": "Intel Corporation [8086]",
+        "subsystem_name": "Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Home Agent 0 [6f30]"
+      },
+      {
+        "slot": "7f:12.4",
+        "class": "System peripheral [0880]",
+        "vendor_name": "Intel Corporation [8086]",
+        "device_name": "Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Home Agent 1 [6f60]",
+        "device_option": [
+          "-r01"
+        ],
+        "subsystem_vendor_name": "Intel Corporation [8086]",
+        "subsystem_name": "Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Home Agent 1 [6f60]"
+      },
+      {
+        "slot": "7f:12.5",
+        "class": "Performance counters [1101]",
+        "vendor_name": "Intel Corporation [8086]",
+        "device_name": "Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Home Agent 1 [6f38]",
+        "device_option": [
+          "-r01"
+        ],
+        "subsystem_vendor_name": "Intel Corporation [8086]",
+        "subsystem_name": "Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Home Agent 1 [6f38]"
+      },
+      {
+        "slot": "7f:13.0",
+        "class": "System peripheral [0880]",
+        "vendor_name": "Intel Corporation [8086]",
+        "device_name": "Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Memory Controller 0 - Target Address/Thermal/RAS [6fa8]",
+        "device_option": [
+          "-r01"
+        ],
+        "subsystem_vendor_name": "Intel Corporation [8086]",
+        "subsystem_name": "Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Memory Controller 0 - Target Address/Thermal/RAS [6fa8]"
+      },
+      {
+        "slot": "7f:13.1",
+        "class": "System peripheral [0880]",
+        "vendor_name": "Intel Corporation [8086]",
+        "device_name": "Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Memory Controller 0 - Target Address/Thermal/RAS [6f71]",
+        "device_option": [
+          "-r01"
+        ],
+        "subsystem_vendor_name": "Intel Corporation [8086]",
+        "subsystem_name": "Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Memory Controller 0 - Target Address/Thermal/RAS [6f71]"
+      },
+      {
+        "slot": "7f:13.2",
+        "class": "System peripheral [0880]",
+        "vendor_name": "Intel Corporation [8086]",
+        "device_name": "Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Memory Controller 0 - Channel Target Address Decoder [6faa]",
+        "device_option": [
+          "-r01"
+        ],
+        "subsystem_vendor_name": "Intel Corporation [8086]",
+        "subsystem_name": "Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Memory Controller 0 - Channel Target Address Decoder [6faa]"
+      },
+      {
+        "slot": "7f:13.3",
+        "class": "System peripheral [0880]",
+        "vendor_name": "Intel Corporation [8086]",
+        "device_name": "Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Memory Controller 0 - Channel Target Address Decoder [6fab]",
+        "device_option": [
+          "-r01"
+        ],
+        "subsystem_vendor_name": "Intel Corporation [8086]",
+        "subsystem_name": "Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Memory Controller 0 - Channel Target Address Decoder [6fab]"
+      },
+      {
+        "slot": "7f:13.6",
+        "class": "System peripheral [0880]",
+        "vendor_name": "Intel Corporation [8086]",
+        "device_name": "Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D DDRIO Channel 0/1 Broadcast [6fae]",
+        "device_option": [
+          "-r01"
+        ]
+      },
+      {
+        "slot": "7f:13.7",
+        "class": "System peripheral [0880]",
+        "vendor_name": "Intel Corporation [8086]",
+        "device_name": "Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D DDRIO Global Broadcast [6faf]",
+        "device_option": [
+          "-r01"
+        ]
+      },
+      {
+        "slot": "7f:14.0",
+        "class": "System peripheral [0880]",
+        "vendor_name": "Intel Corporation [8086]",
+        "device_name": "Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Memory Controller 0 - Channel 0 Thermal Control [6fb0]",
+        "device_option": [
+          "-r01"
+        ],
+        "subsystem_vendor_name": "Intel Corporation [8086]",
+        "subsystem_name": "Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Memory Controller 0 - Channel 0 Thermal Control [6fb0]"
+      },
+      {
+        "slot": "7f:14.1",
+        "class": "System peripheral [0880]",
+        "vendor_name": "Intel Corporation [8086]",
+        "device_name": "Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Memory Controller 0 - Channel 1 Thermal Control [6fb1]",
+        "device_option": [
+          "-r01"
+        ],
+        "subsystem_vendor_name": "Intel Corporation [8086]",
+        "subsystem_name": "Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Memory Controller 0 - Channel 1 Thermal Control [6fb1]"
+      },
+      {
+        "slot": "7f:14.2",
+        "class": "System peripheral [0880]",
+        "vendor_name": "Intel Corporation [8086]",
+        "device_name": "Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Memory Controller 0 - Channel 0 Error [6fb2]",
+        "device_option": [
+          "-r01"
+        ],
+        "subsystem_vendor_name": "Intel Corporation [8086]",
+        "subsystem_name": "Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Memory Controller 0 - Channel 0 Error [6fb2]"
+      },
+      {
+        "slot": "7f:14.3",
+        "class": "System peripheral [0880]",
+        "vendor_name": "Intel Corporation [8086]",
+        "device_name": "Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Memory Controller 0 - Channel 1 Error [6fb3]",
+        "device_option": [
+          "-r01"
+        ],
+        "subsystem_vendor_name": "Intel Corporation [8086]",
+        "subsystem_name": "Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Memory Controller 0 - Channel 1 Error [6fb3]"
+      },
+      {
+        "slot": "7f:14.4",
+        "class": "System peripheral [0880]",
+        "vendor_name": "Intel Corporation [8086]",
+        "device_name": "Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D DDRIO Channel 0/1 Interface [6fbc]",
+        "device_option": [
+          "-r01"
+        ]
+      },
+      {
+        "slot": "7f:14.5",
+        "class": "System peripheral [0880]",
+        "vendor_name": "Intel Corporation [8086]",
+        "device_name": "Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D DDRIO Channel 0/1 Interface [6fbd]",
+        "device_option": [
+          "-r01"
+        ]
+      },
+      {
+        "slot": "7f:14.6",
+        "class": "System peripheral [0880]",
+        "vendor_name": "Intel Corporation [8086]",
+        "device_name": "Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D DDRIO Channel 0/1 Interface [6fbe]",
+        "device_option": [
+          "-r01"
+        ]
+      },
+      {
+        "slot": "7f:14.7",
+        "class": "System peripheral [0880]",
+        "vendor_name": "Intel Corporation [8086]",
+        "device_name": "Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D DDRIO Channel 0/1 Interface [6fbf]",
+        "device_option": [
+          "-r01"
+        ]
+      },
+      {
+        "slot": "7f:16.0",
+        "class": "System peripheral [0880]",
+        "vendor_name": "Intel Corporation [8086]",
+        "device_name": "Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Target Address/Thermal/RAS [6f68]",
+        "device_option": [
+          "-r01"
+        ],
+        "subsystem_vendor_name": "Intel Corporation [8086]",
+        "subsystem_name": "Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Target Address/Thermal/RAS [6f68]"
+      },
+      {
+        "slot": "7f:16.1",
+        "class": "System peripheral [0880]",
+        "vendor_name": "Intel Corporation [8086]",
+        "device_name": "Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Target Address/Thermal/RAS [6f79]",
+        "device_option": [
+          "-r01"
+        ],
+        "subsystem_vendor_name": "Intel Corporation [8086]",
+        "subsystem_name": "Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Target Address/Thermal/RAS [6f79]"
+      },
+      {
+        "slot": "7f:16.2",
+        "class": "System peripheral [0880]",
+        "vendor_name": "Intel Corporation [8086]",
+        "device_name": "Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Channel Target Address Decoder [6f6a]",
+        "device_option": [
+          "-r01"
+        ],
+        "subsystem_vendor_name": "Intel Corporation [8086]",
+        "subsystem_name": "Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Channel Target Address Decoder [6f6a]"
+      },
+      {
+        "slot": "7f:16.3",
+        "class": "System peripheral [0880]",
+        "vendor_name": "Intel Corporation [8086]",
+        "device_name": "Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Channel Target Address Decoder [6f6b]",
+        "device_option": [
+          "-r01"
+        ],
+        "subsystem_vendor_name": "Intel Corporation [8086]",
+        "subsystem_name": "Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Channel Target Address Decoder [6f6b]"
+      },
+      {
+        "slot": "7f:16.6",
+        "class": "System peripheral [0880]",
+        "vendor_name": "Intel Corporation [8086]",
+        "device_name": "Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D DDRIO Channel 2/3 Broadcast [6f6e]",
+        "device_option": [
+          "-r01"
+        ]
+      },
+      {
+        "slot": "7f:16.7",
+        "class": "System peripheral [0880]",
+        "vendor_name": "Intel Corporation [8086]",
+        "device_name": "Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D DDRIO Global Broadcast [6f6f]",
+        "device_option": [
+          "-r01"
+        ]
+      },
+      {
+        "slot": "7f:17.0",
+        "class": "System peripheral [0880]",
+        "vendor_name": "Intel Corporation [8086]",
+        "device_name": "Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Memory Controller 1 - Channel 0 Thermal Control [6fd0]",
+        "device_option": [
+          "-r01"
+        ],
+        "subsystem_vendor_name": "Intel Corporation [8086]",
+        "subsystem_name": "Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Memory Controller 1 - Channel 0 Thermal Control [6fd0]"
+      },
+      {
+        "slot": "7f:17.1",
+        "class": "System peripheral [0880]",
+        "vendor_name": "Intel Corporation [8086]",
+        "device_name": "Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Memory Controller 1 - Channel 1 Thermal Control [6fd1]",
+        "device_option": [
+          "-r01"
+        ],
+        "subsystem_vendor_name": "Intel Corporation [8086]",
+        "subsystem_name": "Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Memory Controller 1 - Channel 1 Thermal Control [6fd1]"
+      },
+      {
+        "slot": "7f:17.2",
+        "class": "System peripheral [0880]",
+        "vendor_name": "Intel Corporation [8086]",
+        "device_name": "Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Memory Controller 1 - Channel 0 Error [6fd2]",
+        "device_option": [
+          "-r01"
+        ],
+        "subsystem_vendor_name": "Intel Corporation [8086]",
+        "subsystem_name": "Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Memory Controller 1 - Channel 0 Error [6fd2]"
+      },
+      {
+        "slot": "7f:17.3",
+        "class": "System peripheral [0880]",
+        "vendor_name": "Intel Corporation [8086]",
+        "device_name": "Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Memory Controller 1 - Channel 1 Error [6fd3]",
+        "device_option": [
+          "-r01"
+        ],
+        "subsystem_vendor_name": "Intel Corporation [8086]",
+        "subsystem_name": "Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Memory Controller 1 - Channel 1 Error [6fd3]"
+      },
+      {
+        "slot": "7f:17.4",
+        "class": "System peripheral [0880]",
+        "vendor_name": "Intel Corporation [8086]",
+        "device_name": "Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D DDRIO Channel 2/3 Interface [6fb8]",
+        "device_option": [
+          "-r01"
+        ]
+      },
+      {
+        "slot": "7f:17.5",
+        "class": "System peripheral [0880]",
+        "vendor_name": "Intel Corporation [8086]",
+        "device_name": "Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D DDRIO Channel 2/3 Interface [6fb9]",
+        "device_option": [
+          "-r01"
+        ]
+      },
+      {
+        "slot": "7f:17.6",
+        "class": "System peripheral [0880]",
+        "vendor_name": "Intel Corporation [8086]",
+        "device_name": "Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D DDRIO Channel 2/3 Interface [6fba]",
+        "device_option": [
+          "-r01"
+        ]
+      },
+      {
+        "slot": "7f:17.7",
+        "class": "System peripheral [0880]",
+        "vendor_name": "Intel Corporation [8086]",
+        "device_name": "Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D DDRIO Channel 2/3 Interface [6fbb]",
+        "device_option": [
+          "-r01"
+        ]
+      },
+      {
+        "slot": "7f:1e.0",
+        "class": "System peripheral [0880]",
+        "vendor_name": "Intel Corporation [8086]",
+        "device_name": "Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Power Control Unit [6f98]",
+        "device_option": [
+          "-r01"
+        ],
+        "subsystem_vendor_name": "Intel Corporation [8086]",
+        "subsystem_name": "Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Power Control Unit [6f98]"
+      },
+      {
+        "slot": "7f:1e.1",
+        "class": "System peripheral [0880]",
+        "vendor_name": "Intel Corporation [8086]",
+        "device_name": "Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Power Control Unit [6f99]",
+        "device_option": [
+          "-r01"
+        ],
+        "subsystem_vendor_name": "Intel Corporation [8086]",
+        "subsystem_name": "Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Power Control Unit [6f99]"
+      },
+      {
+        "slot": "7f:1e.2",
+        "class": "System peripheral [0880]",
+        "vendor_name": "Intel Corporation [8086]",
+        "device_name": "Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Power Control Unit [6f9a]",
+        "device_option": [
+          "-r01"
+        ],
+        "subsystem_vendor_name": "Intel Corporation [8086]",
+        "subsystem_name": "Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Power Control Unit [6f9a]"
+      },
+      {
+        "slot": "7f:1e.3",
+        "class": "System peripheral [0880]",
+        "vendor_name": "Intel Corporation [8086]",
+        "device_name": "Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Power Control Unit [6fc0]",
+        "device_option": [
+          "-r01"
+        ],
+        "subsystem_vendor_name": "Intel Corporation [8086]",
+        "subsystem_name": "Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Power Control Unit [6fc0]"
+      },
+      {
+        "slot": "7f:1e.4",
+        "class": "System peripheral [0880]",
+        "vendor_name": "Intel Corporation [8086]",
+        "device_name": "Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Power Control Unit [6f9c]",
+        "device_option": [
+          "-r01"
+        ],
+        "subsystem_vendor_name": "Intel Corporation [8086]",
+        "subsystem_name": "Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Power Control Unit [6f9c]"
+      },
+      {
+        "slot": "7f:1f.0",
+        "class": "System peripheral [0880]",
+        "vendor_name": "Intel Corporation [8086]",
+        "device_name": "Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Power Control Unit [6f88]",
+        "device_option": [
+          "-r01"
+        ]
+      },
+      {
+        "slot": "7f:1f.2",
+        "class": "System peripheral [0880]",
+        "vendor_name": "Intel Corporation [8086]",
+        "device_name": "Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Power Control Unit [6f8a]",
+        "device_option": [
+          "-r01"
+        ]
+      },
+      {
+        "slot": "80:01.0",
+        "class": "PCI bridge [0604]",
+        "vendor_name": "Intel Corporation [8086]",
+        "device_name": "Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D PCI Express Root Port 1 [6f02]",
+        "device_option": [
+          "-r01"
+        ]
+      },
+      {
+        "slot": "80:02.0",
+        "class": "PCI bridge [0604]",
+        "vendor_name": "Intel Corporation [8086]",
+        "device_name": "Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D PCI Express Root Port 2 [6f04]",
+        "device_option": [
+          "-r01"
+        ]
+      },
+      {
+        "slot": "80:03.0",
+        "class": "PCI bridge [0604]",
+        "vendor_name": "Intel Corporation [8086]",
+        "device_name": "Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D PCI Express Root Port 3 [6f08]",
+        "device_option": [
+          "-r01"
+        ]
+      },
+      {
+        "slot": "80:03.2",
+        "class": "PCI bridge [0604]",
+        "vendor_name": "Intel Corporation [8086]",
+        "device_name": "Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D PCI Express Root Port 3 [6f0a]",
+        "device_option": [
+          "-r01"
+        ]
+      },
+      {
+        "slot": "80:04.0",
+        "class": "System peripheral [0880]",
+        "vendor_name": "Intel Corporation [8086]",
+        "device_name": "Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Crystal Beach DMA Channel 0 [6f20]",
+        "device_option": [
+          "-r01"
+        ],
+        "subsystem_vendor_name": "Intel Corporation [8086]",
+        "subsystem_name": "Device [35c4]"
+      },
+      {
+        "slot": "80:04.1",
+        "class": "System peripheral [0880]",
+        "vendor_name": "Intel Corporation [8086]",
+        "device_name": "Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Crystal Beach DMA Channel 1 [6f21]",
+        "device_option": [
+          "-r01"
+        ],
+        "subsystem_vendor_name": "Intel Corporation [8086]",
+        "subsystem_name": "Device [35c4]"
+      },
+      {
+        "slot": "80:04.2",
+        "class": "System peripheral [0880]",
+        "vendor_name": "Intel Corporation [8086]",
+        "device_name": "Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Crystal Beach DMA Channel 2 [6f22]",
+        "device_option": [
+          "-r01"
+        ],
+        "subsystem_vendor_name": "Intel Corporation [8086]",
+        "subsystem_name": "Device [35c4]"
+      },
+      {
+        "slot": "80:04.3",
+        "class": "System peripheral [0880]",
+        "vendor_name": "Intel Corporation [8086]",
+        "device_name": "Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Crystal Beach DMA Channel 3 [6f23]",
+        "device_option": [
+          "-r01"
+        ],
+        "subsystem_vendor_name": "Intel Corporation [8086]",
+        "subsystem_name": "Device [35c4]"
+      },
+      {
+        "slot": "80:04.4",
+        "class": "System peripheral [0880]",
+        "vendor_name": "Intel Corporation [8086]",
+        "device_name": "Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Crystal Beach DMA Channel 4 [6f24]",
+        "device_option": [
+          "-r01"
+        ],
+        "subsystem_vendor_name": "Intel Corporation [8086]",
+        "subsystem_name": "Device [35c4]"
+      },
+      {
+        "slot": "80:04.5",
+        "class": "System peripheral [0880]",
+        "vendor_name": "Intel Corporation [8086]",
+        "device_name": "Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Crystal Beach DMA Channel 5 [6f25]",
+        "device_option": [
+          "-r01"
+        ],
+        "subsystem_vendor_name": "Intel Corporation [8086]",
+        "subsystem_name": "Device [35c4]"
+      },
+      {
+        "slot": "80:04.6",
+        "class": "System peripheral [0880]",
+        "vendor_name": "Intel Corporation [8086]",
+        "device_name": "Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Crystal Beach DMA Channel 6 [6f26]",
+        "device_option": [
+          "-r01"
+        ],
+        "subsystem_vendor_name": "Intel Corporation [8086]",
+        "subsystem_name": "Device [35c4]"
+      },
+      {
+        "slot": "80:04.7",
+        "class": "System peripheral [0880]",
+        "vendor_name": "Intel Corporation [8086]",
+        "device_name": "Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Crystal Beach DMA Channel 7 [6f27]",
+        "device_option": [
+          "-r01"
+        ],
+        "subsystem_vendor_name": "Intel Corporation [8086]",
+        "subsystem_name": "Device [35c4]"
+      },
+      {
+        "slot": "80:05.0",
+        "class": "System peripheral [0880]",
+        "vendor_name": "Intel Corporation [8086]",
+        "device_name": "Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Map/VTd_Misc/System Management [6f28]",
+        "device_option": [
+          "-r01"
+        ],
+        "subsystem_vendor_name": "Intel Corporation [8086]",
+        "subsystem_name": "Device [35c4]"
+      },
+      {
+        "slot": "80:05.1",
+        "class": "System peripheral [0880]",
+        "vendor_name": "Intel Corporation [8086]",
+        "device_name": "Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D IIO Hot Plug [6f29]",
+        "device_option": [
+          "-r01"
+        ],
+        "subsystem_vendor_name": "Intel Corporation [8086]",
+        "subsystem_name": "Device [35c4]"
+      },
+      {
+        "slot": "80:05.2",
+        "class": "System peripheral [0880]",
+        "vendor_name": "Intel Corporation [8086]",
+        "device_name": "Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D IIO RAS/Control Status/Global Errors [6f2a]",
+        "device_option": [
+          "-r01"
+        ],
+        "subsystem_vendor_name": "Intel Corporation [8086]",
+        "subsystem_name": "Device [35c4]"
+      },
+      {
+        "slot": "80:05.4",
+        "class": "PIC [0800]",
+        "vendor_name": "Intel Corporation [8086]",
+        "device_name": "Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D I/O APIC [6f2c]",
+        "device_option": [
+          "-r01",
+          "-p20"
+        ],
+        "subsystem_vendor_name": "Intel Corporation [8086]",
+        "subsystem_name": "Device [35c4]"
+      },
+      {
+        "slot": "81:00.0",
+        "class": "Ethernet controller [0200]",
+        "vendor_name": "Intel Corporation [8086]",
+        "device_name": "Ethernet Controller XL710 for 40GbE QSFP+ [1584]",
+        "device_option": [
+          "-r02"
+        ],
+        "subsystem_vendor_name": "Intel Corporation [8086]",
+        "subsystem_name": "Ethernet Converged Network Adapter XL710-Q1 [0001]"
+      },
+      {
+        "slot": "83:00.0",
+        "class": "Infiniband controller [0207]",
+        "vendor_name": "Mellanox Technologies [15b3]",
+        "device_name": "MT27800 Family [ConnectX-5] [1017]",
+        "subsystem_vendor_name": "Mellanox Technologies [15b3]",
+        "subsystem_name": "Device [0003]"
+      },
+      {
+        "slot": "85:00.0",
+        "class": "Ethernet controller [0200]",
+        "vendor_name": "Intel Corporation [8086]",
+        "device_name": "82599ES 10-Gigabit SFI/SFP+ Network Connection [10fb]",
+        "device_option": [
+          "-r01"
+        ],
+        "subsystem_vendor_name": "Intel Corporation [8086]",
+        "subsystem_name": "Ethernet Server Adapter X520-2 [0003]"
+      },
+      {
+        "slot": "85:00.1",
+        "class": "Ethernet controller [0200]",
+        "vendor_name": "Intel Corporation [8086]",
+        "device_name": "82599ES 10-Gigabit SFI/SFP+ Network Connection [10fb]",
+        "device_option": [
+          "-r01"
+        ],
+        "subsystem_vendor_name": "Intel Corporation [8086]",
+        "subsystem_name": "Ethernet Server Adapter X520-2 [0003]"
+      },
+      {
+        "slot": "ff:08.0",
+        "class": "System peripheral [0880]",
+        "vendor_name": "Intel Corporation [8086]",
+        "device_name": "Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D QPI Link 0 [6f80]",
+        "device_option": [
+          "-r01"
+        ],
+        "subsystem_vendor_name": "Intel Corporation [8086]",
+        "subsystem_name": "Device [35c4]"
+      },
+      {
+        "slot": "ff:08.2",
+        "class": "Performance counters [1101]",
+        "vendor_name": "Intel Corporation [8086]",
+        "device_name": "Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D QPI Link 0 [6f32]",
+        "device_option": [
+          "-r01"
+        ],
+        "subsystem_vendor_name": "Intel Corporation [8086]",
+        "subsystem_name": "Device [35c4]"
+      },
+      {
+        "slot": "ff:08.3",
+        "class": "System peripheral [0880]",
+        "vendor_name": "Intel Corporation [8086]",
+        "device_name": "Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D QPI Link 0 [6f83]",
+        "device_option": [
+          "-r01"
+        ],
+        "subsystem_vendor_name": "Intel Corporation [8086]",
+        "subsystem_name": "Device [35c4]"
+      },
+      {
+        "slot": "ff:09.0",
+        "class": "System peripheral [0880]",
+        "vendor_name": "Intel Corporation [8086]",
+        "device_name": "Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D QPI Link 1 [6f90]",
+        "device_option": [
+          "-r01"
+        ],
+        "subsystem_vendor_name": "Intel Corporation [8086]",
+        "subsystem_name": "Device [35c4]"
+      },
+      {
+        "slot": "ff:09.2",
+        "class": "Performance counters [1101]",
+        "vendor_name": "Intel Corporation [8086]",
+        "device_name": "Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D QPI Link 1 [6f33]",
+        "device_option": [
+          "-r01"
+        ],
+        "subsystem_vendor_name": "Intel Corporation [8086]",
+        "subsystem_name": "Device [35c4]"
+      },
+      {
+        "slot": "ff:09.3",
+        "class": "System peripheral [0880]",
+        "vendor_name": "Intel Corporation [8086]",
+        "device_name": "Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D QPI Link 1 [6f93]",
+        "device_option": [
+          "-r01"
+        ],
+        "subsystem_vendor_name": "Intel Corporation [8086]",
+        "subsystem_name": "Device [35c4]"
+      },
+      {
+        "slot": "ff:0b.0",
+        "class": "System peripheral [0880]",
+        "vendor_name": "Intel Corporation [8086]",
+        "device_name": "Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D R3 QPI Link 0/1 [6f81]",
+        "device_option": [
+          "-r01"
+        ],
+        "subsystem_vendor_name": "Intel Corporation [8086]",
+        "subsystem_name": "Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D R3 QPI Link 0/1 [6f81]"
+      },
+      {
+        "slot": "ff:0b.1",
+        "class": "Performance counters [1101]",
+        "vendor_name": "Intel Corporation [8086]",
+        "device_name": "Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D R3 QPI Link 0/1 [6f36]",
+        "device_option": [
+          "-r01"
+        ],
+        "subsystem_vendor_name": "Intel Corporation [8086]",
+        "subsystem_name": "Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D R3 QPI Link 0/1 [6f36]"
+      },
+      {
+        "slot": "ff:0b.2",
+        "class": "Performance counters [1101]",
+        "vendor_name": "Intel Corporation [8086]",
+        "device_name": "Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D R3 QPI Link 0/1 [6f37]",
+        "device_option": [
+          "-r01"
+        ],
+        "subsystem_vendor_name": "Intel Corporation [8086]",
+        "subsystem_name": "Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D R3 QPI Link 0/1 [6f37]"
+      },
+      {
+        "slot": "ff:0b.3",
+        "class": "System peripheral [0880]",
+        "vendor_name": "Intel Corporation [8086]",
+        "device_name": "Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D R3 QPI Link Debug [6f76]",
+        "device_option": [
+          "-r01"
+        ]
+      },
+      {
+        "slot": "ff:0c.0",
+        "class": "System peripheral [0880]",
+        "vendor_name": "Intel Corporation [8086]",
+        "device_name": "Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Caching Agent [6fe0]",
+        "device_option": [
+          "-r01"
+        ],
+        "subsystem_vendor_name": "Intel Corporation [8086]",
+        "subsystem_name": "Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Caching Agent [6fe0]"
+      },
+      {
+        "slot": "ff:0c.1",
+        "class": "System peripheral [0880]",
+        "vendor_name": "Intel Corporation [8086]",
+        "device_name": "Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Caching Agent [6fe1]",
+        "device_option": [
+          "-r01"
+        ],
+        "subsystem_vendor_name": "Intel Corporation [8086]",
+        "subsystem_name": "Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Caching Agent [6fe1]"
+      },
+      {
+        "slot": "ff:0c.2",
+        "class": "System peripheral [0880]",
+        "vendor_name": "Intel Corporation [8086]",
+        "device_name": "Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Caching Agent [6fe2]",
+        "device_option": [
+          "-r01"
+        ],
+        "subsystem_vendor_name": "Intel Corporation [8086]",
+        "subsystem_name": "Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Caching Agent [6fe2]"
+      },
+      {
+        "slot": "ff:0c.3",
+        "class": "System peripheral [0880]",
+        "vendor_name": "Intel Corporation [8086]",
+        "device_name": "Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Caching Agent [6fe3]",
+        "device_option": [
+          "-r01"
+        ],
+        "subsystem_vendor_name": "Intel Corporation [8086]",
+        "subsystem_name": "Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Caching Agent [6fe3]"
+      },
+      {
+        "slot": "ff:0c.4",
+        "class": "System peripheral [0880]",
+        "vendor_name": "Intel Corporation [8086]",
+        "device_name": "Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Caching Agent [6fe4]",
+        "device_option": [
+          "-r01"
+        ],
+        "subsystem_vendor_name": "Intel Corporation [8086]",
+        "subsystem_name": "Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Caching Agent [6fe4]"
+      },
+      {
+        "slot": "ff:0c.5",
+        "class": "System peripheral [0880]",
+        "vendor_name": "Intel Corporation [8086]",
+        "device_name": "Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Caching Agent [6fe5]",
+        "device_option": [
+          "-r01"
+        ],
+        "subsystem_vendor_name": "Intel Corporation [8086]",
+        "subsystem_name": "Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Caching Agent [6fe5]"
+      },
+      {
+        "slot": "ff:0c.6",
+        "class": "System peripheral [0880]",
+        "vendor_name": "Intel Corporation [8086]",
+        "device_name": "Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Caching Agent [6fe6]",
+        "device_option": [
+          "-r01"
+        ],
+        "subsystem_vendor_name": "Intel Corporation [8086]",
+        "subsystem_name": "Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Caching Agent [6fe6]"
+      },
+      {
+        "slot": "ff:0c.7",
+        "class": "System peripheral [0880]",
+        "vendor_name": "Intel Corporation [8086]",
+        "device_name": "Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Caching Agent [6fe7]",
+        "device_option": [
+          "-r01"
+        ],
+        "subsystem_vendor_name": "Intel Corporation [8086]",
+        "subsystem_name": "Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Caching Agent [6fe7]"
+      },
+      {
+        "slot": "ff:0d.0",
+        "class": "System peripheral [0880]",
+        "vendor_name": "Intel Corporation [8086]",
+        "device_name": "Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Caching Agent [6fe8]",
+        "device_option": [
+          "-r01"
+        ],
+        "subsystem_vendor_name": "Intel Corporation [8086]",
+        "subsystem_name": "Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Caching Agent [6fe8]"
+      },
+      {
+        "slot": "ff:0d.1",
+        "class": "System peripheral [0880]",
+        "vendor_name": "Intel Corporation [8086]",
+        "device_name": "Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Caching Agent [6fe9]",
+        "device_option": [
+          "-r01"
+        ],
+        "subsystem_vendor_name": "Intel Corporation [8086]",
+        "subsystem_name": "Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Caching Agent [6fe9]"
+      },
+      {
+        "slot": "ff:0d.2",
+        "class": "System peripheral [0880]",
+        "vendor_name": "Intel Corporation [8086]",
+        "device_name": "Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Caching Agent [6fea]",
+        "device_option": [
+          "-r01"
+        ],
+        "subsystem_vendor_name": "Intel Corporation [8086]",
+        "subsystem_name": "Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Caching Agent [6fea]"
+      },
+      {
+        "slot": "ff:0d.3",
+        "class": "System peripheral [0880]",
+        "vendor_name": "Intel Corporation [8086]",
+        "device_name": "Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Caching Agent [6feb]",
+        "device_option": [
+          "-r01"
+        ],
+        "subsystem_vendor_name": "Intel Corporation [8086]",
+        "subsystem_name": "Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Caching Agent [6feb]"
+      },
+      {
+        "slot": "ff:0d.4",
+        "class": "System peripheral [0880]",
+        "vendor_name": "Intel Corporation [8086]",
+        "device_name": "Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Caching Agent [6fec]",
+        "device_option": [
+          "-r01"
+        ],
+        "subsystem_vendor_name": "Intel Corporation [8086]",
+        "subsystem_name": "Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Caching Agent [6fec]"
+      },
+      {
+        "slot": "ff:0d.5",
+        "class": "System peripheral [0880]",
+        "vendor_name": "Intel Corporation [8086]",
+        "device_name": "Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Caching Agent [6fed]",
+        "device_option": [
+          "-r01"
+        ],
+        "subsystem_vendor_name": "Intel Corporation [8086]",
+        "subsystem_name": "Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Caching Agent [6fed]"
+      },
+      {
+        "slot": "ff:0d.6",
+        "class": "System peripheral [0880]",
+        "vendor_name": "Intel Corporation [8086]",
+        "device_name": "Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Caching Agent [6fee]",
+        "device_option": [
+          "-r01"
+        ],
+        "subsystem_vendor_name": "Intel Corporation [8086]",
+        "subsystem_name": "Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Caching Agent [6fee]"
+      },
+      {
+        "slot": "ff:0d.7",
+        "class": "System peripheral [0880]",
+        "vendor_name": "Intel Corporation [8086]",
+        "device_name": "Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Caching Agent [6fef]",
+        "device_option": [
+          "-r01"
+        ],
+        "subsystem_vendor_name": "Intel Corporation [8086]",
+        "subsystem_name": "Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Caching Agent [6fef]"
+      },
+      {
+        "slot": "ff:0e.0",
+        "class": "System peripheral [0880]",
+        "vendor_name": "Intel Corporation [8086]",
+        "device_name": "Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Caching Agent [6ff0]",
+        "device_option": [
+          "-r01"
+        ],
+        "subsystem_vendor_name": "Intel Corporation [8086]",
+        "subsystem_name": "Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Caching Agent [6ff0]"
+      },
+      {
+        "slot": "ff:0e.1",
+        "class": "System peripheral [0880]",
+        "vendor_name": "Intel Corporation [8086]",
+        "device_name": "Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Caching Agent [6ff1]",
+        "device_option": [
+          "-r01"
+        ],
+        "subsystem_vendor_name": "Intel Corporation [8086]",
+        "subsystem_name": "Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Caching Agent [6ff1]"
+      },
+      {
+        "slot": "ff:0f.0",
+        "class": "System peripheral [0880]",
+        "vendor_name": "Intel Corporation [8086]",
+        "device_name": "Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Caching Agent [6ff8]",
+        "device_option": [
+          "-r01"
+        ],
+        "subsystem_vendor_name": "Intel Corporation [8086]",
+        "subsystem_name": "Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Caching Agent [6ff8]"
+      },
+      {
+        "slot": "ff:0f.1",
+        "class": "System peripheral [0880]",
+        "vendor_name": "Intel Corporation [8086]",
+        "device_name": "Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Caching Agent [6ff9]",
+        "device_option": [
+          "-r01"
+        ],
+        "subsystem_vendor_name": "Intel Corporation [8086]",
+        "subsystem_name": "Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Caching Agent [6ff9]"
+      },
+      {
+        "slot": "ff:0f.2",
+        "class": "System peripheral [0880]",
+        "vendor_name": "Intel Corporation [8086]",
+        "device_name": "Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Caching Agent [6ffa]",
+        "device_option": [
+          "-r01"
+        ],
+        "subsystem_vendor_name": "Intel Corporation [8086]",
+        "subsystem_name": "Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Caching Agent [6ffa]"
+      },
+      {
+        "slot": "ff:0f.3",
+        "class": "System peripheral [0880]",
+        "vendor_name": "Intel Corporation [8086]",
+        "device_name": "Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Caching Agent [6ffb]",
+        "device_option": [
+          "-r01"
+        ],
+        "subsystem_vendor_name": "Intel Corporation [8086]",
+        "subsystem_name": "Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Caching Agent [6ffb]"
+      },
+      {
+        "slot": "ff:0f.4",
+        "class": "System peripheral [0880]",
+        "vendor_name": "Intel Corporation [8086]",
+        "device_name": "Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Caching Agent [6ffc]",
+        "device_option": [
+          "-r01"
+        ],
+        "subsystem_vendor_name": "Intel Corporation [8086]",
+        "subsystem_name": "Device [6fe0]"
+      },
+      {
+        "slot": "ff:0f.5",
+        "class": "System peripheral [0880]",
+        "vendor_name": "Intel Corporation [8086]",
+        "device_name": "Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Caching Agent [6ffd]",
+        "device_option": [
+          "-r01"
+        ],
+        "subsystem_vendor_name": "Intel Corporation [8086]",
+        "subsystem_name": "Device [6fe0]"
+      },
+      {
+        "slot": "ff:0f.6",
+        "class": "System peripheral [0880]",
+        "vendor_name": "Intel Corporation [8086]",
+        "device_name": "Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Caching Agent [6ffe]",
+        "device_option": [
+          "-r01"
+        ],
+        "subsystem_vendor_name": "Intel Corporation [8086]",
+        "subsystem_name": "Device [6fe0]"
+      },
+      {
+        "slot": "ff:10.0",
+        "class": "System peripheral [0880]",
+        "vendor_name": "Intel Corporation [8086]",
+        "device_name": "Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D R2PCIe Agent [6f1d]",
+        "device_option": [
+          "-r01"
+        ],
+        "subsystem_vendor_name": "Intel Corporation [8086]",
+        "subsystem_name": "Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D R2PCIe Agent [6f1d]"
+      },
+      {
+        "slot": "ff:10.1",
+        "class": "Performance counters [1101]",
+        "vendor_name": "Intel Corporation [8086]",
+        "device_name": "Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D R2PCIe Agent [6f34]",
+        "device_option": [
+          "-r01"
+        ],
+        "subsystem_vendor_name": "Intel Corporation [8086]",
+        "subsystem_name": "Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D R2PCIe Agent [6f34]"
+      },
+      {
+        "slot": "ff:10.5",
+        "class": "System peripheral [0880]",
+        "vendor_name": "Intel Corporation [8086]",
+        "device_name": "Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Ubox [6f1e]",
+        "device_option": [
+          "-r01"
+        ],
+        "subsystem_vendor_name": "Intel Corporation [8086]",
+        "subsystem_name": "Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Ubox [6f1e]"
+      },
+      {
+        "slot": "ff:10.6",
+        "class": "Performance counters [1101]",
+        "vendor_name": "Intel Corporation [8086]",
+        "device_name": "Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Ubox [6f7d]",
+        "device_option": [
+          "-r01"
+        ],
+        "subsystem_vendor_name": "Intel Corporation [8086]",
+        "subsystem_name": "Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Ubox [6f7d]"
+      },
+      {
+        "slot": "ff:10.7",
+        "class": "System peripheral [0880]",
+        "vendor_name": "Intel Corporation [8086]",
+        "device_name": "Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Ubox [6f1f]",
+        "device_option": [
+          "-r01"
+        ],
+        "subsystem_vendor_name": "Intel Corporation [8086]",
+        "subsystem_name": "Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Ubox [6f1f]"
+      },
+      {
+        "slot": "ff:12.0",
+        "class": "System peripheral [0880]",
+        "vendor_name": "Intel Corporation [8086]",
+        "device_name": "Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Home Agent 0 [6fa0]",
+        "device_option": [
+          "-r01"
+        ],
+        "subsystem_vendor_name": "Intel Corporation [8086]",
+        "subsystem_name": "Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Home Agent 0 [6fa0]"
+      },
+      {
+        "slot": "ff:12.1",
+        "class": "Performance counters [1101]",
+        "vendor_name": "Intel Corporation [8086]",
+        "device_name": "Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Home Agent 0 [6f30]",
+        "device_option": [
+          "-r01"
+        ],
+        "subsystem_vendor_name": "Intel Corporation [8086]",
+        "subsystem_name": "Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Home Agent 0 [6f30]"
+      },
+      {
+        "slot": "ff:12.4",
+        "class": "System peripheral [0880]",
+        "vendor_name": "Intel Corporation [8086]",
+        "device_name": "Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Home Agent 1 [6f60]",
+        "device_option": [
+          "-r01"
+        ],
+        "subsystem_vendor_name": "Intel Corporation [8086]",
+        "subsystem_name": "Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Home Agent 1 [6f60]"
+      },
+      {
+        "slot": "ff:12.5",
+        "class": "Performance counters [1101]",
+        "vendor_name": "Intel Corporation [8086]",
+        "device_name": "Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Home Agent 1 [6f38]",
+        "device_option": [
+          "-r01"
+        ],
+        "subsystem_vendor_name": "Intel Corporation [8086]",
+        "subsystem_name": "Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Home Agent 1 [6f38]"
+      },
+      {
+        "slot": "ff:13.0",
+        "class": "System peripheral [0880]",
+        "vendor_name": "Intel Corporation [8086]",
+        "device_name": "Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Memory Controller 0 - Target Address/Thermal/RAS [6fa8]",
+        "device_option": [
+          "-r01"
+        ],
+        "subsystem_vendor_name": "Intel Corporation [8086]",
+        "subsystem_name": "Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Memory Controller 0 - Target Address/Thermal/RAS [6fa8]"
+      },
+      {
+        "slot": "ff:13.1",
+        "class": "System peripheral [0880]",
+        "vendor_name": "Intel Corporation [8086]",
+        "device_name": "Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Memory Controller 0 - Target Address/Thermal/RAS [6f71]",
+        "device_option": [
+          "-r01"
+        ],
+        "subsystem_vendor_name": "Intel Corporation [8086]",
+        "subsystem_name": "Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Memory Controller 0 - Target Address/Thermal/RAS [6f71]"
+      },
+      {
+        "slot": "ff:13.2",
+        "class": "System peripheral [0880]",
+        "vendor_name": "Intel Corporation [8086]",
+        "device_name": "Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Memory Controller 0 - Channel Target Address Decoder [6faa]",
+        "device_option": [
+          "-r01"
+        ],
+        "subsystem_vendor_name": "Intel Corporation [8086]",
+        "subsystem_name": "Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Memory Controller 0 - Channel Target Address Decoder [6faa]"
+      },
+      {
+        "slot": "ff:13.3",
+        "class": "System peripheral [0880]",
+        "vendor_name": "Intel Corporation [8086]",
+        "device_name": "Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Memory Controller 0 - Channel Target Address Decoder [6fab]",
+        "device_option": [
+          "-r01"
+        ],
+        "subsystem_vendor_name": "Intel Corporation [8086]",
+        "subsystem_name": "Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Memory Controller 0 - Channel Target Address Decoder [6fab]"
+      },
+      {
+        "slot": "ff:13.6",
+        "class": "System peripheral [0880]",
+        "vendor_name": "Intel Corporation [8086]",
+        "device_name": "Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D DDRIO Channel 0/1 Broadcast [6fae]",
+        "device_option": [
+          "-r01"
+        ]
+      },
+      {
+        "slot": "ff:13.7",
+        "class": "System peripheral [0880]",
+        "vendor_name": "Intel Corporation [8086]",
+        "device_name": "Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D DDRIO Global Broadcast [6faf]",
+        "device_option": [
+          "-r01"
+        ]
+      },
+      {
+        "slot": "ff:14.0",
+        "class": "System peripheral [0880]",
+        "vendor_name": "Intel Corporation [8086]",
+        "device_name": "Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Memory Controller 0 - Channel 0 Thermal Control [6fb0]",
+        "device_option": [
+          "-r01"
+        ],
+        "subsystem_vendor_name": "Intel Corporation [8086]",
+        "subsystem_name": "Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Memory Controller 0 - Channel 0 Thermal Control [6fb0]"
+      },
+      {
+        "slot": "ff:14.1",
+        "class": "System peripheral [0880]",
+        "vendor_name": "Intel Corporation [8086]",
+        "device_name": "Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Memory Controller 0 - Channel 1 Thermal Control [6fb1]",
+        "device_option": [
+          "-r01"
+        ],
+        "subsystem_vendor_name": "Intel Corporation [8086]",
+        "subsystem_name": "Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Memory Controller 0 - Channel 1 Thermal Control [6fb1]"
+      },
+      {
+        "slot": "ff:14.2",
+        "class": "System peripheral [0880]",
+        "vendor_name": "Intel Corporation [8086]",
+        "device_name": "Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Memory Controller 0 - Channel 0 Error [6fb2]",
+        "device_option": [
+          "-r01"
+        ],
+        "subsystem_vendor_name": "Intel Corporation [8086]",
+        "subsystem_name": "Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Memory Controller 0 - Channel 0 Error [6fb2]"
+      },
+      {
+        "slot": "ff:14.3",
+        "class": "System peripheral [0880]",
+        "vendor_name": "Intel Corporation [8086]",
+        "device_name": "Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Memory Controller 0 - Channel 1 Error [6fb3]",
+        "device_option": [
+          "-r01"
+        ],
+        "subsystem_vendor_name": "Intel Corporation [8086]",
+        "subsystem_name": "Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Memory Controller 0 - Channel 1 Error [6fb3]"
+      },
+      {
+        "slot": "ff:14.4",
+        "class": "System peripheral [0880]",
+        "vendor_name": "Intel Corporation [8086]",
+        "device_name": "Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D DDRIO Channel 0/1 Interface [6fbc]",
+        "device_option": [
+          "-r01"
+        ]
+      },
+      {
+        "slot": "ff:14.5",
+        "class": "System peripheral [0880]",
+        "vendor_name": "Intel Corporation [8086]",
+        "device_name": "Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D DDRIO Channel 0/1 Interface [6fbd]",
+        "device_option": [
+          "-r01"
+        ]
+      },
+      {
+        "slot": "ff:14.6",
+        "class": "System peripheral [0880]",
+        "vendor_name": "Intel Corporation [8086]",
+        "device_name": "Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D DDRIO Channel 0/1 Interface [6fbe]",
+        "device_option": [
+          "-r01"
+        ]
+      },
+      {
+        "slot": "ff:14.7",
+        "class": "System peripheral [0880]",
+        "vendor_name": "Intel Corporation [8086]",
+        "device_name": "Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D DDRIO Channel 0/1 Interface [6fbf]",
+        "device_option": [
+          "-r01"
+        ]
+      },
+      {
+        "slot": "ff:16.0",
+        "class": "System peripheral [0880]",
+        "vendor_name": "Intel Corporation [8086]",
+        "device_name": "Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Target Address/Thermal/RAS [6f68]",
+        "device_option": [
+          "-r01"
+        ],
+        "subsystem_vendor_name": "Intel Corporation [8086]",
+        "subsystem_name": "Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Target Address/Thermal/RAS [6f68]"
+      },
+      {
+        "slot": "ff:16.1",
+        "class": "System peripheral [0880]",
+        "vendor_name": "Intel Corporation [8086]",
+        "device_name": "Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Target Address/Thermal/RAS [6f79]",
+        "device_option": [
+          "-r01"
+        ],
+        "subsystem_vendor_name": "Intel Corporation [8086]",
+        "subsystem_name": "Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Target Address/Thermal/RAS [6f79]"
+      },
+      {
+        "slot": "ff:16.2",
+        "class": "System peripheral [0880]",
+        "vendor_name": "Intel Corporation [8086]",
+        "device_name": "Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Channel Target Address Decoder [6f6a]",
+        "device_option": [
+          "-r01"
+        ],
+        "subsystem_vendor_name": "Intel Corporation [8086]",
+        "subsystem_name": "Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Channel Target Address Decoder [6f6a]"
+      },
+      {
+        "slot": "ff:16.3",
+        "class": "System peripheral [0880]",
+        "vendor_name": "Intel Corporation [8086]",
+        "device_name": "Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Channel Target Address Decoder [6f6b]",
+        "device_option": [
+          "-r01"
+        ],
+        "subsystem_vendor_name": "Intel Corporation [8086]",
+        "subsystem_name": "Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Channel Target Address Decoder [6f6b]"
+      },
+      {
+        "slot": "ff:16.6",
+        "class": "System peripheral [0880]",
+        "vendor_name": "Intel Corporation [8086]",
+        "device_name": "Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D DDRIO Channel 2/3 Broadcast [6f6e]",
+        "device_option": [
+          "-r01"
+        ]
+      },
+      {
+        "slot": "ff:16.7",
+        "class": "System peripheral [0880]",
+        "vendor_name": "Intel Corporation [8086]",
+        "device_name": "Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D DDRIO Global Broadcast [6f6f]",
+        "device_option": [
+          "-r01"
+        ]
+      },
+      {
+        "slot": "ff:17.0",
+        "class": "System peripheral [0880]",
+        "vendor_name": "Intel Corporation [8086]",
+        "device_name": "Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Memory Controller 1 - Channel 0 Thermal Control [6fd0]",
+        "device_option": [
+          "-r01"
+        ],
+        "subsystem_vendor_name": "Intel Corporation [8086]",
+        "subsystem_name": "Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Memory Controller 1 - Channel 0 Thermal Control [6fd0]"
+      },
+      {
+        "slot": "ff:17.1",
+        "class": "System peripheral [0880]",
+        "vendor_name": "Intel Corporation [8086]",
+        "device_name": "Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Memory Controller 1 - Channel 1 Thermal Control [6fd1]",
+        "device_option": [
+          "-r01"
+        ],
+        "subsystem_vendor_name": "Intel Corporation [8086]",
+        "subsystem_name": "Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Memory Controller 1 - Channel 1 Thermal Control [6fd1]"
+      },
+      {
+        "slot": "ff:17.2",
+        "class": "System peripheral [0880]",
+        "vendor_name": "Intel Corporation [8086]",
+        "device_name": "Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Memory Controller 1 - Channel 0 Error [6fd2]",
+        "device_option": [
+          "-r01"
+        ],
+        "subsystem_vendor_name": "Intel Corporation [8086]",
+        "subsystem_name": "Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Memory Controller 1 - Channel 0 Error [6fd2]"
+      },
+      {
+        "slot": "ff:17.3",
+        "class": "System peripheral [0880]",
+        "vendor_name": "Intel Corporation [8086]",
+        "device_name": "Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Memory Controller 1 - Channel 1 Error [6fd3]",
+        "device_option": [
+          "-r01"
+        ],
+        "subsystem_vendor_name": "Intel Corporation [8086]",
+        "subsystem_name": "Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Memory Controller 1 - Channel 1 Error [6fd3]"
+      },
+      {
+        "slot": "ff:17.4",
+        "class": "System peripheral [0880]",
+        "vendor_name": "Intel Corporation [8086]",
+        "device_name": "Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D DDRIO Channel 2/3 Interface [6fb8]",
+        "device_option": [
+          "-r01"
+        ]
+      },
+      {
+        "slot": "ff:17.5",
+        "class": "System peripheral [0880]",
+        "vendor_name": "Intel Corporation [8086]",
+        "device_name": "Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D DDRIO Channel 2/3 Interface [6fb9]",
+        "device_option": [
+          "-r01"
+        ]
+      },
+      {
+        "slot": "ff:17.6",
+        "class": "System peripheral [0880]",
+        "vendor_name": "Intel Corporation [8086]",
+        "device_name": "Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D DDRIO Channel 2/3 Interface [6fba]",
+        "device_option": [
+          "-r01"
+        ]
+      },
+      {
+        "slot": "ff:17.7",
+        "class": "System peripheral [0880]",
+        "vendor_name": "Intel Corporation [8086]",
+        "device_name": "Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D DDRIO Channel 2/3 Interface [6fbb]",
+        "device_option": [
+          "-r01"
+        ]
+      },
+      {
+        "slot": "ff:1e.0",
+        "class": "System peripheral [0880]",
+        "vendor_name": "Intel Corporation [8086]",
+        "device_name": "Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Power Control Unit [6f98]",
+        "device_option": [
+          "-r01"
+        ],
+        "subsystem_vendor_name": "Intel Corporation [8086]",
+        "subsystem_name": "Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Power Control Unit [6f98]"
+      },
+      {
+        "slot": "ff:1e.1",
+        "class": "System peripheral [0880]",
+        "vendor_name": "Intel Corporation [8086]",
+        "device_name": "Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Power Control Unit [6f99]",
+        "device_option": [
+          "-r01"
+        ],
+        "subsystem_vendor_name": "Intel Corporation [8086]",
+        "subsystem_name": "Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Power Control Unit [6f99]"
+      },
+      {
+        "slot": "ff:1e.2",
+        "class": "System peripheral [0880]",
+        "vendor_name": "Intel Corporation [8086]",
+        "device_name": "Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Power Control Unit [6f9a]",
+        "device_option": [
+          "-r01"
+        ],
+        "subsystem_vendor_name": "Intel Corporation [8086]",
+        "subsystem_name": "Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Power Control Unit [6f9a]"
+      },
+      {
+        "slot": "ff:1e.3",
+        "class": "System peripheral [0880]",
+        "vendor_name": "Intel Corporation [8086]",
+        "device_name": "Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Power Control Unit [6fc0]",
+        "device_option": [
+          "-r01"
+        ],
+        "subsystem_vendor_name": "Intel Corporation [8086]",
+        "subsystem_name": "Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Power Control Unit [6fc0]"
+      },
+      {
+        "slot": "ff:1e.4",
+        "class": "System peripheral [0880]",
+        "vendor_name": "Intel Corporation [8086]",
+        "device_name": "Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Power Control Unit [6f9c]",
+        "device_option": [
+          "-r01"
+        ],
+        "subsystem_vendor_name": "Intel Corporation [8086]",
+        "subsystem_name": "Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Power Control Unit [6f9c]"
+      },
+      {
+        "slot": "ff:1f.0",
+        "class": "System peripheral [0880]",
+        "vendor_name": "Intel Corporation [8086]",
+        "device_name": "Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Power Control Unit [6f88]",
+        "device_option": [
+          "-r01"
+        ]
+      },
+      {
+        "slot": "ff:1f.2",
+        "class": "System peripheral [0880]",
+        "vendor_name": "Intel Corporation [8086]",
+        "device_name": "Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Power Control Unit [6f8a]",
+        "device_option": [
+          "-r01"
+        ]
+      }
+    ]
+  },
+  "system": {
+    "node_name": "oslic8",
+    "user_name": "frye10",
+    "os_name": "Linux",
+    "os_type": "3.10.0-1160.45.1.1chaos.ch6.x86_64",
+    "os_version": "#1 SMP Wed Oct 27 13:54:20 PDT 2021",
+    "limits": {
+      "maximum core file size": {
+        "soft": 16384,
+        "hard": "infinity"
+      },
+      "maximum CPU time": {
+        "soft": "infinity",
+        "hard": "infinity"
+      },
+      "maximum file size": {
+        "soft": "infinity",
+        "hard": "infinity"
+      },
+      "maximum heap size": {
+        "soft": "infinity",
+        "hard": "infinity"
+      },
+      "maximum stack size": {
+        "soft": "infinity",
+        "hard": "infinity"
+      },
+      "maximum resident set size": {
+        "soft": "infinity",
+        "hard": "infinity"
+      },
+      "maximum number of processes": {
+        "soft": 8192,
+        "hard": 8192
+      },
+      "maximum number of open files": {
+        "soft": 1024,
+        "hard": 128000
+      },
+      "maximum lockable memory addresses": {
+        "soft": 268435456,
+        "hard": 1073741824
+      },
+      "maximum area of address space": {
+        "soft": "infinity",
+        "hard": "infinity"
+      },
+      "number of bytes for POSIX messages queues": {
+        "soft": 819200,
+        "hard": 819200
+      },
+      "ceiling for nice level": {
+        "soft": 0,
+        "hard": 0
+      },
+      "ceiling of the real-time priority": {
+        "soft": 0,
+        "hard": 0
+      },
+      "time limit on CPU time under real-time scheduling": {
+        "soft": "infinity",
+        "hard": "infinity"
+      },
+      "number of signals that can be queued": {
+        "soft": 1029831,
+        "hard": 1029831
+      }
+    },
+    "env_variables": {
+      "BASH_ENV": "/usr/share/lmod/lmod/init/bash",
+      "BASH_FUNC_ml()": "() {  eval $($LMOD_DIR/ml_cmd \"$@\")\n}",
+      "BASH_FUNC_module()": "() {  eval $($LMOD_CMD bash \"$@\") && eval $(${LMOD_SETTARG_CMD:-:} -s sh)\n}",
+      "CMAKE_PREFIX_PATH": "/g/g20/frye10/spack/opt/spack/linux-rhel7-broadwell/gcc-4.9.3/openmpi-4.1.2-estrdto2urycrxyjdxe7pymyasoxmxag:/g/g20/frye10/spack/opt/spack/linux-rhel7-broadwell/gcc-4.9.3/survey-1.0.2-ivxz4tfoaq6egzursjjphrna7domrbp4",
+      "CONDA_SHLVL": "0",
+      "CVS_RSH": "ssh",
+      "DARSHAN_LLNL_LOGDIR": "/usr/sonar/ingestion/darshan/oslic/frye10",
+      "DK_NODE": "/usr/global/tools/dotkit",
+      "DK_ROOT": "/usr/tce/packages/dotkit/dotkit",
+      "DK_SUBNODE": "bash/toss_3_x86_64_ib:bash:toss_3_x86_64_ib:.",
+      "DK_UEQRU": "1",
+      "EDITOR": "/bin/vi",
+      "ENV": "/g/g20/frye10/.bashrc",
+      "ENVIRONMENT": "INTERACTIVE",
+      "FPATH": "/usr/share/lmod/lmod/init/ksh_funcs",
+      "GLOGIN": "1",
+      "GUESTFISH_INIT": "\\e[1;34m",
+      "GUESTFISH_OUTPUT": "\\e[0m",
+      "GUESTFISH_PS1": "\\[\\e[1;32m\\]><fs>\\[\\e[0;31m\\] ",
+      "GUESTFISH_RESTORE": "\\e[0m",
+      "HISTCONTROL": "ignoredups",
+      "HISTFILE": "/g/g20/frye10/.bash_history",
+      "HISTSIZE": "50",
+      "HOME": "/g/g20/frye10",
+      "HOSTNAME": "oslic8",
+      "HOST_GRP": "linux",
+      "INPUTRC": "/etc/inputrc",
+      "INTEL_LICENSE_FILE": "/usr/tce/packages/intel/intel-19.0.4/compilers_and_libraries_2019.4.227/linux/Licenses/license.client.intel.lic",
+      "KDEDIRS": "/usr",
+      "KRB5CCNAME": "FILE:/tmp/krb5cc_35883_e5rK3S",
+      "LANG": "en_US.UTF-8",
+      "LCSCHEDCLUSTER": "oslic",
+      "LC_ALL": "C",
+      "LD_LIBRARY_PATH": "/g/g20/frye10/spack/opt/spack/linux-rhel7-broadwell/gcc-4.9.3/openmpi-4.1.2-estrdto2urycrxyjdxe7pymyasoxmxag/lib:/g/g20/frye10/spack/opt/spack/linux-rhel7-broadwell/gcc-4.9.3/survey-1.0.2-ivxz4tfoaq6egzursjjphrna7domrbp4/lib64:/g/g20/frye10/spack/opt/spack/linux-rhel7-broadwell/gcc-4.9.3/survey-1.0.2-ivxz4tfoaq6egzursjjphrna7domrbp4/lib:/usr/tce/packages/mvapich2/mvapich2-2.3-intel-19.0.4/lib:/usr/tce/packages/intel/intel-19.0.4/lib/intel64",
+      "LESSOPEN": "||/usr/bin/lesspipe.sh %s",
+      "LMOD_CMD": "/usr/share/lmod/lmod/libexec/lmod",
+      "LMOD_COLORIZE": "yes",
+      "LMOD_DIR": "/usr/share/lmod/lmod/libexec",
+      "LMOD_FAMILY_COMPILER": "intel",
+      "LMOD_FAMILY_COMPILER_VERSION": "19.0.4",
+      "LMOD_FAMILY_MPI": "mvapich2",
+      "LMOD_FAMILY_MPI_VERSION": "2.3",
+      "LMOD_FULL_SETTARG_SUPPORT": "no",
+      "LMOD_PKG": "/usr/share/lmod/lmod",
+      "LMOD_PREPEND_BLOCK": "normal",
+      "LMOD_ROOT": "/usr/share/lmod",
+      "LMOD_SETTARG_CMD": ":",
+      "LMOD_SETTARG_FULL_SUPPORT": "no",
+      "LMOD_SYSTEM_DEFAULT_MODULES": "StdEnv",
+      "LMOD_VERSION": "8.4.10",
+      "LMOD_arch": "x86_64",
+      "LMOD_sys": "Linux",
+      "LOADEDMODULES": "intel/19.0.4:mvapich2/2.3:texlive/2016:StdEnv:survey-1.0.2-gcc-4.9.3-ivxz4tf:openmpi-4.1.2-gcc-4.9.3-estrdto",
+      "LOGNAME": "frye10",
+      "LS_COLORS": "rs=0:di=38;5;27:ln=38;5;51:mh=44;38;5;15:pi=40;38;5;11:so=38;5;13:do=38;5;5:bd=48;5;232;38;5;11:cd=48;5;232;38;5;3:or=48;5;232;38;5;9:mi=05;48;5;232;38;5;15:su=48;5;196;38;5;15:sg=48;5;11;38;5;16:ca=48;5;196;38;5;226:tw=48;5;10;38;5;16:ow=48;5;10;38;5;21:st=48;5;21;38;5;15:ex=38;5;34:*.tar=38;5;9:*.tgz=38;5;9:*.arc=38;5;9:*.arj=38;5;9:*.taz=38;5;9:*.lha=38;5;9:*.lz4=38;5;9:*.lzh=38;5;9:*.lzma=38;5;9:*.tlz=38;5;9:*.txz=38;5;9:*.tzo=38;5;9:*.t7z=38;5;9:*.zip=38;5;9:*.z=38;5;9:*.Z=38;5;9:*.dz=38;5;9:*.gz=38;5;9:*.lrz=38;5;9:*.lz=38;5;9:*.lzo=38;5;9:*.xz=38;5;9:*.bz2=38;5;9:*.bz=38;5;9:*.tbz=38;5;9:*.tbz2=38;5;9:*.tz=38;5;9:*.deb=38;5;9:*.rpm=38;5;9:*.jar=38;5;9:*.war=38;5;9:*.ear=38;5;9:*.sar=38;5;9:*.rar=38;5;9:*.alz=38;5;9:*.ace=38;5;9:*.zoo=38;5;9:*.cpio=38;5;9:*.7z=38;5;9:*.rz=38;5;9:*.cab=38;5;9:*.jpg=38;5;13:*.jpeg=38;5;13:*.gif=38;5;13:*.bmp=38;5;13:*.pbm=38;5;13:*.pgm=38;5;13:*.ppm=38;5;13:*.tga=38;5;13:*.xbm=38;5;13:*.xpm=38;5;13:*.tif=38;5;13:*.tiff=38;5;13:*.png=38;5;13:*.svg=38;5;13:*.svgz=38;5;13:*.mng=38;5;13:*.pcx=38;5;13:*.mov=38;5;13:*.mpg=38;5;13:*.mpeg=38;5;13:*.m2v=38;5;13:*.mkv=38;5;13:*.webm=38;5;13:*.ogm=38;5;13:*.mp4=38;5;13:*.m4v=38;5;13:*.mp4v=38;5;13:*.vob=38;5;13:*.qt=38;5;13:*.nuv=38;5;13:*.wmv=38;5;13:*.asf=38;5;13:*.rm=38;5;13:*.rmvb=38;5;13:*.flc=38;5;13:*.avi=38;5;13:*.fli=38;5;13:*.flv=38;5;13:*.gl=38;5;13:*.dl=38;5;13:*.xcf=38;5;13:*.xwd=38;5;13:*.yuv=38;5;13:*.cgm=38;5;13:*.emf=38;5;13:*.axv=38;5;13:*.anx=38;5;13:*.ogv=38;5;13:*.ogx=38;5;13:*.aac=38;5;45:*.au=38;5;45:*.flac=38;5;45:*.mid=38;5;45:*.midi=38;5;45:*.mka=38;5;45:*.mp3=38;5;45:*.mpc=38;5;45:*.ogg=38;5;45:*.ra=38;5;45:*.wav=38;5;45:*.axa=38;5;45:*.oga=38;5;45:*.spx=38;5;45:*.xspf=38;5;45:",
+      "MAIL": "/usr/spool/mail/frye10",
+      "MANPATH": "/g/g20/frye10/spack/opt/spack/linux-rhel7-broadwell/gcc-4.9.3/openmpi-4.1.2-estrdto2urycrxyjdxe7pymyasoxmxag/share/man:/g/g20/frye10/spack/opt/spack/linux-rhel7-broadwell/gcc-4.9.3/survey-1.0.2-ivxz4tfoaq6egzursjjphrna7domrbp4/share/man:/usr/tce/packages/mvapich2/mvapich2-2.3-intel-19.0.4/man:/usr/tce/packages/intel/intel-19.0.4/man/common:/usr/tce/man:/usr/share/lmod/lmod/share/man:/usr/tce/packages/dotkit/dotkit/man:/usr/man:/usr/share/man:/usr/local/man:/usr/X11R6/man:/usr/lib64/mvapich/default/man",
+      "MODULEPATH": "/g/g20/frye10/spack/share/spack/modules/linux-rhel7-broadwell:/usr/tce/modulefiles/MPI/mvapich2/2.3:/usr/tce/modulefiles/MPI/intel/19.0.4/mvapich2/2.3:/usr/tce/modulefiles/Compiler/intel/19.0.4:/collab/usr/global/tools/modulefiles/toss_3_x86_64_ib/Core:/usr/tce/modulefiles/Core:/usr/apps/modulefiles:/usr/share/modulefiles/Linux:/usr/share/modulefiles/Core:/usr/share/lmod/lmod/modulefiles/Core",
+      "MODULEPATH_ROOT": "/usr/share/modulefiles",
+      "MODULESHOME": "/usr/share/lmod/lmod",
+      "MPICC": "/g/g20/frye10/spack/opt/spack/linux-rhel7-broadwell/gcc-4.9.3/openmpi-4.1.2-estrdto2urycrxyjdxe7pymyasoxmxag/bin/mpicc",
+      "MPICXX": "/g/g20/frye10/spack/opt/spack/linux-rhel7-broadwell/gcc-4.9.3/openmpi-4.1.2-estrdto2urycrxyjdxe7pymyasoxmxag/bin/mpic++",
+      "MPIF77": "/g/g20/frye10/spack/opt/spack/linux-rhel7-broadwell/gcc-4.9.3/openmpi-4.1.2-estrdto2urycrxyjdxe7pymyasoxmxag/bin/mpif77",
+      "MPIF90": "/g/g20/frye10/spack/opt/spack/linux-rhel7-broadwell/gcc-4.9.3/openmpi-4.1.2-estrdto2urycrxyjdxe7pymyasoxmxag/bin/mpif90",
+      "OLDPWD": "/g/g20/frye10/LULESH",
+      "PATH": "/g/g20/frye10/spack/opt/spack/linux-rhel7-broadwell/gcc-4.9.3/openmpi-4.1.2-estrdto2urycrxyjdxe7pymyasoxmxag/bin:/g/g20/frye10/survey:/g/g20/frye10/spack/opt/spack/linux-rhel7-broadwell/gcc-4.9.3/python-3.9.9-fb5yfq36gamvqgbinwg7hev6icqe3vd4/bin:/g/g20/frye10/spack/opt/spack/linux-rhel7-broadwell/gcc-4.9.3/survey-1.0.2-ivxz4tfoaq6egzursjjphrna7domrbp4/bin:/usr/tce/packages/texlive/texlive-2016/2016/bin/x86_64-linux:/usr/tce/packages/mvapich2/mvapich2-2.3-intel-19.0.4/bin:/usr/tce/packages/intel/intel-19.0.4/bin:/usr/tce/bin:/usr/lib64/qt-3.3/bin:/usr/condabin:/usr/local/bin:/usr/bin:/usr/local/sbin:/usr/sbin:.",
+      "PFTP_CONFIG_FILENAME": "/etc/pftp_config",
+      "PKG_CONFIG_PATH": "/g/g20/frye10/spack/opt/spack/linux-rhel7-broadwell/gcc-4.9.3/openmpi-4.1.2-estrdto2urycrxyjdxe7pymyasoxmxag/lib/pkgconfig",
+      "PS1": "[\\u@\\h:\\W]$ ",
+      "PWD": "/g/g20/frye10/LULESH/build",
+      "PYTHONPATH": "/g/g20/frye10/spack/opt/spack/linux-rhel7-broadwell/gcc-4.9.3/py-greenlet-1.1.2-6sruk5xyrutj5zyupam63rfizeojrnh5/lib/python3.9/site-packages:/g/g20/frye10/spack/opt/spack/linux-rhel7-broadwell/gcc-4.9.3/py-sqlalchemy-1.4.20-35melqa3elx6xutwfx5puhc4yv5lhhar/lib/python3.9/site-packages:/g/g20/frye10/spack/opt/spack/linux-rhel7-broadwell/gcc-4.9.3/py-pyyaml-6.0-7axcrcdhj53uadkoir56whtlt46ej5uz/lib/python3.9/site-packages:/g/g20/frye10/spack/opt/spack/linux-rhel7-broadwell/gcc-4.9.3/py-psutil-5.8.0-hfqtwfvhv6exh3felbgdp52vwxrijvhd/lib/python3.9/site-packages:/g/g20/frye10/spack/opt/spack/linux-rhel7-broadwell/gcc-4.9.3/py-pbr-5.7.0-2fvvnrglg7uykqsldp7vusgmo2lmpl7c/lib/python3.9/site-packages:/g/g20/frye10/spack/opt/spack/linux-rhel7-broadwell/gcc-4.9.3/py-pytz-2021.1-qfhk7cbbpcty25gfefwjnkjk4wpvruyw/lib/python3.9/site-packages:/g/g20/frye10/spack/opt/spack/linux-rhel7-broadwell/gcc-4.9.3/py-six-1.16.0-ngxnp3cbrjs5vp2gwsw7peypzxgcc2ms/lib/python3.9/site-packages:/g/g20/frye10/spack/opt/spack/linux-rhel7-broadwell/gcc-4.9.3/py-python-dateutil-2.8.2-htjjih4lxefd3v77h7tdr4a76ux5xn5v/lib/python3.9/site-packages:/g/g20/frye10/spack/opt/spack/linux-rhel7-broadwell/gcc-4.9.3/py-numexpr-2.7.3-g65bjakeetg23riix5hwakxudk2euwun/lib/python3.9/site-packages:/g/g20/frye10/spack/opt/spack/linux-rhel7-broadwell/gcc-4.9.3/py-setuptools-59.4.0-gmgb44lillhsdlc3pnbea3kxi34jxo2q/lib/python3.9/site-packages:/g/g20/frye10/spack/opt/spack/linux-rhel7-broadwell/gcc-4.9.3/py-numpy-1.21.0-wsn2r5qc7tlmdkio6v7npvsjgiy6szx6/lib/python3.9/site-packages:/g/g20/frye10/spack/opt/spack/linux-rhel7-broadwell/gcc-4.9.3/py-bottleneck-1.3.2-kryjiiw7y27ojd7uy6ybei7mh3j4ra4c/lib/python3.9/site-packages:/g/g20/frye10/spack/opt/spack/linux-rhel7-broadwell/gcc-4.9.3/py-pandas-1.3.5-6c4upratf3aiw23y4pce34znit2lhumx/lib/python3.9/site-packages:/g/g20/frye10/spack/opt/spack/linux-rhel7-broadwell/gcc-4.9.3/survey-1.0.2-ivxz4tfoaq6egzursjjphrna7domrbp4/lib/python3.9/site-packages",
+      "QTDIR": "/usr/lib64/qt-3.3",
+      "QTINC": "/usr/lib64/qt-3.3/include",
+      "QTLIB": "/usr/lib64/qt-3.3/lib",
+      "QT_PLUGIN_PATH": "/usr/lib64/kde4/plugins:/usr/lib/kde4/plugins",
+      "SHELL": "/bin/bash",
+      "SHLVL": "1",
+      "SSH_ASKPASS": "/usr/libexec/openssh/gnome-ssh-askpass",
+      "SSH_CLIENT": "50.240.31.218 33472 22",
+      "SSH_CONNECTION": "50.240.31.218 33472 134.9.54.108 22",
+      "SSH_TTY": "/dev/pts/7",
+      "SURVEY_CSVDATA_DIR": "/g/g20/frye10/LULESH/build/lulesh2.0-survey-csvdata-31",
+      "SURVEY_HAS_MPI": "1",
+      "SURVEY_HAS_OMPT": "1",
+      "SURVEY_MPI_IMPLEMENTATION": "openmpi",
+      "SYS_TYPE": "toss_3_x86_64_ib",
+      "TERM": "xterm-256color",
+      "TMPDIR": "/var/tmp/frye10",
+      "USER": "frye10",
+      "WISECONFIGDIR": "/usr/share/wise2/",
+      "XDG_DATA_DIRS": "/g/g20/frye10/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share:/usr/share",
+      "_": "/g/g20/frye10/survey/survey",
+      "_LMFILES_": "/usr/tce/modulefiles/Core/intel/19.0.4.lua:/usr/tce/modulefiles/Compiler/intel/19.0.4/mvapich2/2.3.lua:/usr/tce/modulefiles/Core/texlive/2016.lua:/usr/tce/modulefiles/Core/StdEnv.lua:/g/g20/frye10/spack/share/spack/modules/linux-rhel7-broadwell/survey-1.0.2-gcc-4.9.3-ivxz4tf:/g/g20/frye10/spack/share/spack/modules/linux-rhel7-broadwell/openmpi-4.1.2-gcc-4.9.3-estrdto",
+      "_ModuleTable001_": "X01vZHVsZVRhYmxlXz17WyJNVHZlcnNpb24iXT0zLFsiY19yZWJ1aWxkVGltZSJdPTg2NDAwLFsiY19zaG9ydFRpbWUiXT1mYWxzZSxkZXB0aFQ9e30sZmFtaWx5PXtbImNvbXBpbGVyIl09ImludGVsIixbIm1waSJdPSJtdmFwaWNoMiIsfSxtVD17U3RkRW52PXtbImZuIl09Ii91c3IvdGNlL21vZHVsZWZpbGVzL0NvcmUvU3RkRW52Lmx1YSIsWyJmdWxsTmFtZSJdPSJTdGRFbnYiLFsibG9hZE9yZGVyIl09NCxwcm9wVD17bG1vZD17WyJzdGlja3kiXT0xLH0sfSxbInN0YWNrRGVwdGgiXT0wLFsic3RhdHVzIl09ImFjdGl2ZSIsWyJ1c2VyTmFtZSJdPSJTdGRFbnYiLH0saW50ZWw9e1siZm4iXT0iL3Vzci90Y2UvbW9kdWxlZmlsZXMvQ29yZS9pbnRlbC8xOS4wLjQubHVhIixb",
+      "_ModuleTable002_": "ImZ1bGxOYW1lIl09ImludGVsLzE5LjAuNCIsWyJsb2FkT3JkZXIiXT0xLHByb3BUPXt9LFsic3RhY2tEZXB0aCJdPTEsWyJzdGF0dXMiXT0iYWN0aXZlIixbInVzZXJOYW1lIl09ImludGVsIix9LG12YXBpY2gyPXtbImZuIl09Ii91c3IvdGNlL21vZHVsZWZpbGVzL0NvbXBpbGVyL2ludGVsLzE5LjAuNC9tdmFwaWNoMi8yLjMubHVhIixbImZ1bGxOYW1lIl09Im12YXBpY2gyLzIuMyIsWyJsb2FkT3JkZXIiXT0yLHByb3BUPXt9LFsic3RhY2tEZXB0aCJdPTEsWyJzdGF0dXMiXT0iYWN0aXZlIixbInVzZXJOYW1lIl09Im12YXBpY2gyLzIuMyIsfSxbIm9wZW5tcGktNC4xLjItZ2NjLTQuOS4zLWVzdHJkdG8iXT17WyJmbiJdPSIvZy9nMjAvZnJ5ZTEwL3NwYWNrL3NoYXJlL3Nw",
+      "_ModuleTable003_": "YWNrL21vZHVsZXMvbGludXgtcmhlbDctYnJvYWR3ZWxsL29wZW5tcGktNC4xLjItZ2NjLTQuOS4zLWVzdHJkdG8iLFsiZnVsbE5hbWUiXT0ib3Blbm1waS00LjEuMi1nY2MtNC45LjMtZXN0cmR0byIsWyJsb2FkT3JkZXIiXT02LHByb3BUPXt9LFsic3RhY2tEZXB0aCJdPTAsWyJzdGF0dXMiXT0iYWN0aXZlIixbInVzZXJOYW1lIl09Im9wZW5tcGktNC4xLjItZ2NjLTQuOS4zLWVzdHJkdG8iLH0sWyJzdXJ2ZXktMS4wLjItZ2NjLTQuOS4zLWl2eHo0dGYiXT17WyJmbiJdPSIvZy9nMjAvZnJ5ZTEwL3NwYWNrL3NoYXJlL3NwYWNrL21vZHVsZXMvbGludXgtcmhlbDctYnJvYWR3ZWxsL3N1cnZleS0xLjAuMi1nY2MtNC45LjMtaXZ4ejR0ZiIsWyJmdWxsTmFtZSJdPSJzdXJ2ZXkt",
+      "_ModuleTable004_": "MS4wLjItZ2NjLTQuOS4zLWl2eHo0dGYiLFsibG9hZE9yZGVyIl09NSxwcm9wVD17fSxbInN0YWNrRGVwdGgiXT0wLFsic3RhdHVzIl09ImFjdGl2ZSIsWyJ1c2VyTmFtZSJdPSJzdXJ2ZXktMS4wLjItZ2NjLTQuOS4zLWl2eHo0dGYiLH0sdGV4bGl2ZT17WyJmbiJdPSIvdXNyL3RjZS9tb2R1bGVmaWxlcy9Db3JlL3RleGxpdmUvMjAxNi5sdWEiLFsiZnVsbE5hbWUiXT0idGV4bGl2ZS8yMDE2IixbImxvYWRPcmRlciJdPTMscHJvcFQ9e30sWyJzdGFja0RlcHRoIl09MSxbInN0YXR1cyJdPSJhY3RpdmUiLFsidXNlck5hbWUiXT0idGV4bGl2ZS8yMDE2Iix9LH0sbXBhdGhBPXsiL2cvZzIwL2ZyeWUxMC9zcGFjay9zaGFyZS9zcGFjay9tb2R1bGVzL2xpbnV4LXJoZWw3LWJyb2Fk",
+      "_ModuleTable005_": "d2VsbCIsIi91c3IvdGNlL21vZHVsZWZpbGVzL01QSS9tdmFwaWNoMi8yLjMiLCIvdXNyL3RjZS9tb2R1bGVmaWxlcy9NUEkvaW50ZWwvMTkuMC40L212YXBpY2gyLzIuMyIsIi91c3IvdGNlL21vZHVsZWZpbGVzL0NvbXBpbGVyL2ludGVsLzE5LjAuNCIsIi9jb2xsYWIvdXNyL2dsb2JhbC90b29scy9tb2R1bGVmaWxlcy90b3NzXzNfeDg2XzY0X2liL0NvcmUiLCIvdXNyL3RjZS9tb2R1bGVmaWxlcy9Db3JlIiwiL3Vzci9hcHBzL21vZHVsZWZpbGVzIiwiL3Vzci9zaGFyZS9tb2R1bGVmaWxlcy9MaW51eCIsIi91c3Ivc2hhcmUvbW9kdWxlZmlsZXMvQ29yZSIsIi91c3Ivc2hhcmUvbG1vZC9sbW9kL21vZHVsZWZpbGVzL0NvcmUiLH0sWyJzeXN0ZW1CYXNlTVBBVEgiXT0iL3Vz",
+      "_ModuleTable006_": "ci90Y2UvbW9kdWxlZmlsZXMvQ29yZTovdXNyL2FwcHMvbW9kdWxlZmlsZXM6L3Vzci9zaGFyZS9tb2R1bGVmaWxlcy9MaW51eDovdXNyL3NoYXJlL21vZHVsZWZpbGVzL0NvcmU6L3Vzci9zaGFyZS9sbW9kL2xtb2QvbW9kdWxlZmlsZXMvQ29yZSIsfQ==",
+      "_ModuleTable_Sz_": "6",
+      "__LMOD_REF_COUNT_CMAKE_PREFIX_PATH": "/g/g20/frye10/spack/opt/spack/linux-rhel7-broadwell/gcc-4.9.3/openmpi-4.1.2-estrdto2urycrxyjdxe7pymyasoxmxag:1;/g/g20/frye10/spack/opt/spack/linux-rhel7-broadwell/gcc-4.9.3/survey-1.0.2-ivxz4tfoaq6egzursjjphrna7domrbp4:1",
+      "__LMOD_REF_COUNT_INTEL_LICENSE_FILE": "/usr/tce/packages/intel/intel-19.0.4/compilers_and_libraries_2019.4.227/linux/Licenses/license.client.intel.lic:1",
+      "__LMOD_REF_COUNT_LD_LIBRARY_PATH": "/g/g20/frye10/spack/opt/spack/linux-rhel7-broadwell/gcc-4.9.3/openmpi-4.1.2-estrdto2urycrxyjdxe7pymyasoxmxag/lib:1;/g/g20/frye10/spack/opt/spack/linux-rhel7-broadwell/gcc-4.9.3/survey-1.0.2-ivxz4tfoaq6egzursjjphrna7domrbp4/lib64:1;/g/g20/frye10/spack/opt/spack/linux-rhel7-broadwell/gcc-4.9.3/survey-1.0.2-ivxz4tfoaq6egzursjjphrna7domrbp4/lib:1;/usr/tce/packages/mvapich2/mvapich2-2.3-intel-19.0.4/lib:1;/usr/tce/packages/intel/intel-19.0.4/lib/intel64:1",
+      "__LMOD_REF_COUNT_LOADEDMODULES": "intel/19.0.4:1;mvapich2/2.3:1;texlive/2016:1;StdEnv:1;survey-1.0.2-gcc-4.9.3-ivxz4tf:1;openmpi-4.1.2-gcc-4.9.3-estrdto:1",
+      "__LMOD_REF_COUNT_MANPATH": "/g/g20/frye10/spack/opt/spack/linux-rhel7-broadwell/gcc-4.9.3/openmpi-4.1.2-estrdto2urycrxyjdxe7pymyasoxmxag/share/man:1;/g/g20/frye10/spack/opt/spack/linux-rhel7-broadwell/gcc-4.9.3/survey-1.0.2-ivxz4tfoaq6egzursjjphrna7domrbp4/share/man:1;/usr/tce/packages/mvapich2/mvapich2-2.3-intel-19.0.4/man:1;/usr/tce/packages/intel/intel-19.0.4/man/common:1;/usr/tce/man:1;/usr/share/lmod/lmod/share/man:1;/usr/tce/packages/dotkit/dotkit/man:1;/usr/man:1;/usr/share/man:1;/usr/local/man:1;/usr/X11R6/man:1;/usr/lib64/mvapich/default/man:1",
+      "__LMOD_REF_COUNT_MODULEPATH": "/g/g20/frye10/spack/share/spack/modules/linux-rhel7-broadwell:1;/usr/tce/modulefiles/MPI/mvapich2/2.3:1;/usr/tce/modulefiles/MPI/intel/19.0.4/mvapich2/2.3:1;/usr/tce/modulefiles/Compiler/intel/19.0.4:1;/collab/usr/global/tools/modulefiles/toss_3_x86_64_ib/Core:1;/usr/tce/modulefiles/Core:1;/usr/apps/modulefiles:1;/usr/share/modulefiles/Linux:1;/usr/share/modulefiles/Core:1;/usr/share/lmod/lmod/modulefiles/Core:1",
+      "__LMOD_REF_COUNT_PATH": "/g/g20/frye10/spack/opt/spack/linux-rhel7-broadwell/gcc-4.9.3/openmpi-4.1.2-estrdto2urycrxyjdxe7pymyasoxmxag/bin:1;/g/g20/frye10/survey:2;/g/g20/frye10/spack/opt/spack/linux-rhel7-broadwell/gcc-4.9.3/python-3.9.9-fb5yfq36gamvqgbinwg7hev6icqe3vd4/bin:1;/g/g20/frye10/spack/opt/spack/linux-rhel7-broadwell/gcc-4.9.3/survey-1.0.2-ivxz4tfoaq6egzursjjphrna7domrbp4/bin:1;/usr/tce/packages/texlive/texlive-2016/2016/bin/x86_64-linux:1;/usr/tce/packages/mvapich2/mvapich2-2.3-intel-19.0.4/bin:1;/usr/tce/packages/intel/intel-19.0.4/bin:1;/usr/tce/bin:1;/usr/lib64/qt-3.3/bin:1;/usr/condabin:1;/usr/local/bin:1;/usr/bin:1;/usr/local/sbin:1;/usr/sbin:1;.:1",
+      "__LMOD_REF_COUNT_PKG_CONFIG_PATH": "/g/g20/frye10/spack/opt/spack/linux-rhel7-broadwell/gcc-4.9.3/openmpi-4.1.2-estrdto2urycrxyjdxe7pymyasoxmxag/lib/pkgconfig:1",
+      "__LMOD_REF_COUNT_PYTHONPATH": "/g/g20/frye10/spack/opt/spack/linux-rhel7-broadwell/gcc-4.9.3/py-greenlet-1.1.2-6sruk5xyrutj5zyupam63rfizeojrnh5/lib/python3.9/site-packages:1;/g/g20/frye10/spack/opt/spack/linux-rhel7-broadwell/gcc-4.9.3/py-sqlalchemy-1.4.20-35melqa3elx6xutwfx5puhc4yv5lhhar/lib/python3.9/site-packages:1;/g/g20/frye10/spack/opt/spack/linux-rhel7-broadwell/gcc-4.9.3/py-pyyaml-6.0-7axcrcdhj53uadkoir56whtlt46ej5uz/lib/python3.9/site-packages:1;/g/g20/frye10/spack/opt/spack/linux-rhel7-broadwell/gcc-4.9.3/py-psutil-5.8.0-hfqtwfvhv6exh3felbgdp52vwxrijvhd/lib/python3.9/site-packages:1;/g/g20/frye10/spack/opt/spack/linux-rhel7-broadwell/gcc-4.9.3/py-pbr-5.7.0-2fvvnrglg7uykqsldp7vusgmo2lmpl7c/lib/python3.9/site-packages:1;/g/g20/frye10/spack/opt/spack/linux-rhel7-broadwell/gcc-4.9.3/py-pytz-2021.1-qfhk7cbbpcty25gfefwjnkjk4wpvruyw/lib/python3.9/site-packages:1;/g/g20/frye10/spack/opt/spack/linux-rhel7-broadwell/gcc-4.9.3/py-six-1.16.0-ngxnp3cbrjs5vp2gwsw7peypzxgcc2ms/lib/python3.9/site-packages:1;/g/g20/frye10/spack/opt/spack/linux-rhel7-broadwell/gcc-4.9.3/py-python-dateutil-2.8.2-htjjih4lxefd3v77h7tdr4a76ux5xn5v/lib/python3.9/site-packages:1;/g/g20/frye10/spack/opt/spack/linux-rhel7-broadwell/gcc-4.9.3/py-numexpr-2.7.3-g65bjakeetg23riix5hwakxudk2euwun/lib/python3.9/site-packages:1;/g/g20/frye10/spack/opt/spack/linux-rhel7-broadwell/gcc-4.9.3/py-setuptools-59.4.0-gmgb44lillhsdlc3pnbea3kxi34jxo2q/lib/python3.9/site-packages:1;/g/g20/frye10/spack/opt/spack/linux-rhel7-broadwell/gcc-4.9.3/py-numpy-1.21.0-wsn2r5qc7tlmdkio6v7npvsjgiy6szx6/lib/python3.9/site-packages:1;/g/g20/frye10/spack/opt/spack/linux-rhel7-broadwell/gcc-4.9.3/py-bottleneck-1.3.2-kryjiiw7y27ojd7uy6ybei7mh3j4ra4c/lib/python3.9/site-packages:1;/g/g20/frye10/spack/opt/spack/linux-rhel7-broadwell/gcc-4.9.3/py-pandas-1.3.5-6c4upratf3aiw23y4pce34znit2lhumx/lib/python3.9/site-packages:1;/g/g20/frye10/spack/opt/spack/linux-rhel7-broadwell/gcc-4.9.3/survey-1.0.2-ivxz4tfoaq6egzursjjphrna7domrbp4/lib/python3.9/site-packages:1",
+      "__LMOD_REF_COUNT__LMFILES_": "/usr/tce/modulefiles/Core/intel/19.0.4.lua:1;/usr/tce/modulefiles/Compiler/intel/19.0.4/mvapich2/2.3.lua:1;/usr/tce/modulefiles/Core/texlive/2016.lua:1;/usr/tce/modulefiles/Core/StdEnv.lua:1;/g/g20/frye10/spack/share/spack/modules/linux-rhel7-broadwell/survey-1.0.2-gcc-4.9.3-ivxz4tf:1;/g/g20/frye10/spack/share/spack/modules/linux-rhel7-broadwell/openmpi-4.1.2-gcc-4.9.3-estrdto:1",
+      "__LMOD_SET_FPATH": "1",
+      "_dk_inuse": "lcinit.0 dkcomplete.1 reuse.1",
+      "_dk_isatty": "1",
+      "_dk_rl": "-1",
+      "_dk_shell": "bash"
+    },
+    "slurm_info": null
+  }
+}

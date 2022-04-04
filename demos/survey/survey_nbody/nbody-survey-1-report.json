@@ -1,0 +1,270 @@
+{
+  "SUMMARY": {
+    "total_time_seconds": {
+      "min": 12.217,
+      "max": 12.402168,
+      "avg": 12.2879645,
+      "std": 0.08,
+      "var": 0.01,
+      "min_host_rank_thread": [
+        "skull",
+        0,
+        3
+      ],
+      "max_host_rank_thread": [
+        "skull",
+        0,
+        0
+      ]
+    }
+  },
+  "DMEM": {
+    "dmem_size_kB": {
+      "value": 5033440
+    },
+    "dmem_resident_kB": {
+      "value": 149228
+    },
+    "dmem_high_water_mark_kB": {
+      "value": 149928
+    },
+    "dmem_shared_kB": {
+      "value": 127256
+    },
+    "dmem_heap_kB": {
+      "value": 49716
+    }
+  },
+  "MEMALLOC": {
+    "allocation_time_seconds": {
+      "min": 0,
+      "max": 0.022877,
+      "avg": 0.007639666666666667,
+      "std": 0.01,
+      "var": 0.0,
+      "min_host_rank_thread": [
+        "skull",
+        0,
+        1
+      ],
+      "max_host_rank_thread": [
+        "skull",
+        0,
+        0
+      ]
+    },
+    "allocation_calls": {
+      "min": 2,
+      "max": 115856,
+      "avg": 38664,
+      "std": 66850.27,
+      "var": 4468958004.0,
+      "min_host_rank_thread": [
+        "skull",
+        0,
+        1
+      ],
+      "max_host_rank_thread": [
+        "skull",
+        0,
+        0
+      ]
+    },
+    "allocation_bytes": {
+      "min": 24,
+      "max": 515329854,
+      "avg": 171780397,
+      "std": 297522557.56,
+      "var": 8.851967225737562e+16,
+      "min_host_rank_thread": [
+        "skull",
+        0,
+        1
+      ],
+      "max_host_rank_thread": [
+        "skull",
+        0,
+        0
+      ]
+    }
+  },
+  "MEMFREE": {
+    "free_time_seconds": {
+      "min": 0,
+      "max": 0.013397,
+      "avg": 0.004502999999999999,
+      "std": 0.01,
+      "var": 0.0,
+      "min_host_rank_thread": [
+        "skull",
+        0,
+        1
+      ],
+      "max_host_rank_thread": [
+        "skull",
+        0,
+        0
+      ]
+    },
+    "free_calls": {
+      "min": 3,
+      "max": 102553,
+      "avg": 34236,
+      "std": 59164.02,
+      "var": 3500380833.33,
+      "min_host_rank_thread": [
+        "skull",
+        0,
+        1
+      ],
+      "max_host_rank_thread": [
+        "skull",
+        0,
+        0
+      ]
+    }
+  },
+  "RUSAGE": {
+    "maxrss_kB": {
+      "value": 149928
+    },
+    "utime_seconds": {
+      "min": 0,
+      "max": 1.380316,
+      "avg": 0.3455595,
+      "std": 0.69,
+      "var": 0.48,
+      "min_host_rank_thread": [
+        "skull",
+        0,
+        2
+      ],
+      "max_host_rank_thread": [
+        "skull",
+        0,
+        0
+      ]
+    },
+    "stime_seconds": {
+      "min": 0,
+      "max": 0.327462,
+      "avg": 0.0839465,
+      "std": 0.16,
+      "var": 0.03,
+      "min_host_rank_thread": [
+        "skull",
+        0,
+        1
+      ],
+      "max_host_rank_thread": [
+        "skull",
+        0,
+        0
+      ]
+    }
+  },
+  "IO": {
+    "io_total_time_seconds": {
+      "min": 1e-06,
+      "max": 0.067797,
+      "avg": 0.022602999999999998,
+      "std": 0.04,
+      "var": 0.0,
+      "min_host_rank_thread": [
+        "skull",
+        0,
+        1
+      ],
+      "max_host_rank_thread": [
+        "skull",
+        0,
+        0
+      ]
+    },
+    "read_time_seconds": {
+      "min": 1e-06,
+      "max": 0.000474,
+      "avg": 0.000162,
+      "std": 0.0,
+      "var": 0.0,
+      "min_host_rank_thread": [
+        "skull",
+        0,
+        1
+      ],
+      "max_host_rank_thread": [
+        "skull",
+        0,
+        0
+      ]
+    },
+    "write_time_seconds": {
+      "min": 0,
+      "max": 0.066022,
+      "avg": 0.022007333333333334,
+      "std": 0.04,
+      "var": 0.0,
+      "min_host_rank_thread": [
+        "skull",
+        0,
+        1
+      ],
+      "max_host_rank_thread": [
+        "skull",
+        0,
+        0
+      ]
+    },
+    "read_bytes": {
+      "min": 8,
+      "max": 450645,
+      "avg": 150247,
+      "std": 260152.3,
+      "var": 67679220403.0,
+      "min_host_rank_thread": [
+        "skull",
+        0,
+        1
+      ],
+      "max_host_rank_thread": [
+        "skull",
+        0,
+        0
+      ]
+    },
+    "write_bytes": {
+      "min": 0,
+      "max": 48708,
+      "avg": 16236,
+      "std": 28121.58,
+      "var": 790823088.0,
+      "min_host_rank_thread": [
+        "skull",
+        0,
+        1
+      ],
+      "max_host_rank_thread": [
+        "skull",
+        0,
+        0
+      ]
+    },
+    "io_percent": {
+      "min": 8.13564065526077e-06,
+      "max": 0.5466544236459303,
+      "avg": 0.18225080684285802,
+      "std": 0.32,
+      "var": 0.1,
+      "min_host_rank_thread": [
+        "skull",
+        0,
+        1
+      ],
+      "max_host_rank_thread": [
+        "skull",
+        0,
+        0
+      ]
+    }
+  }
+}
